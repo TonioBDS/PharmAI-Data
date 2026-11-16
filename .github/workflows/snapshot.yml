@@ -1,0 +1,55 @@
+name: Relevé des sources (voyage)
+
+# Télécharge les pages des sources officielles utilisées pour les données de voyage et les
+# garde en artefact (30 jours), pour développer et vérifier les extracteurs. Ne publie rien.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Pages CDC Travelers' Health
+        run: |
+          set -u
+          mkdir -p snap/cdc/clinician snap/cdc/traveler snap/misc
+          UA='PharmAI-Data (+https://github.com/TonioBDS/PharmAI-Data)'
+          get() { curl -sSL --retry 3 --retry-delay 5 -m 60 -A "$UA" -o "$2" "$1" || echo "ÉCHEC $1" >> snap/errors.txt; }
+          get https://wwwnc.cdc.gov/travel/destinations/list snap/cdc/list.html
+          grep -oE '/travel/destinations/traveler/none/[a-z0-9-]+' snap/cdc/list.html | sort -u | sed 's#.*/##' > snap/cdc/slugs.txt
+          wc -l snap/cdc/slugs.txt
+          while read -r slug; do
+            get "https://wwwnc.cdc.gov/travel/destinations/clinician/none/$slug" "snap/cdc/clinician/$slug.html"
+            get "https://wwwnc.cdc.gov/travel/destinations/traveler/none/$slug" "snap/cdc/traveler/$slug.html"
+            sleep 0.5
+          done < snap/cdc/slugs.txt
+          get https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/yellow-fever-vaccine-and-malaria-prevention-information-by-country.html snap/cdc/yellow-book-by-country.html
+          get https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travel-health-kits.html snap/cdc/yellow-book-travel-health-kits.html
+          get https://www.cdc.gov/travelers-health/hcp/pack-smart/index.html snap/cdc/pack-smart.html
+          get https://wwwnc.cdc.gov/travel/page/pack-smart snap/cdc/pack-smart-old.html
+
+      - name: Autres sources
+        run: |
+          UA='PharmAI-Data (+https://github.com/TonioBDS/PharmAI-Data)'
+          get() { curl -sSL --retry 3 --retry-delay 5 -m 120 -A "$UA" -o "$2" "$1" || echo "ÉCHEC $1" >> snap/errors.txt; }
+          get https://www.ecdc.europa.eu/en/disease-vectors/surveillance-and-disease-data/mosquito-maps snap/misc/ecdc-mosquito-maps.html
+          get https://www.ecdc.europa.eu/en/disease-vectors/surveillance-and-disease-data/tick-maps snap/misc/ecdc-tick-maps.html
+          get https://www.ecdc.europa.eu/en/copyright snap/misc/ecdc-copyright.html
+          get https://www.cespharm.fr/content/download/59269/file/conseils-aux-voyageurs-2026-brochure.pdf?version=2 snap/misc/cespharm-conseils-voyageurs-2026.pdf
+          get https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ snap/misc/diplomatie-pays.html
+          get "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson" snap/misc/ne_110m_admin_0_countries.geojson
+          get "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_populated_places_simple.geojson" snap/misc/ne_110m_populated_places_simple.geojson
+          get "https://archive-api.open-meteo.com/v1/archive?latitude=38.72&longitude=-9.14&start_date=2015-01-01&end_date=2024-12-31&daily=temperature_2m_max,temperature_2m_min&timezone=UTC" snap/misc/open-meteo-lisbon.json
+          get "https://climate-api.open-meteo.com/v1/climate?latitude=38.72&longitude=-9.14&start_date=1991-01-01&end_date=2020-12-31&models=EC_Earth3P_HR&daily=temperature_2m_max" snap/misc/open-meteo-climate-lisbon.json
+          du -sh snap; ls snap/cdc/clinician | wc -l; cat snap/errors.txt 2>/dev/null | head -20 || true
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sources
+          path: snap
+          retention-days: 30
