@@ -1,0 +1,2 @@
+61000001	3000001	plaquette(s) PVC aluminium de 16 comprimé(s)	Présentation active	Déclaration de commercialisation	01/01/2000	3400930000011	oui	65%	1,00
+61000002	3000002	1 tube de 30 g	Présentation active	Déclaration de commercialisation	01/01/2001	3400930000028	non		

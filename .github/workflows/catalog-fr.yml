@@ -1,0 +1,136 @@
+name: Catalogue France
+
+# Chaque lundi : télécharge la Base de données publique des médicaments, construit le
+# catalogue, le contrôle, et ne le publie (signé) que si tous les contrôles passent.
+# En cas d'échec : rien n'est publié, un ticket « alerte » est ouvert (e-mail au propriétaire),
+# puis refermé à la réussite suivante.
+# À la main : Actions › Catalogue France › Run workflow (option pour accepter une forte variation).
+
+on:
+  schedule:
+    - cron: '17 5 * * 1'
+  workflow_dispatch:
+    inputs:
+      accept_variation:
+        description: "Accepter une forte variation du nombre de médicaments (après vérification)"
+        type: boolean
+        default: false
+      force:
+        description: "Publier même si les fichiers officiels n'ont pas changé"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+env:
+  ENTRY: catalog-fr
+  RELEASE: donnees
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm ci
+
+      - name: Contrôle des scripts
+        run: npm test
+
+      - name: Manifeste publié
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p build/previous
+          gh release download "$RELEASE" -p manifest.json -D build/previous || echo "Aucune publication précédente."
+
+      - name: Téléchargement et construction
+        env:
+          BDPM_SAVE_DIR: ${{ runner.temp }}/bdpm
+        run: node --no-warnings catalog/fr/build.mjs --download --out build/catalog-fr.db
+
+      - name: Les fichiers officiels ont-ils changé ?
+        id: diff
+        run: |
+          # Empreinte des fichiers officiels ET des scripts : une évolution des scripts republie le catalogue
+          SHA=$( { (cd "$RUNNER_TEMP/bdpm" && sha256sum CIS_*.txt); sha256sum catalog/fr/build.mjs catalog/schema.json; } | sha256sum | cut -c1-64)
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+          PREV=$(node -e "import('./scripts/sign.mjs').then(m=>{try{const s=JSON.parse(require('fs').readFileSync('build/previous/manifest.json'));console.log(m.readPayload(s).files?.['$ENTRY']?.sourcesSha??'')}catch{console.log('')}})")
+          if [ "$SHA" = "$PREV" ] && [ "${{ inputs.force }}" != "true" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Fichiers officiels inchangés : rien à publier."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Compression
+        if: steps.diff.outputs.changed == 'true'
+        run: gzip -9 -n -k -f build/catalog-fr.db
+
+      - name: Contrôles de cohérence
+        if: steps.diff.outputs.changed == 'true'
+        run: >
+          node --no-warnings scripts/check-catalog.mjs --country fr --db build/catalog-fr.db --gz build/catalog-fr.db.gz
+          --previous build/previous/manifest.json ${{ inputs.accept_variation && '--accept-variation' || '' }}
+
+      - name: Manifeste signé
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          PHARMAI_DATA_SIGNING_KEY: ${{ secrets.PHARMAI_DATA_SIGNING_KEY }}
+        run: >
+          node --no-warnings scripts/manifest.mjs --previous build/previous/manifest.json --entry "$ENTRY"
+          --file build/catalog-fr.db.gz --db build/catalog-fr.db --sources-sha "${{ steps.diff.outputs.sha }}" --out build/manifest.json
+
+      - name: Publication
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view "$RELEASE" >/dev/null 2>&1 || gh release create "$RELEASE" --title "Données publiées" \
+            --notes "Fichiers téléchargés par l'app PharmAI. Mis à jour automatiquement : ne pas modifier à la main."
+          # Le fichier d'abord, le manifeste ensuite : un téléphone ne voit la nouvelle version qu'une fois le fichier en place
+          gh release upload "$RELEASE" build/catalog-fr.db.gz --clobber
+          gh release upload "$RELEASE" build/manifest.json --clobber
+
+      - name: État (dernier contrôle réussi)
+        run: node scripts/status.mjs --entry "$ENTRY" --ok ${{ steps.diff.outputs.changed == 'true' && '--published' || '' }}
+
+      - name: Enregistrement de l'état
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add status.json
+          git commit -m "État : $ENTRY contrôlé le $(date -u +%Y-%m-%d)" || exit 0
+          git push
+
+      - name: Alerte refermée
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/alert.sh close "$ENTRY"
+
+      - name: Surveillance externe
+        if: always()
+        env:
+          PING: ${{ secrets.HEALTHCHECK_CATALOG_FR }}
+        run: |
+          [ -n "$PING" ] || exit 0
+          if [ "${{ job.status }}" = "success" ]; then curl -fsS -m 10 --retry 3 "$PING" || true; else curl -fsS -m 10 --retry 3 "$PING/fail" || true; fi
+
+      - name: Alerte
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          OWNER: ${{ github.repository_owner }}
+        run: bash scripts/alert.sh open "$ENTRY" "Le catalogue n'a pas été publié : les téléphones gardent la version précédente."

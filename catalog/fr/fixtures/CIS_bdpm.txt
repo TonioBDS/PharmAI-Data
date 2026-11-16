@@ -1,0 +1,3 @@
+61000001	EXEMPLOL 500 mg, comprimé	comprimé	orale	Autorisation active	Procédure nationale	Commercialisée	01/01/2000			LABORATOIRE FICTIF	Non
+61000002	FICTIVINE 1 %, crème	crème	cutanée	Autorisation active	Procédure nationale	Commercialisée	01/01/2001			LABO ÉCOLE	Oui
+bad	ligne invalide

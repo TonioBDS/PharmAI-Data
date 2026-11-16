@@ -1,0 +1,4 @@
+{
+  "$comment": "Clés publiques de signature (Ed25519, 32 octets en base64), par identifiant. La même liste est inscrite dans l'app. Pour changer de clé : ajouter la nouvelle ici et dans l'app, publier l'app, puis seulement changer le secret.",
+  "keys": {}
+}

@@ -1,0 +1,11 @@
+{
+  "$comment": "Structure du catalogue attendue par l'app PharmAI, commune à tous les pays. Toute évolution : ajouter des colonnes (jamais en retirer ni renommer) et incrémenter version ; l'app refuse un catalogue d'une version plus récente qu'elle ne connaît.",
+  "version": 1,
+  "tables": {
+    "meta": ["key", "value"],
+    "specialites": ["cis", "denomination", "recherche", "forme", "voies", "statut_amm", "commercialisation", "titulaire", "surveillance_renforcee"],
+    "presentations": ["cip13", "cip7", "cis", "libelle", "commercialisation", "taux_remboursement"],
+    "compositions": ["cis", "element", "substance", "dosage", "reference_dosage", "nature"],
+    "generiques": ["groupe", "libelle", "cis", "type"]
+  }
+}

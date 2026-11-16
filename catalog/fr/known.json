@@ -1,0 +1,21 @@
+{
+  "$comment": "Boîtes réelles que chaque catalogue publié doit retrouver par code, nom et substance (contrôle de cohérence). Une boîte retirée du marché peut être remplacée par une autre.",
+  "boxes": [
+    { "cip13": "3400935955838", "name": "DOLIPRANE 1000 mg", "substance": "PARACÉTAMOL" },
+    { "cip13": "3400931863014", "name": "SPASFON", "substance": "PHLOROGLUCINOL" },
+    { "cip13": "3400949313792", "name": "SMECTALIA", "substance": "DIOSMECTITE" },
+    { "cip13": "3400933640620", "name": "ADVILMED", "substance": "IBUPROFÈNE" },
+    { "cip13": "3400921801019", "name": "IMODIUM", "substance": "LOPÉRAMIDE" },
+    { "cip13": "3400949004751", "name": "VENTOLINE", "substance": "SALBUTAMOL" },
+    { "cip13": "3400930292563", "name": "LEVOTHYROX", "substance": "LÉVOTHYROXINE" },
+    { "cip13": "3400933247379", "name": "KARDEGIC", "substance": "ACÉTYLSALICYLATE" },
+    { "cip13": "3400933851767", "name": "GAVISCON", "substance": "ALGINATE" }
+  ],
+  "searches": [
+    { "query": "doliprane", "atLeast": 10 },
+    { "query": "paracetamol", "atLeast": 50 }
+  ],
+  "minimum": { "specialites": 10000, "presentations": 15000, "compositions": 20000, "generiques": 5000 },
+  "maxVariation": { "specialites": 0.05, "presentations": 0.05, "compositions": 0.1, "generiques": 0.15 },
+  "compressedSize": { "min": 1000000, "max": 20000000 }
+}

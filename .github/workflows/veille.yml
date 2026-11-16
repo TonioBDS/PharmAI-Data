@@ -1,0 +1,45 @@
+name: Veille
+
+# Chaque dimanche : vérifie que chaque donnée a été contrôlée avec succès récemment
+# (status.json). Sinon, ouvre un ticket « alerte ». Rattrape les cas où une tâche ne s'est
+# plus exécutée du tout, sans échouer pour autant.
+
+on:
+  schedule:
+    - cron: '41 7 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fraîcheur des données
+        id: age
+        run: |
+          node -e "
+            const s = JSON.parse(require('fs').readFileSync('status.json', 'utf8'));
+            const limits = { 'catalog-fr': 15 };
+            const late = Object.entries(limits).filter(([k, days]) => !s[k] || Date.now() - Date.parse(s[k].lastSuccess) > days * 864e5);
+            for (const [k, days] of late) console.log(k + ' : aucun contrôle réussi depuis plus de ' + days + ' jours');
+            if (late.length) process.exit(1);
+          "
+
+      - name: Alerte
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          OWNER: ${{ github.repository_owner }}
+        run: bash scripts/alert.sh open veille "Une donnée n'a pas été mise à jour depuis trop longtemps (voir le journal). La tâche planifiée est peut-être suspendue : Actions › la tâche › Enable workflow."
+
+      - name: Alerte refermée
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/alert.sh close veille

@@ -1,0 +1,19 @@
+{
+  "name": "pharmai-data",
+  "private": true,
+  "type": "module",
+  "description": "Données publiques de l'application PharmAI : catalogues des médicaments et informations par destination, construits, contrôlés et signés automatiquement.",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "build:catalog-fr": "node --no-warnings catalog/fr/build.mjs --download --out build/catalog-fr.db",
+    "check:catalog-fr": "node --no-warnings scripts/check-catalog.mjs --country fr --db build/catalog-fr.db --gz build/catalog-fr.db.gz --previous build/previous/manifest.json"
+  },
+  "devDependencies": {
+    "tweetnacl": "1.0.3",
+    "vite": "6.3.5",
+    "vitest": "3.2.4"
+  }
+}
