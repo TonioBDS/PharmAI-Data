@@ -37,7 +37,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           OWNER: ${{ github.repository_owner }}
-        run: bash scripts/alert.sh open veille "Une donnée n'a pas été mise à jour depuis trop longtemps (voir le journal). La tâche planifiée est peut-être suspendue : Actions › la tâche › Enable workflow."
+        run: |
+          bash scripts/alert.sh open veille "Une donnée n'a pas été mise à jour depuis trop longtemps (voir le journal). La tâche planifiée est peut-être suspendue : Actions › la tâche › Enable workflow."
 
       - name: Alerte refermée
         env:

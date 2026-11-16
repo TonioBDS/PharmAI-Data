@@ -137,4 +137,5 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           OWNER: ${{ github.repository_owner }}
-        run: bash scripts/alert.sh open "$ENTRY" "Le catalogue n'a pas été publié : les téléphones gardent la version précédente."
+        run: |
+          bash scripts/alert.sh open "$ENTRY" "Le catalogue n'a pas été publié : les téléphones gardent la version précédente."
