@@ -92,6 +92,10 @@ jobs:
           node --no-warnings scripts/manifest.mjs --previous build/previous/manifest.json --entry "$ENTRY"
           --file build/catalog-fr.db.gz --db build/catalog-fr.db --sources-sha "${{ steps.diff.outputs.sha }}" --out build/manifest.json
 
+      - name: Vérification de la signature (comme le fera l'app)
+        if: steps.diff.outputs.changed == 'true'
+        run: node scripts/verify-manifest.mjs build/manifest.json
+
       - name: Publication
         if: steps.diff.outputs.changed == 'true'
         env:
