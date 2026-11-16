@@ -25,7 +25,7 @@ jobs:
         run: |
           node -e "
             const s = JSON.parse(require('fs').readFileSync('status.json', 'utf8'));
-            const limits = { 'catalog-fr': 15 };
+            const limits = { 'catalog-fr': 15, 'travel-releve': 40 };
             const late = Object.entries(limits).filter(([k, days]) => !s[k] || Date.now() - Date.parse(s[k].lastSuccess) > days * 864e5);
             for (const [k, days] of late) console.log(k + ' : aucun contrôle réussi depuis plus de ' + days + ' jours');
             if (late.length) process.exit(1);

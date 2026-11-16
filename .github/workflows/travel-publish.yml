@@ -1,0 +1,124 @@
+name: Données de voyage (publication)
+
+# À chaque fusion d'un relevé dans main (travel/data/) : assemble le fichier, le contrôle, signe
+# le manifeste et publie. Rien n'est publié si un contrôle échoue (ticket « alerte »).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'travel/data/**'
+  workflow_dispatch:
+    inputs:
+      accept_variation:
+        description: "Accepter une forte variation des volumes (après vérification)"
+        type: boolean
+        default: false
+      force:
+        description: "Republier même si les données n'ont pas changé"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+env:
+  ENTRY: travel
+  RELEASE: donnees
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm ci
+
+      - name: Contrôle des scripts
+        run: npm test
+
+      - name: Manifeste publié
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p build/previous
+          gh release download "$RELEASE" -p manifest.json -D build/previous || echo "Aucune publication précédente."
+
+      - name: Assemblage
+        run: node --no-warnings travel/publish.mjs --out build/travel.json.gz
+
+      - name: Les données ont-elles changé ?
+        id: diff
+        run: |
+          SHA=$(sha256sum build/travel.json | cut -c1-64)
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+          PREV=$(node -e "import('./scripts/sign.mjs').then(m=>{try{const s=JSON.parse(require('fs').readFileSync('build/previous/manifest.json'));console.log(m.readPayload(s).files?.['$ENTRY']?.sourcesSha??'')}catch{console.log('')}})")
+          if [ "$SHA" = "$PREV" ] && [ "${{ inputs.force }}" != "true" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Données inchangées : rien à publier."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Contrôles de cohérence
+        if: steps.diff.outputs.changed == 'true'
+        run: >
+          node --no-warnings travel/check.mjs --gz build/travel.json.gz --previous build/previous/manifest.json
+          ${{ inputs.accept_variation && '--accept-variation' || '' }}
+
+      - name: Manifeste signé
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          PHARMAI_DATA_SIGNING_KEY: ${{ secrets.PHARMAI_DATA_SIGNING_KEY }}
+        run: |
+          COUNTS=$(node -e "import('./travel/publish.mjs').then(m=>console.log(JSON.stringify(m.counts(JSON.parse(require('fs').readFileSync('build/travel.json','utf8'))))))")
+          node --no-warnings scripts/manifest.mjs --previous build/previous/manifest.json --entry "$ENTRY" \
+            --file build/travel.json.gz --schema-version 1 --counts "$COUNTS" --sources-sha "${{ steps.diff.outputs.sha }}" --out build/manifest.json
+
+      - name: Vérification de la signature (comme le fera l'app)
+        if: steps.diff.outputs.changed == 'true'
+        run: node scripts/verify-manifest.mjs build/manifest.json
+
+      - name: Publication
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view "$RELEASE" >/dev/null 2>&1 || gh release create "$RELEASE" --title "Données publiées" \
+            --notes "Fichiers téléchargés par l'app PharmAI. Mis à jour automatiquement : ne pas modifier à la main."
+          # Le fichier d'abord, le manifeste ensuite : un téléphone ne voit la nouvelle version qu'une fois le fichier en place
+          gh release upload "$RELEASE" build/travel.json.gz --clobber
+          gh release upload "$RELEASE" build/manifest.json --clobber
+
+      - name: État (dernière publication)
+        run: |
+          node scripts/status.mjs --entry "$ENTRY" --ok ${{ steps.diff.outputs.changed == 'true' && '--published' || '' }}
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add status.json
+          git commit -m "État : $ENTRY contrôlé le $(date -u +%Y-%m-%d)" || exit 0
+          git pull -q --rebase && git push
+
+      - name: Alerte refermée
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/alert.sh close "$ENTRY-publication"
+
+      - name: Alerte
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          bash scripts/alert.sh open "$ENTRY-publication" "Les données de voyage n'ont pas été publiées : les téléphones gardent la version précédente."

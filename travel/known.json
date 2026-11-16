@@ -1,0 +1,15 @@
+{
+  "_": "Repères connus pour les contrôles des données de voyage : destinations attendues, quelques faits stables, volumes minimums et variation maximale d'une publication à l'autre.",
+  "destinations": ["france", "spain", "portugal", "italy", "kenya", "peru", "thailand", "brazil", "united-states", "reunion", "guadeloupe", "martinique", "french-guiana", "canary-islands", "morocco", "senegal", "vietnam"],
+  "expect": {
+    "kenya": { "malaria": true, "diplomatie": true },
+    "french-guiana": { "malaria": true, "yellowFeverEntry": "all" },
+    "france": { "malaria": false },
+    "spain": { "malaria": false, "diplomatie": true },
+    "peru": { "altitude": true, "diplomatie": true },
+    "thailand": { "malaria": true, "diplomatie": true }
+  },
+  "minimum": { "destinations": 235, "diplomatie": 150, "climate": 230, "malaria": 70, "packing": 220 },
+  "maxVariation": { "destinations": 0.05, "diplomatie": 0.1, "climate": 0.05, "malaria": 0.15, "packing": 0.1 },
+  "compressedSize": { "min": 300000, "max": 15000000 }
+}

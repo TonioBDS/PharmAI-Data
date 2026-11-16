@@ -6,6 +6,7 @@
  *   PHARMAI_DATA_SIGNING_KEY=… node scripts/manifest.mjs --previous build/previous/manifest.json \
  *     --entry catalog-fr --file build/catalog-fr.db.gz --db build/catalog-fr.db --sources-sha <empreinte> \
  *     --out build/manifest.json
+ *   (fichier sans base SQLite : --counts '{"destinations":244}' --schema-version 1 au lieu de --db)
  */
 import { createHash } from 'node:crypto';
 import { readFileSync, statSync, writeFileSync } from 'node:fs';
@@ -36,6 +37,20 @@ export function catalogEntry({ file, db, sourcesSha, now = new Date() }) {
   };
 }
 
+/** Entrée d'un fichier quelconque (données de voyage…). */
+export function fileEntry({ file, sourcesSha, schemaVersion, counts, now = new Date() }) {
+  const bytes = readFileSync(file);
+  return {
+    file: basename(file),
+    version: now.toISOString(),
+    sha256: createHash('sha256').update(bytes).digest('hex'),
+    size: bytes.length,
+    schemaVersion,
+    sourcesSha,
+    counts,
+  };
+}
+
 export function nextManifest(previous, entryName, entry, now = new Date()) {
   return { format: 1, generatedAt: now.toISOString(), baseUrl: BASE_URL, files: { ...(previous?.files ?? {}), [entryName]: entry } };
 }
@@ -52,9 +67,14 @@ function main() {
   } catch {
     // premier manifeste
   }
-  const db = new DatabaseSync(args.db, { readOnly: true });
-  const entry = catalogEntry({ file: args.file, db, sourcesSha: args['sources-sha'] });
-  db.close();
+  let entry;
+  if (args.db) {
+    const db = new DatabaseSync(args.db, { readOnly: true });
+    entry = catalogEntry({ file: args.file, db, sourcesSha: args['sources-sha'] });
+    db.close();
+  } else {
+    entry = fileEntry({ file: args.file, sourcesSha: args['sources-sha'], schemaVersion: Number(args['schema-version']), counts: JSON.parse(args.counts) });
+  }
   const manifest = nextManifest(previous, args.entry, entry);
   writeFileSync(args.out, JSON.stringify(signManifest(manifest, seed, KEY_ID), null, 2) + '\n');
   console.log(`Manifeste signé : ${args.entry} ${entry.version}, ${entry.size} octets (${statSync(args.file).size})`);

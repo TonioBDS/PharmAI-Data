@@ -1,0 +1,105 @@
+name: Données de voyage (relevé mensuel)
+
+# Le 3 de chaque mois : relève les sources officielles (CDC, France Diplomatie, ECDC, NASA
+# POWER, Natural Earth), met à jour travel/data/ et propose les changements en pull request.
+# Rien n'est publié avant la fusion de la pull request (voir travel-publish.yml).
+# En cas d'échec : ticket « alerte », refermé à la réussite suivante.
+
+on:
+  schedule:
+    - cron: '23 4 3 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: travel-releve
+  cancel-in-progress: false
+
+env:
+  ENTRY: travel
+
+jobs:
+  releve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm ci
+
+      - name: Contrôle des scripts
+        run: npm test
+
+      - name: Relevé des sources
+        run: node --no-warnings travel/build.mjs --download --cache "$RUNNER_TEMP/travel-cache"
+
+      - name: Contrôles (comme avant publication)
+        run: |
+          node --no-warnings travel/publish.mjs --out build/travel.json.gz
+          node --no-warnings travel/check.mjs --gz build/travel.json.gz
+
+      - name: Pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A travel/data travel/climate/cache.json
+          if git diff --cached --quiet; then echo "Aucun changement dans les sources."; exit 0; fi
+          DAY=$(date -u +%Y-%m-%d)
+          BRANCH="releve-voyage/$DAY"
+          git checkout -b "$BRANCH"
+          git commit -q -m "Données de voyage : relevé du $DAY"
+          git push -f origin "$BRANCH"
+          {
+            echo "Relevé automatique des sources officielles du $DAY. **Rien n'est publié avant la fusion.**"
+            echo
+            echo "À relire : les différences dans \`travel/data/\` (alertes sanitaires, vaccins, paludisme, rubriques Santé)."
+            echo "Fusionner publie le fichier pour les téléphones ; fermer sans fusionner garde la version actuelle."
+            echo
+            echo '```'
+            cat build/travel-report.md
+            echo '```'
+          } > build/pr-body.md
+          # Les relevés précédents encore ouverts sont remplacés par celui-ci
+          for n in $(gh pr list --state open --search "head:releve-voyage/" --json number,headRefName --jq ".[] | select(.headRefName != \"$BRANCH\") | .number"); do
+            gh pr close "$n" --delete-branch --comment "Remplacée par le relevé du $DAY." || true
+          done
+          if ! gh pr create --base main --head "$BRANCH" --title "Données de voyage : relevé du $DAY" --body-file build/pr-body.md; then
+            # Le dépôt n'autorise pas les actions à ouvrir des pull requests : un ticket donne le lien
+            gh issue create --title "Données de voyage : relevé du $DAY à relire" --body "@${{ github.repository_owner }} Le relevé est prêt sur la branche \`$BRANCH\`. Ouvrir la pull request : ${{ github.server_url }}/${{ github.repository }}/compare/main...$BRANCH?expand=1
+
+          (Pour que le relevé ouvre lui-même la pull request : Settings › Actions › General › « Allow GitHub Actions to create and approve pull requests ».)
+
+          $(cat build/travel-report.md)"
+          fi
+
+      - name: État (dernier relevé réussi)
+        run: |
+          git checkout -q main
+          node scripts/status.mjs --entry travel-releve --ok
+          git add status.json
+          git commit -q -m "État : relevé de voyage le $(date -u +%Y-%m-%d)" || exit 0
+          git push
+
+      - name: Alerte refermée
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/alert.sh close "$ENTRY"
+
+      - name: Alerte
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          bash scripts/alert.sh open "$ENTRY" "Le relevé mensuel des données de voyage a échoué : aucune mise à jour n'est proposée, les téléphones gardent la version publiée."
