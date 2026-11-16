@@ -239,6 +239,7 @@ export async function build({ cache, download, log = console.log }) {
 
   // Assemblage, une destination à la fois
   const destinations = {};
+  const itemCategory = {};
   for (const [slug, m] of Object.entries(mapping)) {
     const page = cdc[slug];
     if (!page) continue;
@@ -258,7 +259,7 @@ export async function build({ cache, download, log = console.log }) {
     }
     if (!places.length && slug !== 'antarctica') warn(`Aucune ville avec climat pour ${slug}`);
 
-    const d = derive({ slug, mapping: m, page, names, packing, warn });
+    const d = derive({ slug, mapping: m, page, names, packing, warn, itemCategory });
     const vec = {};
     for (const v of VECTORS) {
       const c = vectors[v.id][key];
@@ -289,16 +290,16 @@ export async function build({ cache, download, log = console.log }) {
     };
   }
 
-  return { destinations, climate: usedClimate, climateCache, warnings, packing, names };
+  return { destinations, climate: usedClimate, climateCache, warnings, packing, names, itemCategory };
 }
 
 /** Écrit travel/data/ (un fichier par destination, ordre stable pour des différences lisibles). */
-export function writeData({ destinations, climateCache, packing, names, retrieved = new Date().toISOString().slice(0, 10) }) {
+export function writeData({ destinations, climateCache, packing, names, itemCategory = {}, retrieved = new Date().toISOString().slice(0, 10) }) {
   rmSync(DATA_DIR, { recursive: true, force: true });
   mkdirSync(join(DATA_DIR, 'destinations'), { recursive: true });
   for (const [slug, d] of Object.entries(destinations)) writeFileSync(join(DATA_DIR, 'destinations', `${slug}.json`), JSON.stringify(d, null, 1) + '\n');
   const items = {};
-  for (const [en, it] of Object.entries(packing.items)) items[it.id] = { en, ...it, id: undefined };
+  for (const [en, it] of Object.entries(packing.items)) items[it.id] = { en, ...it, id: undefined, category: itemCategory[it.id] ?? null };
   const diseases = {};
   for (const [en, x] of Object.entries(names.diseases)) diseases[x.id] = { en, fr: x.fr, ...(x.vector ? { vector: x.vector } : {}) };
   const groups = {};

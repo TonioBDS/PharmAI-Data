@@ -57,7 +57,7 @@ export function rabiesInDogs(v) {
   return null;
 }
 
-export function derive({ page, names, packing, warn }) {
+export function derive({ page, names, packing, warn, itemCategory = null }) {
   const disease = (en) => {
     const n = names.diseases[en];
     if (!n) warn(`Maladie sans nom français (travel/cdc/names.json) : ${en}`);
@@ -89,7 +89,9 @@ export function derive({ page, names, packing, warn }) {
       warn(`Article de la liste du CDC sans libellé français (travel/cdc/packing.json) : ${p.item}`);
       continue;
     }
-    if (!packing.categories[p.category]) warn(`Rubrique de la liste du CDC inconnue (travel/cdc/packing.json) : ${p.category}`);
+    const category = packing.categories[p.category];
+    if (!category) warn(`Rubrique de la liste du CDC inconnue (travel/cdc/packing.json) : ${p.category}`);
+    else if (itemCategory) itemCategory[item.id] = itemCategory[item.id] ?? category.id;
     if (seen.has(item.id)) continue;
     seen.add(item.id);
     packingList.push(item.id);
