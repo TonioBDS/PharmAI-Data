@@ -1,13 +1,14 @@
 name: Relevé des sources (voyage)
 
 # Télécharge les pages des sources officielles utilisées pour les données de voyage et les
-# garde en artefact (30 jours), pour développer et vérifier les extracteurs. Ne publie rien.
+# range dans la publication « releve » (archive), pour développer et vérifier les extracteurs.
+# Ne touche pas aux données publiées.
 
 on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   snapshot:
@@ -45,11 +46,17 @@ jobs:
           get "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson" snap/misc/ne_110m_admin_0_countries.geojson
           get "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_populated_places_simple.geojson" snap/misc/ne_110m_populated_places_simple.geojson
           get "https://archive-api.open-meteo.com/v1/archive?latitude=38.72&longitude=-9.14&start_date=2015-01-01&end_date=2024-12-31&daily=temperature_2m_max,temperature_2m_min&timezone=UTC" snap/misc/open-meteo-lisbon.json
+          get "https://air.discomap.eea.europa.eu/arcgis/rest/services/EnvHealthAtlas/ECDC_Aedes_albopictus/MapServer?f=json" snap/misc/ecdc-albopictus-service.json
+          get "https://air.discomap.eea.europa.eu/arcgis/rest/services/EnvHealthAtlas/ECDC_Aedes_albopictus/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json" snap/misc/ecdc-albopictus-layer0.json
           get "https://climate-api.open-meteo.com/v1/climate?latitude=38.72&longitude=-9.14&start_date=1991-01-01&end_date=2020-12-31&models=EC_Earth3P_HR&daily=temperature_2m_max" snap/misc/open-meteo-climate-lisbon.json
           du -sh snap; ls snap/cdc/clinician | wc -l; cat snap/errors.txt 2>/dev/null | head -20 || true
 
-      - uses: actions/upload-artifact@v4
-        with:
-          name: sources
-          path: snap
-          retention-days: 30
+      - name: Archive dans la publication « releve »
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          tar -czf releve.tar.gz snap
+          gh release view releve >/dev/null 2>&1 || gh release create releve --prerelease --title "Relevé des sources" \
+            --notes "Pages des sources officielles, téléchargées pour développer les extracteurs. Pas une donnée publiée."
+          gh release upload releve releve.tar.gz --clobber
