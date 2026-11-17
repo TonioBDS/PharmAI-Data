@@ -41,7 +41,7 @@ export function parseCountryList(html) {
 }
 
 export const healthUrl = (slug) => `${DIPLOMATIE_BASE}/fr/information-par-pays/${slug}/conseils-aux-voyageurs-sante`;
-export const adviceUrl = (slug) => `${DIPLOMATIE_BASE}/fr/conseils-aux-voyageurs/conseils-par-pays-destination/${slug}/`;
+export const adviceUrl = (slug) => `${DIPLOMATIE_BASE}/fr/information-par-pays/${slug}`;
 
 const FRENCH_MONTHS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
 /** « 25 septembre 2026 » → « 2026-09-25 » */

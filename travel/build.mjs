@@ -13,7 +13,7 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync
 import { join } from 'node:path';
 import { CDC_BASE, parseDestinationList, parseDestinationPage, parsePackingList } from './cdc/parse.mjs';
 import { POWER_URL, distanceKm, parsePower, pickPlaces, placesByCountry } from './climate/climate.mjs';
-import { adviceUrl, healthUrl, parseCountryList, parseHealthPage, healthTopics } from './diplomatie/parse.mjs';
+import { adviceUrl, DIPLOMATIE_BASE, healthUrl, parseCountryList, parseHealthPage, healthTopics } from './diplomatie/parse.mjs';
 import { VECTORS, parseLegend, parseVectorTable, vectorUrls } from './ecdc/vectors.mjs';
 import { derive } from './derive.mjs';
 
@@ -189,6 +189,7 @@ export async function build({ cache, download, log = console.log }) {
 
   // France Diplomatie : rubrique Santé de chaque pays
   const diplo = {};
+  const destinationIsos = new Set(Object.values(mapping).map((m) => m.iso2));
   const countries = parseCountryList(await src.get('diplomatie/list.html', DIPLOMATIE_LIST));
   if (countries.length < 150) throw new Error(`liste de France Diplomatie trop courte (${countries.length})`);
   for (const c of countries) {
@@ -198,13 +199,19 @@ export async function build({ cache, download, log = console.log }) {
       warn(`Pays de France Diplomatie sans code ISO (travel/diplomatie/countries.json) : ${c.name}`);
       continue;
     }
-    const html = await src.get(`diplomatie/sante/${c.slug}.html`, healthUrl(c.slug), { optional: true, delay: 500 });
+    if (!destinationIsos.has(iso)) continue; // pays sans destination au CDC (Vatican…)
+    // L'adresse de la rubrique Santé est lue sur la page du pays (elle ne suit pas toujours le nom)
+    const index = await src.get(`diplomatie/pays/${c.slug}.html`, `${DIPLOMATIE_BASE}/fr/information-par-pays/${c.slug}`, { optional: true, delay: 300 });
+    const linked = index?.match(/href="(\/fr\/information-par-pays\/[a-z0-9-]+\/conseils-aux-voyageurs-sante)"/)?.[1];
+    if (index && !linked) continue; // pays sans rubrique Santé (Liechtenstein…)
+    const url = linked ? DIPLOMATIE_BASE + linked : healthUrl(c.slug);
+    const html = await src.get(`diplomatie/sante/${c.slug}.html`, url, { optional: true, delay: 500 });
     const page = html ? parseHealthPage(html) : null;
     if (!page) {
-      warn(`Rubrique Santé introuvable sur France Diplomatie : ${c.name} (${healthUrl(c.slug)})`);
+      warn(`Rubrique Santé introuvable sur France Diplomatie : ${c.name} (${url})`);
       continue;
     }
-    diplo[iso] = { name: c.name, url: adviceUrl(c.slug), healthUrl: healthUrl(c.slug), ...page };
+    diplo[iso] = { name: c.name, url: adviceUrl(c.slug), healthUrl: url, ...page };
   }
 
   // ECDC : vecteurs par région européenne

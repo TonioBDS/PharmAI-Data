@@ -69,7 +69,10 @@ jobs:
             cat build/travel-report.md
             echo '```'
           } > build/pr-body.md
-          # Les relevés précédents encore ouverts sont remplacés par celui-ci
+          # Les relevés précédents encore ouverts (pull requests ou tickets) sont remplacés par celui-ci
+          for n in $(gh issue list --state open --search "Données de voyage : relevé in:title" --json number,title --jq '.[] | select(.title | endswith("à relire")) | .number'); do
+            gh issue close "$n" --comment "Remplacé par le relevé du $DAY." || true
+          done
           for n in $(gh pr list --state open --search "head:releve-voyage/" --json number,headRefName --jq ".[] | select(.headRefName != \"$BRANCH\") | .number"); do
             gh pr close "$n" --delete-branch --comment "Remplacée par le relevé du $DAY." || true
           done
