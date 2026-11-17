@@ -1,0 +1,829 @@
+{
+ "id": "fiji",
+ "iso2": "FJ",
+ "name": {
+  "fr": "Fidji",
+  "en": "Fiji"
+ },
+ "places": [
+  {
+   "name": "Suva",
+   "region": "Central",
+   "lat": -18.13,
+   "lon": 178.44,
+   "climate": {
+    "temp": [
+     27.4,
+     27.8,
+     27.6,
+     27,
+     25.9,
+     25.1,
+     24.2,
+     24,
+     24.4,
+     25,
+     25.8,
+     26.7
+    ],
+    "max": [
+     31.3,
+     31.4,
+     30.4,
+     29.7,
+     29.1,
+     28.2,
+     27.8,
+     28.2,
+     29.3,
+     29.2,
+     29.2,
+     30.6
+    ],
+    "min": [
+     24.1,
+     25.2,
+     25.1,
+     23.9,
+     22.6,
+     21.3,
+     20.8,
+     20.6,
+     20.5,
+     21.4,
+     22,
+     23
+    ],
+    "rain": [
+     9.1,
+     10.9,
+     10.7,
+     9.2,
+     6.9,
+     5.3,
+     3,
+     3.2,
+     4.3,
+     6.5,
+     6.6,
+     8.9
+    ],
+    "humidity": [
+     81,
+     81,
+     82,
+     81.5,
+     79.9,
+     80.7,
+     78.7,
+     79.7,
+     80.2,
+     80.8,
+     80.9,
+     81.3
+    ],
+    "uv": [
+     2.9,
+     2.8,
+     2.4,
+     1.9,
+     1.4,
+     1.2,
+     1.3,
+     1.6,
+     1.9,
+     2.3,
+     2.5,
+     2.7
+    ]
+   }
+  }
+ ],
+ "flags": {
+  "malaria": false,
+  "mosquitoes": true,
+  "ticks": false,
+  "sandflies": false,
+  "foodWater": true,
+  "freshwater": false,
+  "altitude": false,
+  "rabies": "rare"
+ },
+ "cdc": {
+  "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/fiji",
+  "clinicianUrl": "https://wwwnc.cdc.gov/travel/destinations/clinician/none/fiji",
+  "packingUrl": "https://wwwnc.cdc.gov/travel/destinations/fiji/traveler/packing-list",
+  "notices": [
+   {
+    "level": 1,
+    "title": "Global Measles",
+    "url": "https://wwwnc.cdc.gov/travel/notices/level1/measles-globe",
+    "date": "2025-05-28",
+    "summary": "Measles cases are rising in many countries around the world. All international travelers should be fully vaccinated against measles with the measles-mumps-rubella (MMR) vaccine, according to CDC's measles vaccination recommendations for international travel."
+   }
+  ],
+  "vaccines": [
+   {
+    "id": "routine",
+    "fr": "Vaccins du calendrier habituel",
+    "en": "Routine vaccines",
+    "url": "https://wwwnc.cdc.gov/travel/page/routine-vaccines",
+    "updated": null,
+    "text": [
+     {
+      "text": "Make sure you are up-to-date on all routine vaccines before every trip. Some of these vaccines include"
+     },
+     {
+      "bullet": "Chickenpox (Varicella)"
+     },
+     {
+      "bullet": "Diphtheria-Tetanus-Pertussis (DTaP, Tdap, or Td)"
+     },
+     {
+      "bullet": "Flu (influenza)"
+     },
+     {
+      "bullet": "Measles-Mumps-Rubella (MMR)"
+     },
+     {
+      "bullet": "Polio"
+     },
+     {
+      "bullet": "Shingles"
+     }
+    ],
+    "references": [
+     {
+      "title": "Immunization schedules",
+      "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/"
+     },
+     {
+      "title": "Macrolide-resistant Bordetella pertussis",
+      "url": "https://www.cdc.gov/pertussis/hcp/antibiotic-resistance/index.html"
+     }
+    ]
+   },
+   {
+    "id": "covid-19",
+    "fr": "Covid-19",
+    "en": "COVID-19",
+    "url": "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "All eligible travelers should be up to date with their COVID-19 vaccines. Please see Your COVID-19 Vaccination for more information."
+     }
+    ],
+    "references": [
+     {
+      "title": "COVID-19 vaccine",
+      "url": "https://www.cdc.gov/covid/vaccines/"
+     }
+    ]
+   },
+   {
+    "id": "hepatitis-a",
+    "fr": "Hépatite A",
+    "en": "Hepatitis A",
+    "url": "https://www.cdc.gov/hepatitis-a/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Recommended for unvaccinated travelers one year old or older going to Fiji."
+     },
+     {
+      "text": "Infants 6 to 11 months old should also be vaccinated against Hepatitis A. The dose does not count toward the routine 2-dose series."
+     },
+     {
+      "text": "Travelers allergic to a vaccine component should receive a single dose of immune globulin, which provides effective protection for up to 2 months depending on dosage given."
+     },
+     {
+      "text": "Unvaccinated travelers who are over 40 years old, are immunocompromised, or have chronic medical conditions planning to depart to a risk area in less than 2 weeks should get the initial dose of vaccine and at the same appointment receive immune globulin."
+     }
+    ],
+    "references": [
+     {
+      "title": "Hepatitis A - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/hepatitis-a.html"
+     },
+     {
+      "title": "Vaccine dosing information - Hep A",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/hepatitis-a.html#heading-idepgiam52"
+     }
+    ]
+   },
+   {
+    "id": "hepatitis-b",
+    "fr": "Hépatite B",
+    "en": "Hepatitis B",
+    "url": "https://www.cdc.gov/hepatitis-b/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Recommended for unvaccinated travelers younger than 60 years old traveling to Fiji. Unvaccinated travelers 60 years and older may get vaccinated before traveling to Fiji."
+     }
+    ],
+    "references": [
+     {
+      "title": "Sex and Travel - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-for-work-other/sex-and-travel.html"
+     }
+    ]
+   },
+   {
+    "id": "measles",
+    "fr": "Rougeole",
+    "en": "Measles",
+    "url": "https://www.cdc.gov/measles/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Cases of measles are on the rise worldwide. Travelers are at risk of measles if they have not been fully vaccinated at least two weeks prior to departure, or have not had measles in the past, and travel internationally to areas where measles is spreading."
+     },
+     {
+      "text": "All international travelers should be fully vaccinated against measles with the measles-mumps-rubella (MMR) vaccine, including an early dose for infants 6–11 months, according to CDC’s measles vaccination recommendations for international travel."
+     }
+    ],
+    "references": [
+     {
+      "title": "Measles (Rubeola) - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/measles-rubeola.html"
+     }
+    ]
+   },
+   {
+    "id": "mpox",
+    "fr": "Mpox (variole du singe)",
+    "en": "Monkeypox",
+    "url": "https://www.cdc.gov/monkeypox/about/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Monkeypox vaccination is recommended for any adult who anticipates any of the following activities during travel:"
+     },
+     {
+      "bullet": "Sexual or intimate contact with a new partner"
+     },
+     {
+      "bullet": "Sexual or intimate contact at a commercial sex venue, like a sex club or bathhouse"
+     },
+     {
+      "bullet": "Sexual or intimate contact in exchange for money, goods, drugs, or other trade"
+     },
+     {
+      "bullet": "Sexual or intimate contact in association with a large public event, such as a rave, party, or festival"
+     },
+     {
+      "text": "Get your first monkeypox vaccine at least 6 weeks before traveling if you can, or as far as possible before travel if fewer than 6 weeks before you leave. Two doses of vaccine, given 4 weeks apart, are recommended. After completing your first and second vaccine doses it takes about 2 more weeks to get the best protection against monkeypox. Whether or not you've been vaccinated, continue to take steps to reduce your risk of getting monkeypox while you are away."
+     }
+    ],
+    "references": [
+     {
+      "title": "Monkeypox Vaccination | Monkeypox | CDC",
+      "url": "https://www.cdc.gov/monkeypox/vaccines/index.html"
+     }
+    ]
+   },
+   {
+    "id": "rabies",
+    "fr": "Rage",
+    "en": "Rabies",
+    "url": "https://www.cdc.gov/rabies/about/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Dogs infected with rabies are not commonly found in Fiji."
+     },
+     {
+      "text": "If rabies exposures occur while in Fiji, rabies vaccines may only be available in larger suburban/urban medical facilities."
+     },
+     {
+      "text": "Rabies pre-exposure vaccination considerations include whether travelers 1) will be performing occupational or recreational activities that increase risk for exposure to potentially rabid animals and 2) might have difficulty getting prompt access to safe post-exposure prophylaxis."
+     },
+     {
+      "text": "Please consult with a healthcare provider to determine whether you should receive pre-exposure vaccination before travel."
+     },
+     {
+      "text": "For more information, see country rabies status assessments."
+     }
+    ],
+    "references": [
+     {
+      "title": "Rabies - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/rabies.html"
+     }
+    ]
+   },
+   {
+    "id": "typhoid",
+    "fr": "Fièvre typhoïde",
+    "en": "Typhoid",
+    "url": "https://www.cdc.gov/typhoid-fever/about/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Recommended for most travelers."
+     },
+     {
+      "text": "Typhoid vaccine is not 100% effective. Practicing safe food and water habits, including washing hands at key times, can also help prevent typhoid fever."
+     }
+    ],
+    "references": [
+     {
+      "title": "Clinical Guidance for Typhoid Fever and Paratyphoid Fever",
+      "url": "https://www.cdc.gov/typhoid-fever/hcp/clinical-guidance/index.html"
+     },
+     {
+      "title": "Typhoid - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/typhoid-and-paratyphoid-fever.html"
+     },
+     {
+      "title": "Typhoid fever vaccines licensed in the U.S.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/typhoid-and-paratyphoid-fever.html#heading-gnoxw7klzd"
+     }
+    ]
+   },
+   {
+    "id": "yellow-fever",
+    "fr": "Fièvre jaune",
+    "en": "Yellow Fever",
+    "url": "https://www.cdc.gov/yellow-fever/index.html",
+    "updated": "2025-04-23",
+    "text": [
+     {
+      "text": "CDC recommendations: Vaccine is not recommended."
+     },
+     {
+      "heading": "Country entry requirements:"
+     },
+     {
+      "bullet": "Direct travel from United States: Vaccine is not required."
+     },
+     {
+      "bullet": "Travel from countries with risk for YF virus transmission: Vaccine is required for travelers ≥1 year old; this includes >12-hour airport transits or layovers in countries with risk for YF virus transmission."
+     }
+    ],
+    "references": [
+     {
+      "title": "Yellow Fever - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
+     },
+     {
+      "title": "Yellow Fever Vaccine and Malaria Prevention Information, by Country",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/yellow-fever-vaccine-and-malaria-prevention-information-by-country.html"
+     }
+    ]
+   }
+  ],
+  "malaria": null,
+  "yellowFever": {
+   "recommended": "no",
+   "entry": "from-risk",
+   "updated": "2025-04-23",
+   "text": [
+    {
+     "text": "CDC recommendations: Vaccine is not recommended."
+    },
+    {
+     "heading": "Country entry requirements:"
+    },
+    {
+     "bullet": "Direct travel from United States: Vaccine is not required."
+    },
+    {
+     "bullet": "Travel from countries with risk for YF virus transmission: Vaccine is required for travelers ≥1 year old; this includes >12-hour airport transits or layovers in countries with risk for YF virus transmission."
+    }
+   ],
+   "references": [
+    {
+     "title": "Yellow Fever - CDC Yellow Book",
+     "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
+    },
+    {
+     "title": "Yellow Fever Vaccine and Malaria Prevention Information, by Country",
+     "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/yellow-fever-vaccine-and-malaria-prevention-information-by-country.html"
+    }
+   ]
+  },
+  "diseases": [
+   {
+    "id": "leptospirosis",
+    "fr": "Leptospirose",
+    "en": "Leptospirosis",
+    "group": "food-water",
+    "url": "https://www.cdc.gov/leptospirosis/about/index.html",
+    "spread": [
+     "Touching urine or other body fluids from an animal infected with leptospirosis",
+     "Swimming or wading in urine-contaminated fresh water, or contact with urine-contaminated mud",
+     "Drinking water or eating food contaminated with animal urine"
+    ],
+    "advice": [
+     "Avoid contaminated water and soil",
+     "Avoid floodwater"
+    ],
+    "references": [
+     {
+      "title": "Leptospirosis",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/leptospirosis.html"
+     }
+    ]
+   },
+   {
+    "id": "dengue",
+    "fr": "Dengue",
+    "en": "Dengue",
+    "group": "insects",
+    "vector": "mosquito",
+    "url": "https://www.cdc.gov/dengue/index.html",
+    "spread": [
+     "Mosquito bite"
+    ],
+    "advice": [
+     "Avoid bug bites"
+    ],
+    "references": [
+     {
+      "title": "Dengue - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/dengue.html"
+     },
+     {
+      "title": "Map: Dengue risk for Asia",
+      "url": "https://www.cdc.gov/yellow-book/media/images/2025/04/YB26_OO_Dengue_AsiaOceania.jpg"
+     }
+    ]
+   },
+   {
+    "id": "zika",
+    "fr": "Zika",
+    "en": "Zika",
+    "group": "insects",
+    "vector": "mosquito",
+    "url": "https://wwwnc.cdc.gov/travel/diseases/zika",
+    "spread": [
+     "Mosquito bite",
+     "An infected pregnant woman can spread it to her unborn baby"
+    ],
+    "advice": [
+     "Avoid bug bites"
+    ],
+    "references": [
+     {
+      "title": "Zika",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/zika.html"
+     }
+    ]
+   },
+   {
+    "id": "hantavirus",
+    "fr": "Hantavirus",
+    "en": "Hantavirus",
+    "group": "airborne",
+    "url": "https://www.cdc.gov/hantavirus/about/index.html",
+    "spread": [
+     "Breathing in air or accidentally eating food contaminated with the urine, droppings, or saliva of infected rodents",
+     "Bite from an infected rodent",
+     "Less commonly, being around someone sick with hantavirus (only occurs with Andes virus)"
+    ],
+    "advice": [
+     "Avoid rodents and areas where they live",
+     "Avoid sick people"
+    ],
+    "references": [
+     {
+      "title": "Post-Travel Evaluation to Rule Out Viral Special Pathogen Infection",
+      "url": "https://www.cdc.gov/yellow-book/hcp/post-travel-evaluation/post-travel-evaluation-to-rule-out-viral-special-pathogen-infection.html"
+     }
+    ]
+   },
+   {
+    "id": "tuberculosis",
+    "fr": "Tuberculose",
+    "en": "Tuberculosis (TB)",
+    "group": "airborne",
+    "url": "https://www.cdc.gov/tb/prevention/index.html",
+    "spread": [
+     "Breathe in TB bacteria that is in the air from an infected and contagious person coughing, speaking, or singing."
+    ],
+    "advice": [
+     "Avoid sick people"
+    ],
+    "references": [
+     {
+      "title": "Tuberculosis (TB)",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/tuberculosis.html"
+     }
+    ]
+   }
+  ],
+  "staySafe": [
+   "If you choose to drive a vehicle in Fiji, learn the local traffic laws and have the proper paperwork.",
+   "Traffic flows on the left side of the road in Fiji."
+  ],
+  "packing": [
+   "prescriptions",
+   "td-antibiotic",
+   "suture-syringe-kit",
+   "altitude-medicine",
+   "glasses",
+   "contact-lenses",
+   "needles",
+   "suture-kit",
+   "diabetes-testing",
+   "insulin",
+   "inhalers",
+   "epinephrine",
+   "medical-alert",
+   "antacid",
+   "diarrhea",
+   "antihistamine",
+   "motion-sickness",
+   "cough-drops",
+   "cough",
+   "decongestant",
+   "pain-fever",
+   "laxative",
+   "sleep-aid",
+   "saline-spray",
+   "hand-sanitizer",
+   "water-purification",
+   "insect-repellent",
+   "permethrin",
+   "sunscreen",
+   "sunglasses-hat",
+   "safety-equipment",
+   "earplugs",
+   "condoms",
+   "hydrocortisone",
+   "antifungal",
+   "antibacterial",
+   "antiseptic",
+   "aloe",
+   "bite-treatment",
+   "bandages",
+   "blister",
+   "elastic-bandage",
+   "gloves",
+   "thermometer",
+   "scissors",
+   "cotton-swabs",
+   "tweezers",
+   "eye-drops",
+   "ors",
+   "insurance",
+   "yellow-fever-certificate",
+   "prescription-copies",
+   "contact-card"
+  ]
+ },
+ "diplomatie": {
+  "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/iles-fidji",
+  "healthUrl": "https://www.diplomatie.gouv.fr/fr/information-par-pays/iles-fidji/conseils-aux-voyageurs-sante",
+  "updated": "2026-09-15",
+  "topics": [
+   "Chikungunya",
+   "Dengue",
+   "Zika",
+   "Fièvre typhoïde",
+   "Leptospirose"
+  ],
+  "blocks": [
+   {
+    "h": 3,
+    "text": "Avant le départ"
+   },
+   {
+    "p": "Un séjour à l’étranger implique pour tout voyageur de prendre certaines précautions en matière de santé. La rubrique ci-dessous mentionne les indications essentielles. Ces indications ne dispensent toutefois pas le voyageur d’une consultation chez son médecin traitant et/ou dans un centre de vaccinations internationales, suffisamment longtemps avant la date de départ pour permettre le rappel des vaccins si nécessaire."
+   },
+   {
+    "p": "Pour plus d'information, consulter la rubrique \"La santé en voyage\"."
+   },
+   {
+    "h": 4,
+    "text": "Frais d’hospitalisation et dépenses de santé"
+   },
+   {
+    "p": "Afin de faire face aux frais d’hospitalisation et aux dépenses de santé, parfois très élevés à l’étranger, il est impératif de disposer d’un contrat d’assistance ou d’une assurance permettant de couvrir tous les frais médicaux (dont la chirurgie et l’hospitalisation) et de rapatriement sanitaire, au risque de ne pas avoir accès aux soins, y compris en cas d’urgence vitale. Ces frais ne pourront en aucun cas être pris en charge par l’ambassade de France sur place."
+   },
+   {
+    "h": 4,
+    "text": "Recommandations pour la santé"
+   },
+   {
+    "p": "Consulter si besoin son médecin traitant ou un centre de vaccinations internationales (médecine des voyages) pour faire une évaluation de son état de santé et bénéficier de recommandations sanitaires, notamment sur les vaccinations. Consulter éventuellement son dentiste avant le départ."
+   },
+   {
+    "p": "Constituer sa pharmacie personnelle en conséquence et n’emporter dans ses bagages que les médicaments strictement nécessaires ; ne jamais consommer de médicaments achetés dans la rue (risque de contrefaçons). Les médicaments doivent être dans leur emballage d’origine avec les étiquettes originales, accompagnés d’une ordonnance portant le nom des médicaments en dénomination commune internationale (DCI). Il est indispensable de vérifier que les médicaments concernés sont autorisés dans le pays visité : pour plus d’informations, consulter la fiche Informations pratiques."
+   },
+   {
+    "h": 4,
+    "text": "Vaccinations"
+   },
+   {
+    "p": "Les vaccins recommandés en France sont également indispensables lors d’un séjour à l’étranger : les maladies qu’ils préviennent circulent partout dans le monde, parfois même plus fréquemment qu’en France. Avant tout départ, le voyageur (adulte et enfant) doit donc d’abord s’assurer d’être à jour du calendrier vaccinal français, en particulier des vaccins contre la diphtérie, le tétanos, la poliomyélite, la coqueluche mais aussi contre la rougeole. Le carnet de vaccination peut être demandé à l’arrivée de certains pays."
+   },
+   {
+    "p": "Des vaccinations complémentaires peuvent être nécessaires :"
+   },
+   {
+    "li": "Fièvre jaune : obligatoire pour les voyageurs en provenance de zones d’endémie et y ayant résidé dans les six jours précédents (sauf pour les passagers en transit) ;"
+   },
+   {
+    "li": "Hépatite A : en fonction des conditions et de la durée de séjour ;"
+   },
+   {
+    "li": "Fièvre typhoïde : en fonction des conditions et de la durée de séjour ;"
+   },
+   {
+    "li": "Hépatite B : en cas de séjours fréquents ou prolongés :"
+   },
+   {
+    "li": "Chikungunya : en cas d’épidémie ou de séjour prolongé ;"
+   },
+   {
+    "li": "Dengue : en cas d’épidémie active ou de séjour prolongé en zone endémique."
+   },
+   {
+    "p": "Il est donc conseillé de consulter son médecin traitant ou un centre de vaccinations internationales (médecine des voyages) suffisamment de temps avant le voyage."
+   },
+   {
+    "h": 3,
+    "text": "Risques sanitaires"
+   },
+   {
+    "h": 4,
+    "text": "Maladies transmises par les moustiques"
+   },
+   {
+    "h": 5,
+    "text": "Chikungunya"
+   },
+   {
+    "p": "La chikungunya est une maladie virale transmise par l’intermédiaire de moustiques infectés. Cette maladie se manifeste par l’apparition de symptômes grippaux (fièvre, douleurs musculaires et articulaires). En cas de signes cliniques, il est impératif de consulter immédiatement un médecin ; le traitement est uniquement symptomatique. Les moyens de prévention reposent sur la vaccination et la protection contre les piqûres de moustiques. Il est conseillé avant le départ de se référer à son médecin traitant et/ou à un centre de vaccination internationale."
+   },
+   {
+    "p": "Pour plus d’informations, consulter la rubrique risques sanitaires."
+   },
+   {
+    "h": 5,
+    "text": "Dengue"
+   },
+   {
+    "p": "La dengue est une maladie virale transmise par piqûres de moustiques. Les symptômes sont de type grippal (fièvre, maux de tête, courbatures, parfois éruption cutanée). En cas de signes cliniques, il est impératif de consulter immédiatement un médecin. Il n’existe pas de traitement curatif. La prise en charge médicale repose uniquement sur le traitement des symptômes. Il faut impérativement éviter la prise d’anti-inflammatoire. La prévention individuelle repose essentiellement sur les moyens de protection contre les piqûres de moustiques. La vaccination des voyageurs peut être indiquée dans certains cas. Il est conseillé de se référer, avant son départ, à son médecin traitant et /ou à un centre de vaccination internationale."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère de la Santé et le site de l’Organisation mondiale de la Santé."
+   },
+   {
+    "p": "Les autorités sanitaires locales attirent l’attention de la population en raison de la multiplication des cas de dengue dans la zone ouest, nord et centrale du pays."
+   },
+   {
+    "h": 5,
+    "text": "Zika"
+   },
+   {
+    "p": "Il s’agit d’une maladie due à un virus transmis principalement par piqûre de moustiques et dans certains cas par voie sexuelle. Les symptômes sont généralement absents ou modérés (fièvre, maux de tête, douleurs articulaires, éruptions cutanées). La survenue de complications graves telle que des atteintes neurologiques (syndrome de Guillain Barré) et des microcéphalies chez des nouveau-nés de femmes enceintes infectées par le virus est attestée."
+   },
+   {
+    "p": "La prévention repose uniquement sur la protection contre les piqûres de moustiques."
+   },
+   {
+    "p": "Il est conseillé aux femmes enceintes ou ayant un projet de grossesse de consulter au préalable un médecin avant tout déplacement dans une zone infectée. En cas de maintien du voyage, il est impératif de se protéger des piqûres de moustiques et d’appliquer les mesures adaptées contre la transmission sexuelle."
+   },
+   {
+    "p": "Consulter un médecin en cas de fièvre survenant pendant le voyage ou dans les semaines qui suivent le retour en France."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère de la Santé et le site de l’Organisation mondiale de la Santé."
+   },
+   {
+    "h": 4,
+    "text": "Autres maladies"
+   },
+   {
+    "h": 5,
+    "text": "Fièvre typhoïde"
+   },
+   {
+    "p": "La fièvre typhoïde est une maladie infectieuse causée par des bactéries présentes dans l’eau contaminée par des matières fécales d’origine humaine. L’infection résulte le plus souvent de l’ingestion d’eau ou d’aliments contaminés, ou d’une transmission directe de personne à personne. Les symptômes surviennent en moyenne 3 semaines après la contamination et associent fièvre, maux de tête, perte d’appétit, douleurs abdominales avec diarrhée ou constipation, fatigue et parfois, éruption cutanée. Dans les formes plus graves, la fièvre typhoïde peut être fatale en l’absence de traitement."
+   },
+   {
+    "p": "Les mesures de prévention reposent sur les règles élémentaires d’hygiène générale vis-à-vis de l’eau, des aliments et du lavage des mains ainsi que sur la vaccination."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site de l'Institut Pasteur."
+   },
+   {
+    "p": "Les autorités sanitaires recommandent la plus grande prudence à l’égard de la fièvre typhoïde dans les zones des Fidji où les conditions d’hygiène sont dégradées."
+   },
+   {
+    "h": 5,
+    "text": "Leptospirose"
+   },
+   {
+    "p": "La leptospirose est une maladie bactérienne présente dans le monde entier. La transmission à l’humain se fait par contact cutané (muqueuse ou plaie) avec les milieux souillés par les urines d’animaux infectés (rongeurs, animaux d’élevage et de compagnie). La maladie est souvent bénigne, mais parfois mortelle."
+   },
+   {
+    "p": "La prévention repose sur les mesures d’hygiène générales (lavage des mains, lutte contre les rongeurs, assainissement, etc.) et sur la vaccination des personnels à risque."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site Santé publique France et le site du ministère de la Santé."
+   },
+   {
+    "p": "Les autorités sanitaires recommandent la plus grande prudence à l’égard de la leptospirose. Une recrudescence de cas est signalée dans toutes les divisions."
+   },
+   {
+    "h": 3,
+    "text": "Pendant le voyage"
+   },
+   {
+    "h": 4,
+    "text": "Mesures générales de prévention des piqûres de moustiques"
+   },
+   {
+    "li": "Porter des vêtements longs et couvrants ;"
+   },
+   {
+    "li": "Appliquer des produits répulsifs cutanés sur les zones découvertes du corps ;"
+   },
+   {
+    "li": "Protéger son logement (moustiquaires imprégnées d’insecticide, diffuseurs électriques, serpentins à l’extérieur, climatisation, etc.) ;"
+   },
+   {
+    "li": "Détruire les sites potentiels de reproduction des moustiques (récipients d’eau stagnante comme les soucoupes sous les pots de fleurs, les gouttières, les pneus, etc.)."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère en charge de la Santé et le site de l'Assurance Maladie."
+   },
+   {
+    "h": 4,
+    "text": "Règles d'hygiène alimentaire"
+   },
+   {
+    "li": "Se laver les mains régulièrement avec de l’eau et du savon ou des solutions de lavage hydroalcooliques, surtout avant et après les repas et le passage aux toilettes ;"
+   },
+   {
+    "li": "Veiller à la qualité des aliments et surtout à leur bonne cuisson ;"
+   },
+   {
+    "li": "Éviter la consommation de produits alimentaires (poisson, viande, volaille, lait) crus ou peu cuits ;"
+   },
+   {
+    "li": "Peler les fruits et légumes ou les laver soigneusement (à l’eau saine) ;"
+   },
+   {
+    "li": "Éviter les crudités, coquillages, plats réchauffés et buffets froids ;"
+   },
+   {
+    "li": "Ne boire que de l’eau ou des boissons encapsulées ou de l’eau rendue potable (filtration, ébullition ou à défaut produit désinfectant)."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère en charge de la Santé."
+   },
+   {
+    "p": "Mesures d’hygiène alimentaire :"
+   },
+   {
+    "p": "Il est déconseillé de consommer des poissons de demi-fond entre les mois de novembre et avril, en raison de la présence de toxines dans l’eau de mer absorbées par leur organisme, à l’origine d’empoisonnements (ciguetera)."
+   },
+   {
+    "p": "Les cheptels des Fidji souffrent régulièrement de brucellose. L’attention des voyageurs est attirée sur les risques liés à la consommation du lait local et des produits laitiers non pasteurisés qui peuvent transmettre cette maladie à l’humain."
+   },
+   {
+    "h": 4,
+    "text": "Infections sexuellement transmissibles (IST)"
+   },
+   {
+    "p": "Il est recommandé d’éviter les comportements sexuels à risque et de prendre toutes les précautions d’usage. En cas d’exposition à un risque, il est recommandé de consulter au plus tôt un professionnel de santé."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère en charge de la Santé."
+   },
+   {
+    "h": 4,
+    "text": "Prévention des risques généraux"
+   },
+   {
+    "li": "Déplacements et route : privilégier les transports fiables, éviter la conduite de nuit, porter la ceinture/casque, se méfier des deux-roues et des conditions locales de circulation."
+   },
+   {
+    "li": "Baignade et milieu aquatique : se baigner dans des zones surveillées, se renseigner sur les courants, éviter l’alcool avant baignade, sortir de l’eau en cas de fatigue ou de conditions locales défavorables."
+   },
+   {
+    "li": "Animaux : se tenir à distance des cadavres d’animaux et de leurs déjections ; ne pas toucher ni nourrir les animaux, même familiers. En cas de morsure/griffure/léchage sur peau lésée, laver immédiatement à l’eau et au savon et consulter en urgence."
+   },
+   {
+    "li": "Eaux douces et sols humides : éviter de marcher pieds nus ou de se baigner dans les eaux stagnantes ou douteuses ; porter des chaussures adaptées."
+   },
+   {
+    "li": "Envenimations (serpents, scorpions, araignées, méduses) : ne pas manipuler d’animaux ou leurs cadavres, porter chaussures fermées et vêtements couvrants, vérifier vêtements/chaussures ; en cas de piqûre ou morsure, immobiliser, nettoyer et consulter rapidement."
+   },
+   {
+    "li": "Climat et environnement : se protéger de la chaleur (hydratation, éviter les heures chaudes), du soleil (vêtements, protection solaire), et du froid ou de l’altitude selon la destination."
+   },
+   {
+    "li": "Exposition à des substances toxiques ou environnementales : se protéger de l’exposition à la pollution et aux produits chimiques environnementaux."
+   }
+  ]
+ },
+ "vectors": {}
+}

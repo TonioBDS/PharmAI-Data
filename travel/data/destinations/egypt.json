@@ -1,0 +1,1138 @@
+{
+ "id": "egypt",
+ "iso2": "EG",
+ "name": {
+  "fr": "Égypte",
+  "en": "Egypt"
+ },
+ "places": [
+  {
+   "name": "Cairo",
+   "region": "Al Qahirah",
+   "lat": 30.05,
+   "lon": 31.25,
+   "climate": {
+    "temp": [
+     12.1,
+     13.7,
+     17.1,
+     20.9,
+     25.3,
+     28.5,
+     30,
+     29.9,
+     27.5,
+     23.7,
+     18.7,
+     14
+    ],
+    "max": [
+     29.2,
+     34.8,
+     38.6,
+     43.4,
+     45.3,
+     45.4,
+     45.3,
+     44.8,
+     42.4,
+     40.8,
+     35.6,
+     32.5
+    ],
+    "min": [
+     1.4,
+     1.6,
+     2.6,
+     7,
+     11.2,
+     15,
+     17.6,
+     19,
+     15.5,
+     11.8,
+     7.2,
+     2.2
+    ],
+    "rain": [
+     0.3,
+     0.2,
+     0.2,
+     0.3,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0.2,
+     0.6,
+     0.2
+    ],
+    "humidity": [
+     61.4,
+     56.2,
+     50.6,
+     44.5,
+     39.8,
+     39.7,
+     42.3,
+     45,
+     49.8,
+     55.7,
+     59.4,
+     62.2
+    ],
+    "uv": [
+     0.6,
+     0.9,
+     1.4,
+     1.8,
+     2.2,
+     2.5,
+     2.5,
+     2.3,
+     1.8,
+     1.3,
+     0.8,
+     0.6
+    ]
+   }
+  },
+  {
+   "name": "Aswan",
+   "region": "Aswan",
+   "lat": 24.09,
+   "lon": 32.9,
+   "climate": {
+    "temp": [
+     15.1,
+     17.8,
+     22,
+     26.7,
+     31.1,
+     33.4,
+     34,
+     34.2,
+     31.9,
+     28.4,
+     21.8,
+     16.8
+    ],
+    "max": [
+     35.1,
+     38.5,
+     41.8,
+     44.6,
+     47.7,
+     48.8,
+     48.3,
+     48.4,
+     47.1,
+     44.5,
+     39.4,
+     35.4
+    ],
+    "min": [
+     0.4,
+     2.3,
+     4,
+     9.1,
+     14.5,
+     19.3,
+     20.5,
+     20.5,
+     17.8,
+     12.5,
+     7.2,
+     2.2
+    ],
+    "rain": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "humidity": [
+     41.7,
+     32.8,
+     23.3,
+     17.5,
+     15.3,
+     14.8,
+     16.9,
+     18.1,
+     20.4,
+     26.1,
+     36.8,
+     43.5
+    ],
+    "uv": [
+     1.1,
+     1.5,
+     2,
+     2.4,
+     2.6,
+     2.7,
+     2.7,
+     2.5,
+     2.2,
+     1.7,
+     1.2,
+     1
+    ]
+   }
+  },
+  {
+   "name": "Salum",
+   "region": "Matruh",
+   "lat": 31.57,
+   "lon": 25.15,
+   "climate": {
+    "temp": [
+     11.5,
+     12.2,
+     14.7,
+     17.8,
+     21.6,
+     24.9,
+     26.7,
+     27.1,
+     25.5,
+     22.1,
+     17.4,
+     13.5
+    ],
+    "max": [
+     25.4,
+     30.8,
+     33.5,
+     37.8,
+     40.5,
+     40.8,
+     42.4,
+     43.5,
+     39.8,
+     36.6,
+     33.7,
+     27.2
+    ],
+    "min": [
+     2.6,
+     2.6,
+     5,
+     7.6,
+     10.5,
+     14.6,
+     17.9,
+     17.7,
+     15.9,
+     12.9,
+     7.8,
+     4.2
+    ],
+    "rain": [
+     1.1,
+     0.7,
+     0.3,
+     0.2,
+     0.2,
+     0,
+     0,
+     0,
+     0.1,
+     0.4,
+     0.8,
+     1.4
+    ],
+    "humidity": [
+     71.4,
+     68.8,
+     65.3,
+     60.6,
+     57.2,
+     57.3,
+     60.2,
+     61.4,
+     60.5,
+     63.3,
+     66.9,
+     71.1
+    ],
+    "uv": [
+     0.5,
+     0.8,
+     1.3,
+     1.7,
+     2.1,
+     2.5,
+     2.6,
+     2.3,
+     1.8,
+     1.2,
+     0.7,
+     0.5
+    ]
+   }
+  }
+ ],
+ "flags": {
+  "malaria": false,
+  "mosquitoes": true,
+  "ticks": true,
+  "sandflies": true,
+  "foodWater": true,
+  "freshwater": true,
+  "altitude": false,
+  "rabies": "common"
+ },
+ "cdc": {
+  "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/egypt",
+  "clinicianUrl": "https://wwwnc.cdc.gov/travel/destinations/clinician/none/egypt",
+  "packingUrl": "https://wwwnc.cdc.gov/travel/destinations/egypt/traveler/packing-list",
+  "notices": [
+   {
+    "level": 1,
+    "title": "Global Measles",
+    "url": "https://wwwnc.cdc.gov/travel/notices/level1/measles-globe",
+    "date": "2025-05-28",
+    "summary": "Measles cases are rising in many countries around the world. All international travelers should be fully vaccinated against measles with the measles-mumps-rubella (MMR) vaccine, according to CDC's measles vaccination recommendations for international travel."
+   }
+  ],
+  "vaccines": [
+   {
+    "id": "routine",
+    "fr": "Vaccins du calendrier habituel",
+    "en": "Routine vaccines",
+    "url": "https://wwwnc.cdc.gov/travel/page/routine-vaccines",
+    "updated": null,
+    "text": [
+     {
+      "text": "Make sure you are up-to-date on all routine vaccines before every trip. Some of these vaccines include"
+     },
+     {
+      "bullet": "Chickenpox (Varicella)"
+     },
+     {
+      "bullet": "Diphtheria-Tetanus-Pertussis (DTaP, Tdap, or Td)"
+     },
+     {
+      "bullet": "Flu (influenza)"
+     },
+     {
+      "bullet": "Measles-Mumps-Rubella (MMR)"
+     },
+     {
+      "bullet": "Polio"
+     },
+     {
+      "bullet": "Shingles"
+     }
+    ],
+    "references": [
+     {
+      "title": "Immunization schedules",
+      "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/"
+     },
+     {
+      "title": "Macrolide-resistant Bordetella pertussis",
+      "url": "https://www.cdc.gov/pertussis/hcp/antibiotic-resistance/index.html"
+     }
+    ]
+   },
+   {
+    "id": "covid-19",
+    "fr": "Covid-19",
+    "en": "COVID-19",
+    "url": "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "All eligible travelers should be up to date with their COVID-19 vaccines. Please see Your COVID-19 Vaccination for more information."
+     }
+    ],
+    "references": [
+     {
+      "title": "COVID-19 vaccine",
+      "url": "https://www.cdc.gov/covid/vaccines/"
+     }
+    ]
+   },
+   {
+    "id": "hepatitis-a",
+    "fr": "Hépatite A",
+    "en": "Hepatitis A",
+    "url": "https://www.cdc.gov/hepatitis-a/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Recommended for unvaccinated travelers one year old or older going to Egypt."
+     },
+     {
+      "text": "Infants 6 to 11 months old should also be vaccinated against Hepatitis A. The dose does not count toward the routine 2-dose series."
+     },
+     {
+      "text": "Travelers allergic to a vaccine component should receive a single dose of immune globulin, which provides effective protection for up to 2 months depending on dosage given."
+     },
+     {
+      "text": "Unvaccinated travelers who are over 40 years old, are immunocompromised, or have chronic medical conditions planning to depart to a risk area in less than 2 weeks should get the initial dose of vaccine and at the same appointment receive immune globulin."
+     }
+    ],
+    "references": [
+     {
+      "title": "Hepatitis A - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/hepatitis-a.html"
+     },
+     {
+      "title": "Vaccine dosing information - Hep A",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/hepatitis-a.html#heading-idepgiam52"
+     }
+    ]
+   },
+   {
+    "id": "hepatitis-b",
+    "fr": "Hépatite B",
+    "en": "Hepatitis B",
+    "url": "https://www.cdc.gov/hepatitis-b/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Recommended for unvaccinated travelers younger than 60 years old traveling to Egypt. Unvaccinated travelers 60 years and older may get vaccinated before traveling to Egypt."
+     }
+    ],
+    "references": [
+     {
+      "title": "Sex and Travel - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-for-work-other/sex-and-travel.html"
+     }
+    ]
+   },
+   {
+    "id": "measles",
+    "fr": "Rougeole",
+    "en": "Measles",
+    "url": "https://www.cdc.gov/measles/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Cases of measles are on the rise worldwide. Travelers are at risk of measles if they have not been fully vaccinated at least two weeks prior to departure, or have not had measles in the past, and travel internationally to areas where measles is spreading."
+     },
+     {
+      "text": "All international travelers should be fully vaccinated against measles with the measles-mumps-rubella (MMR) vaccine, including an early dose for infants 6–11 months, according to CDC’s measles vaccination recommendations for international travel."
+     }
+    ],
+    "references": [
+     {
+      "title": "Measles (Rubeola) - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/measles-rubeola.html"
+     }
+    ]
+   },
+   {
+    "id": "mpox",
+    "fr": "Mpox (variole du singe)",
+    "en": "Monkeypox",
+    "url": "https://www.cdc.gov/monkeypox/about/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Monkeypox vaccination is recommended for any adult who anticipates any of the following activities during travel:"
+     },
+     {
+      "bullet": "Sexual or intimate contact with a new partner"
+     },
+     {
+      "bullet": "Sexual or intimate contact at a commercial sex venue, like a sex club or bathhouse"
+     },
+     {
+      "bullet": "Sexual or intimate contact in exchange for money, goods, drugs, or other trade"
+     },
+     {
+      "bullet": "Sexual or intimate contact in association with a large public event, such as a rave, party, or festival"
+     },
+     {
+      "text": "Get your first monkeypox vaccine at least 6 weeks before traveling if you can, or as far as possible before travel if fewer than 6 weeks before you leave. Two doses of vaccine, given 4 weeks apart, are recommended. After completing your first and second vaccine doses it takes about 2 more weeks to get the best protection against monkeypox. Whether or not you've been vaccinated, continue to take steps to reduce your risk of getting monkeypox while you are away."
+     }
+    ],
+    "references": [
+     {
+      "title": "Monkeypox Vaccination | Monkeypox | CDC",
+      "url": "https://www.cdc.gov/monkeypox/vaccines/index.html"
+     }
+    ]
+   },
+   {
+    "id": "rabies",
+    "fr": "Rage",
+    "en": "Rabies",
+    "url": "https://www.cdc.gov/rabies/about/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Dogs infected with rabies are commonly found in Egypt."
+     },
+     {
+      "text": "Rabies is also present in some terrestrial wildlife species."
+     },
+     {
+      "text": "If rabies exposures occur while in Egypt, rabies vaccines may only be available in larger suburban/urban medical facilities."
+     },
+     {
+      "text": "Rabies pre-exposure vaccination considerations include whether travelers 1) will be performing occupational or recreational activities that increase risk for exposure to potentially rabid animals and 2) might have difficulty getting prompt access to safe post-exposure prophylaxis."
+     },
+     {
+      "text": "Please consult with a healthcare provider to determine whether you should receive pre-exposure vaccination before travel."
+     },
+     {
+      "text": "For more information, see country rabies status assessments."
+     }
+    ],
+    "references": [
+     {
+      "title": "Rabies - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/rabies.html"
+     }
+    ]
+   },
+   {
+    "id": "typhoid",
+    "fr": "Fièvre typhoïde",
+    "en": "Typhoid",
+    "url": "https://www.cdc.gov/typhoid-fever/about/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Recommended for most travelers."
+     },
+     {
+      "text": "Typhoid vaccine is not 100% effective. Practicing safe food and water habits, including washing hands at key times, can also help prevent typhoid fever."
+     }
+    ],
+    "references": [
+     {
+      "title": "Clinical Guidance for Typhoid Fever and Paratyphoid Fever",
+      "url": "https://www.cdc.gov/typhoid-fever/hcp/clinical-guidance/index.html"
+     },
+     {
+      "title": "Typhoid - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/typhoid-and-paratyphoid-fever.html"
+     },
+     {
+      "title": "Typhoid fever vaccines licensed in the U.S.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/typhoid-and-paratyphoid-fever.html#heading-gnoxw7klzd"
+     }
+    ]
+   },
+   {
+    "id": "yellow-fever",
+    "fr": "Fièvre jaune",
+    "en": "Yellow Fever",
+    "url": "https://www.cdc.gov/yellow-fever/index.html",
+    "updated": "2025-04-23",
+    "text": [
+     {
+      "text": "CDC recommendations: Vaccine is not recommended."
+     },
+     {
+      "heading": "Country entry requirements:"
+     },
+     {
+      "bullet": "Direct travel from United States: Vaccine is not required."
+     },
+     {
+      "bullet": "Travel from countries with risk for YF virus transmission: Vaccine is required for travelers ≥9 months old; this includes >12-hour airport transits or layovers in countries with risk for YF virus transmission."
+     }
+    ],
+    "references": [
+     {
+      "title": "Yellow Fever - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
+     },
+     {
+      "title": "Yellow Fever Vaccine and Malaria Prevention Information, by Country",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/yellow-fever-vaccine-and-malaria-prevention-information-by-country.html"
+     }
+    ]
+   }
+  ],
+  "malaria": null,
+  "yellowFever": {
+   "recommended": "no",
+   "entry": "from-risk",
+   "updated": "2025-04-23",
+   "text": [
+    {
+     "text": "CDC recommendations: Vaccine is not recommended."
+    },
+    {
+     "heading": "Country entry requirements:"
+    },
+    {
+     "bullet": "Direct travel from United States: Vaccine is not required."
+    },
+    {
+     "bullet": "Travel from countries with risk for YF virus transmission: Vaccine is required for travelers ≥9 months old; this includes >12-hour airport transits or layovers in countries with risk for YF virus transmission."
+    }
+   ],
+   "references": [
+    {
+     "title": "Yellow Fever - CDC Yellow Book",
+     "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
+    },
+    {
+     "title": "Yellow Fever Vaccine and Malaria Prevention Information, by Country",
+     "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/yellow-fever-vaccine-and-malaria-prevention-information-by-country.html"
+    }
+   ]
+  },
+  "diseases": [
+   {
+    "id": "leptospirosis",
+    "fr": "Leptospirose",
+    "en": "Leptospirosis",
+    "group": "food-water",
+    "url": "https://www.cdc.gov/leptospirosis/about/index.html",
+    "spread": [
+     "Touching urine or other body fluids from an animal infected with leptospirosis",
+     "Swimming or wading in urine-contaminated fresh water, or contact with urine-contaminated mud",
+     "Drinking water or eating food contaminated with animal urine"
+    ],
+    "advice": [
+     "Avoid contaminated water and soil",
+     "Avoid floodwater"
+    ],
+    "references": [
+     {
+      "title": "Leptospirosis",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/leptospirosis.html"
+     }
+    ]
+   },
+   {
+    "id": "melioidosis",
+    "fr": "Mélioïdose",
+    "en": "Melioidosis",
+    "group": "food-water",
+    "url": "https://www.cdc.gov/melioidosis/about/index.html",
+    "spread": [
+     "Contact with contaminated fresh water, mud, or soil, especially after heavy rains",
+     "Drinking contaminated water",
+     "Breathing in contaminated dust or water droplets, especially during severe weather",
+     "Melioidosis is a risk in northern Egypt."
+    ],
+    "advice": [
+     "Avoid floodwater and contact with soil or muddy water, particularly after heavy rains",
+     "Bandage open wounds, cuts, or burns to protect them from coming into contact with soil or water"
+    ],
+    "references": [
+     {
+      "title": "Melioidosis",
+      "url": "https://www.cdc.gov/melioidosis/hcp/clinical-overview/index.html"
+     }
+    ]
+   },
+   {
+    "id": "schistosomiasis",
+    "fr": "Bilharziose",
+    "en": "Schistosomiasis",
+    "group": "food-water",
+    "url": "https://www.cdc.gov/schistosomiasis/index.html",
+    "spread": [
+     "Wading, swimming, bathing, or washing in contaminated freshwater streams, rivers, ponds, lakes, or untreated pools."
+    ],
+    "advice": [
+     "Avoid contaminated water"
+    ],
+    "references": [
+     {
+      "title": "Schistosomiasis",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/schistosomiasis.html"
+     }
+    ]
+   },
+   {
+    "id": "african-tick-bite-fever",
+    "fr": "Fièvre à tiques africaine",
+    "en": "African Tick-Bite Fever",
+    "group": "insects",
+    "vector": "tick",
+    "url": "https://www.cdc.gov/other-spotted-fever/hcp/imported/index.html",
+    "spread": [
+     "Tick bite"
+    ],
+    "advice": [
+     "Avoid bug bites"
+    ],
+    "references": [
+     {
+      "title": "Rickettsial Diseases",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/rickettsial-diseases.html"
+     }
+    ]
+   },
+   {
+    "id": "crimean-congo-hemorrhagic-fever",
+    "fr": "Fièvre hémorragique de Crimée-Congo",
+    "en": "Crimean-Congo Hemorrhagic fever",
+    "group": "insects",
+    "vector": "tick",
+    "url": "https://wwwnc.cdc.gov/travel/diseases/crimean-congo",
+    "spread": [
+     "Tick bite",
+     "Touching the body fluids of a person or animal infected with CCHF"
+    ],
+    "advice": [
+     "Avoid bug bites"
+    ],
+    "references": [
+     {
+      "title": "Post-Travel Evaluation to Rule Out Viral Special Pathogen Infection",
+      "url": "https://www.cdc.gov/yellow-book/hcp/post-travel-evaluation/post-travel-evaluation-to-rule-out-viral-special-pathogen-infection.html"
+     }
+    ]
+   },
+   {
+    "id": "dengue",
+    "fr": "Dengue",
+    "en": "Dengue",
+    "group": "insects",
+    "vector": "mosquito",
+    "url": "https://www.cdc.gov/dengue/index.html",
+    "spread": [
+     "Mosquito bite"
+    ],
+    "advice": [
+     "Avoid bug bites"
+    ],
+    "references": [
+     {
+      "title": "Dengue - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/dengue.html"
+     },
+     {
+      "title": "Map: Dengue risk for Africa and Europe",
+      "url": "https://www.cdc.gov/yellow-book/media/images/2025/04/YB26_OO_Dengue_AfricaEuropeME.jpg"
+     }
+    ]
+   },
+   {
+    "id": "leishmaniasis",
+    "fr": "Leishmaniose",
+    "en": "Leishmaniasis",
+    "group": "insects",
+    "vector": "sandfly",
+    "url": "https://www.cdc.gov/leishmaniasis/about/index.html",
+    "spread": [
+     "Sand fly bite"
+    ],
+    "advice": [
+     "Avoid bug bites"
+    ],
+    "references": [
+     {
+      "title": "Leishmaniasis",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/leishmaniasis.html"
+     }
+    ]
+   },
+   {
+    "id": "rift-valley-fever",
+    "fr": "Fièvre de la vallée du Rift",
+    "en": "Rift Valley Fever",
+    "group": "animals",
+    "vector": "mosquito",
+    "url": "https://wwwnc.cdc.gov/travel/diseases/rift-river-valley",
+    "spread": [
+     "Touching blood, body fluids, or tissue of infected livestock",
+     "Mosquito bite"
+    ],
+    "advice": [
+     "Avoid animals",
+     "Avoid bug bites"
+    ],
+    "references": [
+     {
+      "title": "Post-Travel Evaluation to Rule Out Viral Special Pathogen Infection",
+      "url": "https://www.cdc.gov/yellow-book/hcp/post-travel-evaluation/post-travel-evaluation-to-rule-out-viral-special-pathogen-infection.html"
+     }
+    ]
+   },
+   {
+    "id": "hantavirus",
+    "fr": "Hantavirus",
+    "en": "Hantavirus",
+    "group": "airborne",
+    "url": "https://www.cdc.gov/hantavirus/about/index.html",
+    "spread": [
+     "Breathing in air or accidentally eating food contaminated with the urine, droppings, or saliva of infected rodents",
+     "Bite from an infected rodent",
+     "Less commonly, being around someone sick with hantavirus (only occurs with Andes virus)"
+    ],
+    "advice": [
+     "Avoid rodents and areas where they live",
+     "Avoid sick people"
+    ],
+    "references": [
+     {
+      "title": "Post-Travel Evaluation to Rule Out Viral Special Pathogen Infection",
+      "url": "https://www.cdc.gov/yellow-book/hcp/post-travel-evaluation/post-travel-evaluation-to-rule-out-viral-special-pathogen-infection.html"
+     }
+    ]
+   },
+   {
+    "id": "tuberculosis",
+    "fr": "Tuberculose",
+    "en": "Tuberculosis (TB)",
+    "group": "airborne",
+    "url": "https://www.cdc.gov/tb/prevention/index.html",
+    "spread": [
+     "Breathe in TB bacteria that is in the air from an infected and contagious person coughing, speaking, or singing."
+    ],
+    "advice": [
+     "Avoid sick people"
+    ],
+    "references": [
+     {
+      "title": "Tuberculosis (TB)",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/tuberculosis.html"
+     }
+    ]
+   }
+  ],
+  "staySafe": [
+   "Schistosomiasis, a parasitic infection that can be spread in fresh water, is found in Egypt. Avoid swimming in fresh, unchlorinated water, such as lakes, ponds, or rivers.",
+   "If you choose to drive a vehicle in Egypt, learn the local traffic laws and have the proper paperwork."
+  ],
+  "packing": [
+   "prescriptions",
+   "td-antibiotic",
+   "suture-syringe-kit",
+   "altitude-medicine",
+   "glasses",
+   "contact-lenses",
+   "needles",
+   "suture-kit",
+   "diabetes-testing",
+   "insulin",
+   "inhalers",
+   "epinephrine",
+   "medical-alert",
+   "antacid",
+   "diarrhea",
+   "antihistamine",
+   "motion-sickness",
+   "cough-drops",
+   "cough",
+   "decongestant",
+   "pain-fever",
+   "laxative",
+   "sleep-aid",
+   "saline-spray",
+   "hand-sanitizer",
+   "water-purification",
+   "insect-repellent",
+   "permethrin",
+   "sunscreen",
+   "sunglasses-hat",
+   "safety-equipment",
+   "earplugs",
+   "condoms",
+   "hydrocortisone",
+   "antifungal",
+   "antibacterial",
+   "antiseptic",
+   "aloe",
+   "bite-treatment",
+   "bandages",
+   "blister",
+   "elastic-bandage",
+   "gloves",
+   "thermometer",
+   "scissors",
+   "cotton-swabs",
+   "tweezers",
+   "eye-drops",
+   "ors",
+   "insurance",
+   "yellow-fever-certificate",
+   "prescription-copies",
+   "contact-card"
+  ]
+ },
+ "diplomatie": {
+  "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/egypte",
+  "healthUrl": "https://www.diplomatie.gouv.fr/fr/information-par-pays/egypte/conseils-aux-voyageurs-sante",
+  "updated": "2026-09-21",
+  "topics": [
+   "Dengue",
+   "Zika",
+   "Fièvre typhoïde",
+   "Grippe aviaire ou zoonotique",
+   "Poliomyélite",
+   "Rage"
+  ],
+  "blocks": [
+   {
+    "h": 3,
+    "text": "Avant le départ"
+   },
+   {
+    "p": "Un séjour à l’étranger implique pour tout voyageur de prendre certaines précautions en matière de santé. La rubrique ci-dessous mentionne les indications essentielles. Ces indications ne dispensent toutefois pas le voyageur d’une consultation chez son médecin traitant et/ou dans un centre de vaccinations internationales, suffisamment longtemps avant la date de départ pour permettre le rappel des vaccins si nécessaire."
+   },
+   {
+    "p": "Pour plus d'information, consulter la rubrique \"La santé en voyage\"."
+   },
+   {
+    "h": 4,
+    "text": "Frais d’hospitalisation et dépenses de santé"
+   },
+   {
+    "p": "Afin de faire face aux frais d’hospitalisation et aux dépenses de santé, parfois très élevés à l’étranger, il est impératif de disposer d’un contrat d’assistance ou d’une assurance permettant de couvrir tous les frais médicaux (dont la chirurgie et l’hospitalisation) et de rapatriement sanitaire, au risque de ne pas avoir accès aux soins, y compris en cas d’urgence vitale. Ces frais ne pourront en aucun cas être pris en charge par l’ambassade de France sur place."
+   },
+   {
+    "h": 4,
+    "text": "Recommandations pour la santé"
+   },
+   {
+    "p": "Consulter si besoin son médecin traitant ou un centre de vaccinations internationales (médecine des voyages) pour faire une évaluation de son état de santé et bénéficier de recommandations sanitaires, notamment sur les vaccinations. Consulter éventuellement son dentiste avant le départ."
+   },
+   {
+    "p": "Constituer sa pharmacie personnelle en conséquence et n’emporter dans ses bagages que les médicaments strictement nécessaires ; ne jamais consommer de médicaments achetés dans la rue (risque de contrefaçons). Les médicaments doivent être dans leur emballage d’origine avec les étiquettes originales, accompagnés d’une ordonnance portant le nom des médicaments en dénomination commune internationale (DCI). Il est indispensable de vérifier que les médicaments concernés sont autorisés dans le pays visité : pour plus d’informations, consulter la fiche Informations pratiques."
+   },
+   {
+    "p": "Les grandes pharmacies du Caire offrent des médicaments de base à des prix très inférieurs à ceux de l’Europe mais les pénuries ne sont pas rares."
+   },
+   {
+    "h": 4,
+    "text": "Vaccinations"
+   },
+   {
+    "p": "Les vaccins recommandés en France sont également indispensables lors d’un séjour à l’étranger : les maladies qu’ils préviennent circulent partout dans le monde, parfois même plus fréquemment qu’en France. Avant tout départ, le voyageur (adulte et enfant) doit donc d’abord s’assurer d’être à jour du calendrier vaccinal français, en particulier des vaccins contre la diphtérie, le tétanos, la poliomyélite, la coqueluche mais aussi contre la rougeole. Le carnet de vaccination peut être demandé à l’arrivée de certains pays."
+   },
+   {
+    "p": "Des vaccinations complémentaires peuvent être nécessaires :"
+   },
+   {
+    "li": "Diphtérie-tétanos-poliomyélite (DTP) : obligatoire, quels que soient l’âge et le statut vaccinal, pour les voyageurs en provenance :"
+   },
+   {
+    "li": "d’Afghanistan, du Nigéria, du Pakistan, de Papouasie-Nouvelle-Guinée ou de Somalie avec un vaccin administré depuis moins d’un an et plus d’un mois ;"
+   },
+   {
+    "li": "du Kénya, du Niger, de République démocratique du Congo ou de Syrie."
+   },
+   {
+    "li": "Fièvre jaune : obligatoire pour les voyageurs en provenance de zones d’endémie. Les voyageurs qui n’ont pas de preuve de vaccination sont susceptibles d’être mis en quarantaine pour une période maximale de 6 jours."
+   },
+   {
+    "li": "Hépatite A : en fonction des conditions et de la durée de séjour ;"
+   },
+   {
+    "li": "Fièvre typhoïde : en fonction des conditions et de la durée de séjour ;"
+   },
+   {
+    "li": "Méningite ACWY : en cas de séjour pendant la saison sèche (habituellement hiver et printemps) ou d’épidémie signalée ;"
+   },
+   {
+    "li": "Rage : notamment enfants en bas âge, séjour en milieu rural ou éloigné des villes principales ;"
+   },
+   {
+    "li": "Hépatite B : en cas de séjours fréquents ou prolongés ;"
+   },
+   {
+    "li": "Mpox : en cas d’exposition à risque."
+   },
+   {
+    "p": "Il est donc conseillé de consulter son médecin traitant ou un centre de vaccinations internationales (médecine des voyages) suffisamment de temps avant le voyage."
+   },
+   {
+    "h": 3,
+    "text": "Risques sanitaires"
+   },
+   {
+    "h": 4,
+    "text": "Maladies transmises par les moustiques"
+   },
+   {
+    "h": 5,
+    "text": "Dengue"
+   },
+   {
+    "p": "La dengue est une maladie virale transmise par piqûres de moustiques. Les symptômes sont de type grippal (fièvre, maux de tête, courbatures, parfois éruption cutanée). En cas de signes cliniques, il est impératif de consulter immédiatement un médecin. Il n’existe pas de traitement curatif. La prise en charge médicale repose uniquement sur le traitement des symptômes. Il faut impérativement éviter la prise d’anti-inflammatoire. La prévention individuelle repose essentiellement sur les moyens de protection contre les piqûres de moustiques. La vaccination des voyageurs peut être indiquée dans certains cas. Il est conseillé de se référer, avant son départ, à son médecin traitant et /ou à un centre de vaccination internationale."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère de la Santé et le site de l’Organisation mondiale de la Santé."
+   },
+   {
+    "h": 5,
+    "text": "Zika"
+   },
+   {
+    "p": "Il s’agit d’une maladie due à un virus transmis principalement par piqûre de moustiques et dans certains cas par voie sexuelle. Les symptômes sont généralement absents ou modérés (fièvre, maux de tête, douleurs articulaires, éruptions cutanées). La survenue de complications graves telle que des atteintes neurologiques (syndrome de Guillain Barré) et des microcéphalies chez des nouveau-nés de femmes enceintes infectées par le virus est attestée."
+   },
+   {
+    "p": "La prévention repose uniquement sur la protection contre les piqûres de moustiques."
+   },
+   {
+    "p": "Il est conseillé aux femmes enceintes ou ayant un projet de grossesse de consulter au préalable un médecin avant tout déplacement dans une zone infectée. En cas de maintien du voyage, il est impératif de se protéger des piqûres de moustiques et d’appliquer les mesures adaptées contre la transmission sexuelle."
+   },
+   {
+    "p": "Consulter un médecin en cas de fièvre survenant pendant le voyage ou dans les semaines qui suivent le retour en France."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère de la Santé et le site de l’Organisation mondiale de la Santé."
+   },
+   {
+    "h": 4,
+    "text": "Autres maladies"
+   },
+   {
+    "h": 5,
+    "text": "Fièvre typhoïde"
+   },
+   {
+    "p": "La fièvre typhoïde est une maladie infectieuse causée par des bactéries présentes dans l’eau contaminée par des matières fécales d’origine humaine. L’infection résulte le plus souvent de l’ingestion d’eau ou d’aliments contaminés, ou d’une transmission directe de personne à personne. Les symptômes surviennent en moyenne 3 semaines après la contamination et associent fièvre, maux de tête, perte d’appétit, douleurs abdominales avec diarrhée ou constipation, fatigue et parfois, éruption cutanée. Dans les formes plus graves, la fièvre typhoïde peut être fatale en l’absence de traitement."
+   },
+   {
+    "p": "Les mesures de prévention reposent sur les règles élémentaires d’hygiène générale vis-à-vis de l’eau, des aliments et du lavage des mains ainsi que sur la vaccination."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site de l'Institut Pasteur."
+   },
+   {
+    "h": 5,
+    "text": "Grippe aviaire ou zoonotique"
+   },
+   {
+    "p": "Le terme regroupe l’ensemble des infections de type grippal causées par différents virus influenza d’origine animale (oiseaux sauvages, volailles, porcs). La survenue de cas chez l’être humain est exceptionnelle. La transmission résulte soit d’un contact direct notamment avec les sécrétions respiratoires et les matières fécales des animaux malades, soit de façon indirecte par l’exposition à des matières contaminées. Les symptômes sont similaires à ceux de la grippe saisonnière (fièvre, toux, courbatures…) mais peuvent se compliquer de difficultés respiratoires, de troubles digestifs, d’atteintes neurologiques, voire de décès."
+   },
+   {
+    "p": "Pour plus d’informations, consulter la rubrique risques sanitaires."
+   },
+   {
+    "p": "Bien que la grippe aviaire reste endémique en Égypte, l’incidence et la propagation dans la population avicole ont fortement diminué et aucun cas d’infection n’a été détecté chez l’être humain depuis 2017."
+   },
+   {
+    "h": 5,
+    "text": "Poliomyélite"
+   },
+   {
+    "p": "La poliomyélite est une maladie très contagieuse due à un virus, transmis principalement par l’intermédiaire d’eau souillée et d’aliments contaminés par les selles. Après une incubation de quelques jours, l’infection est souvent bénigne voire asymptomatique mais dans de rares cas, elle peut entraîner une paralysie aiguë parfois irréversible, notamment des membres inférieurs. La paralysie des muscles respiratoires peut être mortelle. Il n’existe pas de traitement curatif et seulement des soins symptomatiques. La prévention repose sur la vaccination."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site de l'Organisation mondiale de la Santé et le site de l'Institut Pasteur."
+   },
+   {
+    "h": 5,
+    "text": "Rage"
+   },
+   {
+    "p": "La rage est une maladie virale mortelle affectant le système nerveux et présent dans la salive des animaux infectés, tels que chiens, chats, chauves-souris et autres mammifères sauvages. Le virus se transmet par morsure, griffure ou contact de la salive avec une peau lésée ou une muqueuse. L’évolution est rapide avec l’apparition de fièvre, maux de tête, anxiété puis de troubles neurologiques (coma). La rage est presque toujours mortelle une fois les symptômes déclarés. Il est recommandé d’éviter tout contact avec des animaux suspects domestiques ou sauvages. La vaccination préventive contre la rage avant un séjour en zone exposée peut être indiquée en fonction du type de voyage et en particulier chez les jeunes enfants dès qu’ils marchent. Il est conseillé de demander conseil à un médecin ou à un centre de vaccinations internationales."
+   },
+   {
+    "p": "En cas d’exposition à risque, consulter immédiatement un médecin même si la vaccination est bien à jour."
+   },
+   {
+    "p": "Pour plus d’informations, consulter la rubrique risques sanitaires et le site de l'Institut Pasteur."
+   },
+   {
+    "p": "En cas de griffure ou de morsure en Egypte, il faut savoir que seuls les hôpitaux et les centres gouvernementaux (on en compte 317) peuvent effectuer le protocole anti-rabique qui comprend 5 injections (J0, J+3, J+7, J+14, J+28). Au Caire, vous pouvez vous rendre dans les hôpitaux suivants, parmi de nombreux autres : l’hôpital public Oum El Masreyeen (Guizeh), l’hôpital Al Agouza (Guizeh), ou encore l’hôpital public Zayed (El Sheikh Zayed city). En cas de difficulté à trouver un hôpital, il peut être utile de consulter l’un des médecins conseils du consulat général de France."
+   },
+   {
+    "h": 4,
+    "text": "Pollution atmosphérique"
+   },
+   {
+    "p": "L’attention du voyageur est appelée sur la pollution atmosphérique, particulièrement élevée au Caire. La pollution de l’air peut s’avérer dangereuse pour la santé. Lors des pics de pollution, il est conseillé de réduire toutes les activités à l’extérieur et de s’hydrater autant que possible. Les personnes souffrant de maladies respiratoires (asthme notamment), de problèmes cardiaques ou de conjonctivite, les enfants, les femmes enceintes et les personnes âgées sont invités à maintenir fermées les portes et fenêtres de leur domicile et à ne pas sortir, sauf en cas de nécessité."
+   },
+   {
+    "h": 3,
+    "text": "Pendant le voyage"
+   },
+   {
+    "h": 4,
+    "text": "Mesures générales de prévention des piqûres de moustiques"
+   },
+   {
+    "li": "Porter des vêtements longs et couvrants ;"
+   },
+   {
+    "li": "Appliquer des produits répulsifs cutanés sur les zones découvertes du corps ;"
+   },
+   {
+    "li": "Protéger son logement (moustiquaires imprégnées d’insecticide, diffuseurs électriques, serpentins à l’extérieur, climatisation, etc.) ;"
+   },
+   {
+    "li": "Détruire les sites potentiels de reproduction des moustiques (récipients d’eau stagnante comme les soucoupes sous les pots de fleurs, les gouttières, les pneus, etc.)."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère en charge de la Santé et le site de l'Assurance Maladie."
+   },
+   {
+    "h": 4,
+    "text": "Règles d'hygiène alimentaire"
+   },
+   {
+    "li": "Se laver les mains régulièrement avec de l’eau et du savon ou des solutions de lavage hydroalcooliques, surtout avant et après les repas et le passage aux toilettes ;"
+   },
+   {
+    "li": "Veiller à la qualité des aliments et surtout à leur bonne cuisson ;"
+   },
+   {
+    "li": "Éviter la consommation de produits alimentaires (poisson, viande, volaille, lait) crus ou peu cuits ;"
+   },
+   {
+    "li": "Peler les fruits et légumes ou les laver soigneusement (à l’eau saine) ;"
+   },
+   {
+    "li": "Éviter les crudités, coquillages, plats réchauffés et buffets froids ;"
+   },
+   {
+    "li": "Ne boire que de l’eau ou des boissons encapsulées ou de l’eau rendue potable (filtration, ébullition ou à défaut produit désinfectant)."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère en charge de la Santé."
+   },
+   {
+    "h": 4,
+    "text": "Infections sexuellement transmissibles (IST)"
+   },
+   {
+    "p": "Il est recommandé d’éviter les comportements sexuels à risque et de prendre toutes les précautions d’usage. En cas d’exposition à un risque, il est recommandé de consulter au plus tôt un professionnel de santé."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère en charge de la Santé."
+   },
+   {
+    "h": 4,
+    "text": "Prévention des risques généraux"
+   },
+   {
+    "li": "Déplacements et route : privilégier les transports fiables, éviter la conduite de nuit, porter la ceinture/casque, se méfier des deux-roues et des conditions locales de circulation."
+   },
+   {
+    "li": "Baignade et milieu aquatique : se baigner dans des zones surveillées, se renseigner sur les courants, éviter l’alcool avant baignade, sortir de l’eau en cas de fatigue ou de conditions locales défavorables."
+   },
+   {
+    "li": "Animaux : se tenir à distance des cadavres d’animaux et de leurs déjections ; ne pas toucher ni nourrir les animaux, même familiers. En cas de morsure/griffure/léchage sur peau lésée, laver immédiatement à l’eau et au savon et consulter en urgence."
+   },
+   {
+    "li": "Envenimations (serpents, scorpions, araignées, méduses) : ne pas manipuler d’animaux ou leurs cadavres, porter chaussures fermées et vêtements couvrants, vérifier vêtements/chaussures ; en cas de piqûre ou morsure, immobiliser, nettoyer et consulter rapidement."
+   },
+   {
+    "li": "Climat et environnement : se protéger de la chaleur (hydratation, éviter les heures chaudes), du soleil (vêtements, protection solaire), et du froid ou de l’altitude selon la destination."
+   },
+   {
+    "li": "Exposition à des substances toxiques ou environnementales : se protéger de l’exposition à la pollution et aux produits chimiques environnementaux."
+   }
+  ]
+ },
+ "vectors": {}
+}

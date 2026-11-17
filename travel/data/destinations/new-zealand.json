@@ -1,0 +1,880 @@
+{
+ "id": "new-zealand",
+ "iso2": "NZ",
+ "name": {
+  "fr": "Nouvelle-Zélande",
+  "en": "New Zealand"
+ },
+ "places": [
+  {
+   "name": "Wellington",
+   "region": "Manawatu-Wanganui",
+   "lat": -41.3,
+   "lon": 174.78,
+   "climate": {
+    "temp": [
+     16.7,
+     17,
+     15.9,
+     14,
+     12.5,
+     10.7,
+     9.8,
+     10.1,
+     10.9,
+     11.9,
+     13.3,
+     15.3
+    ],
+    "max": [
+     25.9,
+     25.1,
+     22.8,
+     20.7,
+     18.8,
+     16.1,
+     15,
+     14.9,
+     16.5,
+     18.9,
+     21.8,
+     24.7
+    ],
+    "min": [
+     9.6,
+     10.6,
+     9.9,
+     8.3,
+     6.1,
+     5.2,
+     5.2,
+     3.9,
+     5.7,
+     6.1,
+     7.2,
+     8.4
+    ],
+    "rain": [
+     1.7,
+     2.1,
+     1.9,
+     2.3,
+     2.6,
+     3.1,
+     2.8,
+     2.6,
+     2.3,
+     2.5,
+     2.1,
+     2.2
+    ],
+    "humidity": [
+     79.1,
+     79.1,
+     80.7,
+     82.6,
+     83.9,
+     84.3,
+     84.4,
+     84.9,
+     83.5,
+     82.7,
+     81.4,
+     81
+    ],
+    "uv": [
+     2.4,
+     2,
+     1.4,
+     0.7,
+     0.3,
+     0.2,
+     0.2,
+     0.4,
+     0.7,
+     1.3,
+     1.9,
+     2.3
+    ]
+   }
+  },
+  {
+   "name": "Dunedin",
+   "region": "Otago",
+   "lat": -45.89,
+   "lon": 170.49,
+   "climate": {
+    "temp": [
+     13.8,
+     13.9,
+     13.2,
+     11.6,
+     9.9,
+     8.2,
+     7.6,
+     8,
+     9,
+     9.9,
+     11.2,
+     12.7
+    ],
+    "max": [
+     25.8,
+     26.2,
+     23.4,
+     20.2,
+     20.1,
+     15.5,
+     14.5,
+     15.4,
+     17.4,
+     19.3,
+     21.8,
+     23.3
+    ],
+    "min": [
+     7.8,
+     7.4,
+     6.7,
+     5.8,
+     3,
+     2.9,
+     2.3,
+     1.5,
+     3.3,
+     3.4,
+     4.5,
+     6.2
+    ],
+    "rain": [
+     2.2,
+     2.2,
+     1.7,
+     1.9,
+     2.2,
+     1.8,
+     1.5,
+     1.4,
+     1.6,
+     1.9,
+     2.1,
+     2.1
+    ],
+    "humidity": [
+     79.6,
+     80.4,
+     81,
+     82,
+     84.2,
+     84.6,
+     84.3,
+     84.2,
+     80.8,
+     79.3,
+     78.9,
+     80
+    ],
+    "uv": [
+     2.1,
+     1.7,
+     1.1,
+     0.5,
+     0.2,
+     0.1,
+     0.1,
+     0.3,
+     0.6,
+     1.1,
+     1.6,
+     2
+    ]
+   }
+  },
+  {
+   "name": "Whangarei",
+   "region": "Northland",
+   "lat": -35.73,
+   "lon": 174.32,
+   "climate": {
+    "temp": [
+     20.1,
+     20.7,
+     19.5,
+     17.6,
+     15.5,
+     13.6,
+     12.5,
+     12.6,
+     13.5,
+     14.7,
+     16.4,
+     18.6
+    ],
+    "max": [
+     29.2,
+     31.4,
+     26.5,
+     25.1,
+     23.1,
+     20.5,
+     18.5,
+     18.9,
+     20.1,
+     22.3,
+     26,
+     26.9
+    ],
+    "min": [
+     13.1,
+     13.7,
+     11.8,
+     9.7,
+     6.5,
+     6.1,
+     5.4,
+     4.6,
+     6.3,
+     7.3,
+     9,
+     10.6
+    ],
+    "rain": [
+     2.4,
+     2.6,
+     3.1,
+     2.7,
+     3.5,
+     4.1,
+     4.5,
+     3.9,
+     3,
+     2.2,
+     2.2,
+     2.3
+    ],
+    "humidity": [
+     73.1,
+     74.1,
+     75.5,
+     77.7,
+     80.2,
+     81.8,
+     82.4,
+     82.2,
+     81.1,
+     78.5,
+     75.7,
+     74.7
+    ],
+    "uv": [
+     2.6,
+     2.2,
+     1.6,
+     1,
+     0.5,
+     0.3,
+     0.3,
+     0.6,
+     0.9,
+     1.5,
+     2,
+     2.4
+    ]
+   }
+  },
+  {
+   "name": "Alofi",
+   "region": "Niue aggregation",
+   "lat": -19.07,
+   "lon": -169.91,
+   "climate": {
+    "temp": [
+     27.2,
+     27.5,
+     27.6,
+     27.1,
+     26.2,
+     25.3,
+     24.6,
+     24.3,
+     24.7,
+     25.2,
+     25.8,
+     26.6
+    ],
+    "max": [
+     29.7,
+     29.3,
+     29.4,
+     29.3,
+     28.7,
+     27.7,
+     27,
+     27.5,
+     27.7,
+     27.7,
+     28.3,
+     28.9
+    ],
+    "min": [
+     24.4,
+     24.8,
+     24.6,
+     24.4,
+     23.8,
+     21.6,
+     20.7,
+     20.7,
+     20.5,
+     21.7,
+     22,
+     23.7
+    ],
+    "rain": [
+     6.6,
+     6.8,
+     5.4,
+     5.2,
+     3.9,
+     2.6,
+     2.1,
+     2,
+     2.8,
+     3.4,
+     4.6,
+     4.7
+    ],
+    "humidity": [
+     82.3,
+     81.5,
+     81.3,
+     80.3,
+     79.7,
+     78.6,
+     78.5,
+     78.8,
+     80.1,
+     80.4,
+     81.3,
+     81
+    ],
+    "uv": [
+     2.9,
+     2.8,
+     2.5,
+     1.9,
+     1.4,
+     1.2,
+     1.3,
+     1.6,
+     2,
+     2.4,
+     2.6,
+     2.8
+    ]
+   }
+  }
+ ],
+ "flags": {
+  "malaria": false,
+  "mosquitoes": false,
+  "ticks": false,
+  "sandflies": false,
+  "foodWater": false,
+  "freshwater": false,
+  "altitude": false,
+  "rabies": "rare"
+ },
+ "cdc": {
+  "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/new-zealand",
+  "clinicianUrl": "https://wwwnc.cdc.gov/travel/destinations/clinician/none/new-zealand",
+  "packingUrl": "https://wwwnc.cdc.gov/travel/destinations/new-zealand/traveler/packing-list",
+  "notices": [
+   {
+    "level": 1,
+    "title": "Global Measles",
+    "url": "https://wwwnc.cdc.gov/travel/notices/level1/measles-globe",
+    "date": "2025-05-28",
+    "summary": "Measles cases are rising in many countries around the world. All international travelers should be fully vaccinated against measles with the measles-mumps-rubella (MMR) vaccine, according to CDC's measles vaccination recommendations for international travel."
+   }
+  ],
+  "vaccines": [
+   {
+    "id": "routine",
+    "fr": "Vaccins du calendrier habituel",
+    "en": "Routine vaccines",
+    "url": "https://wwwnc.cdc.gov/travel/page/routine-vaccines",
+    "updated": null,
+    "text": [
+     {
+      "text": "Make sure you are up-to-date on all routine vaccines before every trip. Some of these vaccines include"
+     },
+     {
+      "bullet": "Chickenpox (Varicella)"
+     },
+     {
+      "bullet": "Diphtheria-Tetanus-Pertussis (DTaP, Tdap, or Td)"
+     },
+     {
+      "bullet": "Flu (influenza)"
+     },
+     {
+      "bullet": "Measles-Mumps-Rubella (MMR)"
+     },
+     {
+      "bullet": "Polio"
+     },
+     {
+      "bullet": "Shingles"
+     }
+    ],
+    "references": [
+     {
+      "title": "Immunization schedules",
+      "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/"
+     },
+     {
+      "title": "Macrolide-resistant Bordetella pertussis",
+      "url": "https://www.cdc.gov/pertussis/hcp/antibiotic-resistance/index.html"
+     }
+    ]
+   },
+   {
+    "id": "covid-19",
+    "fr": "Covid-19",
+    "en": "COVID-19",
+    "url": "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "All eligible travelers should be up to date with their COVID-19 vaccines. Please see Your COVID-19 Vaccination for more information."
+     }
+    ],
+    "references": [
+     {
+      "title": "COVID-19 vaccine",
+      "url": "https://www.cdc.gov/covid/vaccines/"
+     }
+    ]
+   },
+   {
+    "id": "hepatitis-a",
+    "fr": "Hépatite A",
+    "en": "Hepatitis A",
+    "url": "https://www.cdc.gov/hepatitis-a/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Consider hepatitis A vaccination for most travelers. It is recommended for travelers who will be doing higher risk activities, such as visiting smaller cities, villages, or rural areas where a traveler might get infected through food or water. It is recommended for travelers who plan on eating street food."
+     }
+    ],
+    "references": [
+     {
+      "title": "Hepatitis A - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/hepatitis-a.html"
+     },
+     {
+      "title": "Vaccine dosing information - Hep A",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/hepatitis-a.html#heading-idepgiam52"
+     }
+    ]
+   },
+   {
+    "id": "hepatitis-b",
+    "fr": "Hépatite B",
+    "en": "Hepatitis B",
+    "url": "https://www.cdc.gov/hepatitis-b/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Recommended for unvaccinated travelers younger than 60 years old traveling to New Zealand. Unvaccinated travelers 60 years and older may get vaccinated before traveling to New Zealand."
+     }
+    ],
+    "references": [
+     {
+      "title": "Sex and Travel - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-for-work-other/sex-and-travel.html"
+     }
+    ]
+   },
+   {
+    "id": "measles",
+    "fr": "Rougeole",
+    "en": "Measles",
+    "url": "https://www.cdc.gov/measles/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Cases of measles are on the rise worldwide. Travelers are at risk of measles if they have not been fully vaccinated at least two weeks prior to departure, or have not had measles in the past, and travel internationally to areas where measles is spreading."
+     },
+     {
+      "text": "All international travelers should be fully vaccinated against measles with the measles-mumps-rubella (MMR) vaccine, including an early dose for infants 6–11 months, according to CDC’s measles vaccination recommendations for international travel."
+     }
+    ],
+    "references": [
+     {
+      "title": "Measles (Rubeola) - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/measles-rubeola.html"
+     }
+    ]
+   },
+   {
+    "id": "mpox",
+    "fr": "Mpox (variole du singe)",
+    "en": "Monkeypox",
+    "url": "https://www.cdc.gov/monkeypox/about/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Monkeypox vaccination is recommended for any adult who anticipates any of the following activities during travel:"
+     },
+     {
+      "bullet": "Sexual or intimate contact with a new partner"
+     },
+     {
+      "bullet": "Sexual or intimate contact at a commercial sex venue, like a sex club or bathhouse"
+     },
+     {
+      "bullet": "Sexual or intimate contact in exchange for money, goods, drugs, or other trade"
+     },
+     {
+      "bullet": "Sexual or intimate contact in association with a large public event, such as a rave, party, or festival"
+     },
+     {
+      "text": "Get your first monkeypox vaccine at least 6 weeks before traveling if you can, or as far as possible before travel if fewer than 6 weeks before you leave. Two doses of vaccine, given 4 weeks apart, are recommended. After completing your first and second vaccine doses it takes about 2 more weeks to get the best protection against monkeypox. Whether or not you've been vaccinated, continue to take steps to reduce your risk of getting monkeypox while you are away."
+     }
+    ],
+    "references": [
+     {
+      "title": "Monkeypox Vaccination | Monkeypox | CDC",
+      "url": "https://www.cdc.gov/monkeypox/vaccines/index.html"
+     }
+    ]
+   },
+   {
+    "id": "rabies",
+    "fr": "Rage",
+    "en": "Rabies",
+    "url": "https://www.cdc.gov/rabies/about/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Dogs infected with rabies are not commonly found in New Zealand."
+     },
+     {
+      "text": "If rabies exposures occur while in New Zealand, rabies vaccines may only be available in larger suburban/urban medical facilities."
+     },
+     {
+      "text": "Rabies pre-exposure vaccination considerations include whether travelers 1) will be performing occupational or recreational activities that increase risk for exposure to potentially rabid animals and 2) might have difficulty getting prompt access to safe post-exposure prophylaxis."
+     },
+     {
+      "text": "Please consult with a healthcare provider to determine whether you should receive pre-exposure vaccination before travel."
+     },
+     {
+      "text": "For more information, see country rabies status assessments."
+     }
+    ],
+    "references": [
+     {
+      "title": "Rabies - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/rabies.html"
+     }
+    ]
+   },
+   {
+    "id": "yellow-fever",
+    "fr": "Fièvre jaune",
+    "en": "Yellow Fever",
+    "url": "https://www.cdc.gov/yellow-fever/index.html",
+    "updated": "2025-04-23",
+    "text": [
+     {
+      "text": "CDC recommendations: Vaccine is not recommended."
+     },
+     {
+      "text": "Country entry requirements: Vaccine is not required."
+     }
+    ],
+    "references": [
+     {
+      "title": "Yellow Fever - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
+     },
+     {
+      "title": "Yellow Fever Vaccine and Malaria Prevention Information, by Country",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/yellow-fever-vaccine-and-malaria-prevention-information-by-country.html"
+     }
+    ]
+   }
+  ],
+  "malaria": null,
+  "yellowFever": {
+   "recommended": "no",
+   "entry": "no",
+   "updated": "2025-04-23",
+   "text": [
+    {
+     "text": "CDC recommendations: Vaccine is not recommended."
+    },
+    {
+     "text": "Country entry requirements: Vaccine is not required."
+    }
+   ],
+   "references": [
+    {
+     "title": "Yellow Fever - CDC Yellow Book",
+     "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
+    },
+    {
+     "title": "Yellow Fever Vaccine and Malaria Prevention Information, by Country",
+     "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/yellow-fever-vaccine-and-malaria-prevention-information-by-country.html"
+    }
+   ]
+  },
+  "diseases": [
+   {
+    "id": "leptospirosis",
+    "fr": "Leptospirose",
+    "en": "Leptospirosis",
+    "group": "food-water",
+    "url": "https://www.cdc.gov/leptospirosis/about/index.html",
+    "spread": [
+     "Touching urine or other body fluids from an animal infected with leptospirosis",
+     "Swimming or wading in urine-contaminated fresh water, or contact with urine-contaminated mud",
+     "Drinking water or eating food contaminated with animal urine"
+    ],
+    "advice": [
+     "Avoid contaminated water and soil",
+     "Avoid floodwater"
+    ],
+    "references": [
+     {
+      "title": "Leptospirosis",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/leptospirosis.html"
+     }
+    ]
+   },
+   {
+    "id": "hantavirus",
+    "fr": "Hantavirus",
+    "en": "Hantavirus",
+    "group": "airborne",
+    "url": "https://www.cdc.gov/hantavirus/about/index.html",
+    "spread": [
+     "Breathing in air or accidentally eating food contaminated with the urine, droppings, or saliva of infected rodents",
+     "Bite from an infected rodent",
+     "Less commonly, being around someone sick with hantavirus (only occurs with Andes virus)"
+    ],
+    "advice": [
+     "Avoid rodents and areas where they live",
+     "Avoid sick people"
+    ],
+    "references": [
+     {
+      "title": "Post-Travel Evaluation to Rule Out Viral Special Pathogen Infection",
+      "url": "https://www.cdc.gov/yellow-book/hcp/post-travel-evaluation/post-travel-evaluation-to-rule-out-viral-special-pathogen-infection.html"
+     }
+    ]
+   },
+   {
+    "id": "tuberculosis",
+    "fr": "Tuberculose",
+    "en": "Tuberculosis (TB)",
+    "group": "airborne",
+    "url": "https://www.cdc.gov/tb/prevention/index.html",
+    "spread": [
+     "Breathe in TB bacteria that is in the air from an infected and contagious person coughing, speaking, or singing."
+    ],
+    "advice": [
+     "Avoid sick people"
+    ],
+    "references": [
+     {
+      "title": "Tuberculosis (TB)",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/tuberculosis.html"
+     }
+    ]
+   }
+  ],
+  "staySafe": [
+   "Although New Zealand is an industrialized country, bug bites here can still spread diseases. Just as you would in the United States, try to avoid bug bites while spending time outside or in wooded areas.",
+   "If you choose to drive a vehicle in New Zealand, learn the local traffic laws and have the proper paperwork.",
+   "Traffic flows on the left side of the road in New Zealand."
+  ],
+  "packing": [
+   "prescriptions",
+   "td-antibiotic",
+   "suture-syringe-kit",
+   "altitude-medicine",
+   "glasses",
+   "contact-lenses",
+   "needles",
+   "suture-kit",
+   "diabetes-testing",
+   "insulin",
+   "inhalers",
+   "epinephrine",
+   "medical-alert",
+   "antacid",
+   "diarrhea",
+   "antihistamine",
+   "motion-sickness",
+   "cough-drops",
+   "cough",
+   "decongestant",
+   "pain-fever",
+   "laxative",
+   "sleep-aid",
+   "saline-spray",
+   "hand-sanitizer",
+   "water-purification",
+   "insect-repellent",
+   "permethrin",
+   "sunscreen",
+   "sunglasses-hat",
+   "safety-equipment",
+   "earplugs",
+   "condoms",
+   "hydrocortisone",
+   "antifungal",
+   "antibacterial",
+   "antiseptic",
+   "aloe",
+   "bite-treatment",
+   "bandages",
+   "blister",
+   "elastic-bandage",
+   "gloves",
+   "thermometer",
+   "scissors",
+   "cotton-swabs",
+   "tweezers",
+   "eye-drops",
+   "insurance",
+   "prescription-copies",
+   "contact-card"
+  ]
+ },
+ "diplomatie": {
+  "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/nouvelle-zelande",
+  "healthUrl": "https://www.diplomatie.gouv.fr/fr/information-par-pays/nouvelle-zelande/conseils-aux-voyageurs-sante",
+  "updated": "2026-11-02",
+  "topics": [],
+  "blocks": [
+   {
+    "h": 3,
+    "text": "Avant le départ"
+   },
+   {
+    "p": "Un séjour à l’étranger implique pour tout voyageur de prendre certaines précautions en matière de santé. La rubrique ci-dessous mentionne les indications essentielles. Ces indications ne dispensent toutefois pas le voyageur d’une consultation chez son médecin traitant et/ou dans un centre de vaccinations internationales, suffisamment longtemps avant la date de départ pour permettre le rappel des vaccins si nécessaire."
+   },
+   {
+    "p": "Pour plus d'information, consulter la rubrique \"La santé en voyage\"."
+   },
+   {
+    "h": 4,
+    "text": "Frais d’hospitalisation et dépenses de santé"
+   },
+   {
+    "p": "Afin de faire face aux frais d’hospitalisation et aux dépenses de santé, parfois très élevés à l’étranger, il est impératif de disposer d’un contrat d’assistance ou d’une assurance permettant de couvrir tous les frais médicaux (dont la chirurgie et l’hospitalisation) et de rapatriement sanitaire, au risque de ne pas avoir accès aux soins, y compris en cas d’urgence vitale. Ces frais ne pourront en aucun cas être pris en charge par l’ambassade de France sur place."
+   },
+   {
+    "p": "La liste des hôpitaux dans les principales villes du pays est disponible sur le site du ministère néo-zélandais de la Santé (en anglais). En cas d’urgence, appeler le 111."
+   },
+   {
+    "p": "Indemnisation des dommages corporels en cas d’accident :"
+   },
+   {
+    "p": "La Nouvelle-Zélande dispose d’un système de couverture universelle en cas d’accident nommé ACC, qui, le cas échéant, garantit une prise en charge des dommages corporels à toutes les personnes résidant ou voyageant sur le territoire. L’ACC ne remplace en aucun cas une assurance voyage, qui reste nécessaire pour prendre en charge un éventuel rapatriement, les frais médicaux liés aux maladies (…). Par ailleurs, dans certains cas, l’assurance voyage est obligatoire pour souscrire à un visa."
+   },
+   {
+    "p": "Pour plus d’informations sur le dispositif, consulter le site de l’Accident Compensation Corporation."
+   },
+   {
+    "h": 4,
+    "text": "Recommandations pour la santé"
+   },
+   {
+    "p": "Consulter si besoin son médecin traitant ou un centre de vaccinations internationales (médecine des voyages) pour faire une évaluation de son état de santé et bénéficier de recommandations sanitaires, notamment sur les vaccinations. Consulter éventuellement son dentiste avant le départ."
+   },
+   {
+    "p": "Constituer sa pharmacie personnelle en conséquence et n’emporter dans ses bagages que les médicaments strictement nécessaires ; ne jamais consommer de médicaments achetés dans la rue (risque de contrefaçons). Les médicaments doivent être dans leur emballage d’origine avec les étiquettes originales, accompagnés d’une ordonnance portant le nom des médicaments en dénomination commune internationale (DCI). Il est indispensable de vérifier que les médicaments concernés sont autorisés dans le pays visité : pour plus d’informations, consulter la fiche Informations pratiques."
+   },
+   {
+    "p": "Bien penser à se munir de son ordonnance en cas de voyage avec un traitement spécifique de plus d'un mois. Certains médicaments doivent être déclarés à l'arrivée en Nouvelle-Zélande. Pour plus d'information, consulter le site du ministère néo-zélandais de la santé."
+   },
+   {
+    "h": 4,
+    "text": "Vaccinations"
+   },
+   {
+    "p": "Les vaccins recommandés en France sont également indispensables lors d’un séjour à l’étranger : les maladies qu’ils préviennent circulent partout dans le monde, parfois même plus fréquemment qu’en France. Avant tout départ, le voyageur (adulte et enfant) doit donc d’abord s’assurer d’être à jour du calendrier vaccinal français, en particulier des vaccins contre la diphtérie, le tétanos, la poliomyélite, la coqueluche mais aussi contre la rougeole. Le carnet de vaccination peut être demandé à l’arrivée de certains pays."
+   },
+   {
+    "h": 3,
+    "text": "Pendant le voyage"
+   },
+   {
+    "h": 4,
+    "text": "Règles d'hygiène alimentaire"
+   },
+   {
+    "li": "Se laver les mains régulièrement avec de l’eau et du savon ou des solutions de lavage hydroalcooliques, surtout avant et après les repas et le passage aux toilettes ;"
+   },
+   {
+    "li": "Veiller à la qualité des aliments et surtout à leur bonne cuisson ;"
+   },
+   {
+    "li": "Éviter la consommation de produits alimentaires (poisson, viande, volaille, lait) crus ou peu cuits ;"
+   },
+   {
+    "li": "Peler les fruits et légumes ou les laver soigneusement (à l’eau saine) ;"
+   },
+   {
+    "li": "Éviter les crudités, coquillages, plats réchauffés et buffets froids ;"
+   },
+   {
+    "li": "Ne boire que de l’eau ou des boissons encapsulées ou de l’eau rendue potable (filtration, ébullition ou à défaut produit désinfectant)."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère en charge de la Santé."
+   },
+   {
+    "h": 4,
+    "text": "Infections sexuellement transmissibles (IST)"
+   },
+   {
+    "p": "Il est recommandé d’éviter les comportements sexuels à risque et de prendre toutes les précautions d’usage. En cas d’exposition à un risque, il est recommandé de consulter au plus tôt un professionnel de santé."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère en charge de la Santé."
+   },
+   {
+    "h": 4,
+    "text": "Prévention des risques généraux"
+   },
+   {
+    "li": "Déplacements et route : privilégier les transports fiables, éviter la conduite de nuit, porter la ceinture/casque, se méfier des deux-roues et des conditions locales de circulation."
+   },
+   {
+    "li": "Baignade et milieu aquatique : se baigner dans des zones surveillées, se renseigner sur les courants, éviter l’alcool avant baignade, sortir de l’eau en cas de fatigue ou de conditions locales défavorables."
+   },
+   {
+    "li": "Animaux : se tenir à distance des cadavres d’animaux et de leurs déjections ; ne pas toucher ni nourrir les animaux, même familiers. En cas de morsure/griffure/léchage sur peau lésée, laver immédiatement à l’eau et au savon et consulter en urgence."
+   },
+   {
+    "li": "Eaux douces et sols humides : éviter de marcher pieds nus ou de se baigner dans les eaux stagnantes ou douteuses ; porter des chaussures adaptées."
+   },
+   {
+    "li": "Envenimations (serpents, scorpions, araignées, méduses) : ne pas manipuler d’animaux ou leurs cadavres, porter chaussures fermées et vêtements couvrants, vérifier vêtements/chaussures ; en cas de piqûre ou morsure, immobiliser, nettoyer et consulter rapidement."
+   },
+   {
+    "li": "Climat et environnement : se protéger de la chaleur (hydratation, éviter les heures chaudes), du soleil (vêtements, protection solaire), et du froid ou de l’altitude selon la destination."
+   },
+   {
+    "li": "Exposition à des substances toxiques ou environnementales : se protéger de l’exposition à la pollution et aux produits chimiques environnementaux."
+   }
+  ]
+ },
+ "vectors": {}
+}

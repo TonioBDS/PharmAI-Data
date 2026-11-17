@@ -1,0 +1,881 @@
+{
+ "id": "canada",
+ "iso2": "CA",
+ "name": {
+  "fr": "Canada",
+  "en": "Canada"
+ },
+ "places": [
+  {
+   "name": "Ottawa",
+   "region": "Ontario",
+   "lat": 45.42,
+   "lon": -75.7,
+   "climate": {
+    "temp": [
+     -11.3,
+     -10.1,
+     -3.7,
+     5,
+     12.6,
+     17.8,
+     20.6,
+     19.7,
+     15.7,
+     8.1,
+     1,
+     -6.8
+    ],
+    "max": [
+     11.2,
+     10.5,
+     25.3,
+     26.8,
+     30.8,
+     33.4,
+     36,
+     34.3,
+     33.3,
+     27,
+     20,
+     16.6
+    ],
+    "min": [
+     -39.9,
+     -37.7,
+     -31.3,
+     -14.1,
+     -4.4,
+     1,
+     7.7,
+     6.5,
+     -1.1,
+     -5.8,
+     -19,
+     -35.2
+    ],
+    "rain": [
+     2,
+     2,
+     2.1,
+     2.8,
+     2.8,
+     3.5,
+     3.2,
+     2.8,
+     2.9,
+     3.2,
+     2.4,
+     2.6
+    ],
+    "humidity": [
+     94.9,
+     94.4,
+     87.1,
+     77.8,
+     76.8,
+     78.5,
+     78.8,
+     77.7,
+     77.6,
+     80.9,
+     85.1,
+     92.2
+    ],
+    "uv": [
+     0.1,
+     0.3,
+     0.6,
+     0.9,
+     1.3,
+     1.6,
+     1.6,
+     1.4,
+     1,
+     0.4,
+     0.2,
+     0.1
+    ]
+   }
+  },
+  {
+   "name": "Vancouver",
+   "region": "British Columbia",
+   "lat": 49.28,
+   "lon": -123.12,
+   "climate": {
+    "temp": [
+     -0.5,
+     -0.5,
+     1.6,
+     4.9,
+     10.1,
+     13.2,
+     16.5,
+     16.4,
+     12.9,
+     7.6,
+     2.3,
+     -1.1
+    ],
+    "max": [
+     8.9,
+     11.2,
+     16,
+     21.5,
+     28,
+     30.7,
+     33.8,
+     32.1,
+     31.3,
+     23.7,
+     13.6,
+     9.7
+    ],
+    "min": [
+     -20.7,
+     -19,
+     -17.3,
+     -8.2,
+     -0.9,
+     3.3,
+     7,
+     6.9,
+     2.8,
+     -6.2,
+     -20.6,
+     -21
+    ],
+    "rain": [
+     10.4,
+     5.8,
+     8.2,
+     4.8,
+     3.1,
+     2.8,
+     1.6,
+     2,
+     4.1,
+     7.5,
+     11.6,
+     9.5
+    ],
+    "humidity": [
+     93.5,
+     91.7,
+     90.7,
+     84,
+     78.1,
+     78.1,
+     76.4,
+     77.4,
+     81,
+     85.6,
+     91.1,
+     93.6
+    ],
+    "uv": [
+     0.1,
+     0.2,
+     0.4,
+     0.8,
+     1.3,
+     1.5,
+     1.7,
+     1.4,
+     0.8,
+     0.4,
+     0.1,
+     0
+    ]
+   }
+  },
+  {
+   "name": "Calgary",
+   "region": "Alberta",
+   "lat": 51.08,
+   "lon": -114.08,
+   "climate": {
+    "temp": [
+     -7.2,
+     -6.9,
+     -2.5,
+     2.6,
+     8.7,
+     12.8,
+     16.8,
+     15.5,
+     10.3,
+     3.4,
+     -2.9,
+     -7.7
+    ],
+    "max": [
+     8.1,
+     12.4,
+     21.9,
+     25.5,
+     29.1,
+     31.4,
+     35.1,
+     34.8,
+     30.3,
+     25.2,
+     16.2,
+     9.8
+    ],
+    "min": [
+     -34.6,
+     -30.2,
+     -29.8,
+     -15.6,
+     -9.5,
+     -3,
+     2.4,
+     -0.3,
+     -10.6,
+     -19.9,
+     -29.5,
+     -34
+    ],
+    "rain": [
+     0.5,
+     0.7,
+     0.9,
+     1.5,
+     2.4,
+     3.8,
+     1.9,
+     2,
+     1.8,
+     1,
+     0.8,
+     0.7
+    ],
+    "humidity": [
+     83.1,
+     78.6,
+     72.4,
+     66.2,
+     63.5,
+     66.9,
+     62.4,
+     63.3,
+     66.9,
+     71.9,
+     76.9,
+     82.1
+    ],
+    "uv": [
+     0.1,
+     0.2,
+     0.6,
+     0.9,
+     1.3,
+     1.6,
+     1.8,
+     1.4,
+     0.8,
+     0.4,
+     0.1,
+     0
+    ]
+   }
+  },
+  {
+   "name": "Winnipeg",
+   "region": "Manitoba",
+   "lat": 49.88,
+   "lon": -97.17,
+   "climate": {
+    "temp": [
+     -17.1,
+     -15.4,
+     -5.6,
+     4.6,
+     11.9,
+     18,
+     21.1,
+     19.6,
+     13.8,
+     5,
+     -4,
+     -13.6
+    ],
+    "max": [
+     2.3,
+     3.1,
+     25.2,
+     27.5,
+     31.5,
+     35.4,
+     36.7,
+     38.2,
+     31.7,
+     28.4,
+     18.6,
+     3.9
+    ],
+    "min": [
+     -44.5,
+     -41.3,
+     -38.7,
+     -18.9,
+     -5,
+     1.7,
+     7.2,
+     4.2,
+     -5.1,
+     -12,
+     -26.1,
+     -41.9
+    ],
+    "rain": [
+     0.7,
+     0.7,
+     1.1,
+     1.2,
+     2.5,
+     3.1,
+     2.3,
+     2.1,
+     2,
+     1.4,
+     0.9,
+     0.8
+    ],
+    "humidity": [
+     95.1,
+     94.5,
+     85.4,
+     67.1,
+     66.9,
+     69.6,
+     66.5,
+     66.4,
+     71.2,
+     77.1,
+     83.7,
+     93.1
+    ],
+    "uv": [
+     0.1,
+     0.3,
+     0.7,
+     0.9,
+     1.3,
+     1.6,
+     1.7,
+     1.3,
+     0.8,
+     0.4,
+     0.1,
+     0.1
+    ]
+   }
+  }
+ ],
+ "flags": {
+  "malaria": false,
+  "mosquitoes": false,
+  "ticks": false,
+  "sandflies": false,
+  "foodWater": false,
+  "freshwater": false,
+  "altitude": false,
+  "rabies": "rare"
+ },
+ "cdc": {
+  "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/canada",
+  "clinicianUrl": "https://wwwnc.cdc.gov/travel/destinations/clinician/none/canada",
+  "packingUrl": "https://wwwnc.cdc.gov/travel/destinations/canada/traveler/packing-list",
+  "notices": [
+   {
+    "level": 1,
+    "title": "Hepatitis A in Canada",
+    "url": "https://wwwnc.cdc.gov/travel/notices/level1/hepatitis-a-canada",
+    "date": "2026-06-04",
+    "summary": "Manitoba, Canada is currently experiencing a hepatitis A virus (HAV) outbreak. HAV is contagious and spreads through close person-to-person contact and by eating contaminated food or drink."
+   },
+   {
+    "level": 1,
+    "title": "Global Measles",
+    "url": "https://wwwnc.cdc.gov/travel/notices/level1/measles-globe",
+    "date": "2025-05-28",
+    "summary": "Measles cases are rising in many countries around the world. All international travelers should be fully vaccinated against measles with the measles-mumps-rubella (MMR) vaccine, according to CDC's measles vaccination recommendations for international travel."
+   }
+  ],
+  "vaccines": [
+   {
+    "id": "routine",
+    "fr": "Vaccins du calendrier habituel",
+    "en": "Routine vaccines",
+    "url": "https://wwwnc.cdc.gov/travel/page/routine-vaccines",
+    "updated": null,
+    "text": [
+     {
+      "text": "Make sure you are up-to-date on all routine vaccines before every trip. Some of these vaccines include"
+     },
+     {
+      "bullet": "Chickenpox (Varicella)"
+     },
+     {
+      "bullet": "Diphtheria-Tetanus-Pertussis (DTaP, Tdap, or Td)"
+     },
+     {
+      "bullet": "Flu (influenza)"
+     },
+     {
+      "bullet": "Measles-Mumps-Rubella (MMR)"
+     },
+     {
+      "bullet": "Polio"
+     },
+     {
+      "bullet": "Shingles"
+     }
+    ],
+    "references": [
+     {
+      "title": "Immunization schedules",
+      "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/"
+     },
+     {
+      "title": "Macrolide-resistant Bordetella pertussis",
+      "url": "https://www.cdc.gov/pertussis/hcp/antibiotic-resistance/index.html"
+     }
+    ]
+   },
+   {
+    "id": "covid-19",
+    "fr": "Covid-19",
+    "en": "COVID-19",
+    "url": "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "All eligible travelers should be up to date with their COVID-19 vaccines. Please see Your COVID-19 Vaccination for more information."
+     }
+    ],
+    "references": [
+     {
+      "title": "COVID-19 vaccine",
+      "url": "https://www.cdc.gov/covid/vaccines/"
+     }
+    ]
+   },
+   {
+    "id": "hepatitis-a",
+    "fr": "Hépatite A",
+    "en": "Hepatitis A",
+    "url": "https://www.cdc.gov/hepatitis-a/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Consider hepatitis A vaccination for most travelers. It is recommended for travelers who will be doing higher risk activities, such as visiting smaller cities, villages, or rural areas where a traveler might get infected through food or water. It is recommended for travelers who plan on eating street food."
+     }
+    ],
+    "references": [
+     {
+      "title": "Hepatitis A - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/hepatitis-a.html"
+     },
+     {
+      "title": "Vaccine dosing information - Hep A",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/hepatitis-a.html#heading-idepgiam52"
+     }
+    ]
+   },
+   {
+    "id": "hepatitis-b",
+    "fr": "Hépatite B",
+    "en": "Hepatitis B",
+    "url": "https://www.cdc.gov/hepatitis-b/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Recommended for unvaccinated travelers younger than 60 years old traveling to Canada. Unvaccinated travelers 60 years and older may get vaccinated before traveling to Canada."
+     }
+    ],
+    "references": [
+     {
+      "title": "Sex and Travel - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-for-work-other/sex-and-travel.html"
+     }
+    ]
+   },
+   {
+    "id": "measles",
+    "fr": "Rougeole",
+    "en": "Measles",
+    "url": "https://www.cdc.gov/measles/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Cases of measles are on the rise worldwide. Travelers are at risk of measles if they have not been fully vaccinated at least two weeks prior to departure, or have not had measles in the past, and travel internationally to areas where measles is spreading."
+     },
+     {
+      "text": "All international travelers should be fully vaccinated against measles with the measles-mumps-rubella (MMR) vaccine, including an early dose for infants 6–11 months, according to CDC’s measles vaccination recommendations for international travel."
+     }
+    ],
+    "references": [
+     {
+      "title": "Measles (Rubeola) - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/measles-rubeola.html"
+     }
+    ]
+   },
+   {
+    "id": "mpox",
+    "fr": "Mpox (variole du singe)",
+    "en": "Monkeypox",
+    "url": "https://www.cdc.gov/monkeypox/about/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Monkeypox vaccination is recommended for any adult who anticipates any of the following activities during travel:"
+     },
+     {
+      "bullet": "Sexual or intimate contact with a new partner"
+     },
+     {
+      "bullet": "Sexual or intimate contact at a commercial sex venue, like a sex club or bathhouse"
+     },
+     {
+      "bullet": "Sexual or intimate contact in exchange for money, goods, drugs, or other trade"
+     },
+     {
+      "bullet": "Sexual or intimate contact in association with a large public event, such as a rave, party, or festival"
+     },
+     {
+      "text": "Get your first monkeypox vaccine at least 6 weeks before traveling if you can, or as far as possible before travel if fewer than 6 weeks before you leave. Two doses of vaccine, given 4 weeks apart, are recommended. After completing your first and second vaccine doses it takes about 2 more weeks to get the best protection against monkeypox. Whether or not you've been vaccinated, continue to take steps to reduce your risk of getting monkeypox while you are away."
+     }
+    ],
+    "references": [
+     {
+      "title": "Monkeypox Vaccination | Monkeypox | CDC",
+      "url": "https://www.cdc.gov/monkeypox/vaccines/index.html"
+     }
+    ]
+   },
+   {
+    "id": "rabies",
+    "fr": "Rage",
+    "en": "Rabies",
+    "url": "https://www.cdc.gov/rabies/about/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Dogs infected with rabies are not commonly found in Canada."
+     },
+     {
+      "text": "Rabies is commonly found in some terrestrial wildlife species and bats."
+     },
+     {
+      "text": "If rabies exposures occur while in Canada, rabies vaccines are typically available throughout most of the country."
+     },
+     {
+      "text": "Rabies pre-exposure vaccination considerations include whether travelers 1) will be performing occupational or recreational activities that increase risk for exposure to potentially rabid animals and 2) might have difficulty getting prompt access to safe post-exposure prophylaxis."
+     },
+     {
+      "text": "Please consult with a healthcare provider to determine whether you should receive pre-exposure vaccination before travel."
+     },
+     {
+      "text": "For more information, see country rabies status assessments."
+     }
+    ],
+    "references": [
+     {
+      "title": "Rabies - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/rabies.html"
+     }
+    ]
+   },
+   {
+    "id": "yellow-fever",
+    "fr": "Fièvre jaune",
+    "en": "Yellow Fever",
+    "url": "https://www.cdc.gov/yellow-fever/index.html",
+    "updated": "2025-04-23",
+    "text": [
+     {
+      "text": "CDC recommendations: Vaccine is not recommended."
+     },
+     {
+      "text": "Country entry requirements: Vaccine is not required."
+     }
+    ],
+    "references": [
+     {
+      "title": "Yellow Fever - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
+     },
+     {
+      "title": "Yellow Fever Vaccine and Malaria Prevention Information, by Country",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/yellow-fever-vaccine-and-malaria-prevention-information-by-country.html"
+     }
+    ]
+   }
+  ],
+  "malaria": null,
+  "yellowFever": {
+   "recommended": "no",
+   "entry": "no",
+   "updated": "2025-04-23",
+   "text": [
+    {
+     "text": "CDC recommendations: Vaccine is not recommended."
+    },
+    {
+     "text": "Country entry requirements: Vaccine is not required."
+    }
+   ],
+   "references": [
+    {
+     "title": "Yellow Fever - CDC Yellow Book",
+     "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
+    },
+    {
+     "title": "Yellow Fever Vaccine and Malaria Prevention Information, by Country",
+     "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/yellow-fever-vaccine-and-malaria-prevention-information-by-country.html"
+    }
+   ]
+  },
+  "diseases": [],
+  "staySafe": [
+   "Although Canada is an industrialized country, bug bites here can still spread diseases. Just as you would in the United States, try to avoid bug bites while spending time outside or in wooded areas.",
+   "If you choose to drive a vehicle in Canada, learn the local traffic laws and have the proper paperwork."
+  ],
+  "packing": [
+   "prescriptions",
+   "td-antibiotic",
+   "suture-syringe-kit",
+   "altitude-medicine",
+   "glasses",
+   "contact-lenses",
+   "needles",
+   "suture-kit",
+   "diabetes-testing",
+   "insulin",
+   "inhalers",
+   "epinephrine",
+   "medical-alert",
+   "antacid",
+   "diarrhea",
+   "antihistamine",
+   "motion-sickness",
+   "cough-drops",
+   "cough",
+   "decongestant",
+   "pain-fever",
+   "laxative",
+   "sleep-aid",
+   "saline-spray",
+   "hand-sanitizer",
+   "water-purification",
+   "insect-repellent",
+   "permethrin",
+   "sunscreen",
+   "sunglasses-hat",
+   "safety-equipment",
+   "earplugs",
+   "condoms",
+   "hydrocortisone",
+   "antifungal",
+   "antibacterial",
+   "antiseptic",
+   "aloe",
+   "bite-treatment",
+   "bandages",
+   "blister",
+   "elastic-bandage",
+   "gloves",
+   "thermometer",
+   "scissors",
+   "cotton-swabs",
+   "tweezers",
+   "eye-drops",
+   "insurance",
+   "prescription-copies",
+   "contact-card"
+  ]
+ },
+ "diplomatie": {
+  "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/canada",
+  "healthUrl": "https://www.diplomatie.gouv.fr/fr/information-par-pays/canada/conseils-aux-voyageurs-sante",
+  "updated": "2026-09-15",
+  "topics": [
+   "Fièvre du Nil occidental",
+   "Maladie de Lyme",
+   "Rage"
+  ],
+  "blocks": [
+   {
+    "h": 3,
+    "text": "Avant le départ"
+   },
+   {
+    "p": "Un séjour à l’étranger implique pour tout voyageur de prendre certaines précautions en matière de santé. La rubrique ci-dessous mentionne les indications essentielles. Ces indications ne dispensent toutefois pas le voyageur d’une consultation chez son médecin traitant et/ou dans un centre de vaccinations internationales, suffisamment longtemps avant la date de départ pour permettre le rappel des vaccins si nécessaire."
+   },
+   {
+    "p": "Pour plus d'information, consulter la rubrique \"La santé en voyage\"."
+   },
+   {
+    "h": 4,
+    "text": "Frais d’hospitalisation et dépenses de santé"
+   },
+   {
+    "p": "Afin de faire face aux frais d’hospitalisation et aux dépenses de santé, parfois très élevés à l’étranger, il est impératif de disposer d’un contrat d’assistance ou d’une assurance permettant de couvrir tous les frais médicaux (dont la chirurgie et l’hospitalisation) et de rapatriement sanitaire, au risque de ne pas avoir accès aux soins, y compris en cas d’urgence vitale. Ces frais ne pourront en aucun cas être pris en charge par l’ambassade de France sur place."
+   },
+   {
+    "p": "Le règlement des frais d’hospitalisation des voyageurs est exigible avant la sortie du centre hospitalier. Il importe de s’assurer que la compagnie auprès de laquelle le contrat d’assurance a été souscrit dispose d’une représentation ou de correspondants dans les provinces de l’ouest canadien."
+   },
+   {
+    "p": "En cas de nécessité, contacter les urgences ou se rendre dans le service d’urgence du centre hospitalier le plus proche ou, au Québec, dans des « centres locaux des services communautaires » (identifiables sous le sigle CLSC et signalés par des panneaux blancs sur fond vert), qui constituent un réseau de soins réparti sur l’ensemble du territoire de cette province."
+   },
+   {
+    "h": 4,
+    "text": "Recommandations pour la santé"
+   },
+   {
+    "p": "Consulter si besoin son médecin traitant ou un centre de vaccinations internationales (médecine des voyages) pour faire une évaluation de son état de santé et bénéficier de recommandations sanitaires, notamment sur les vaccinations. Consulter éventuellement son dentiste avant le départ."
+   },
+   {
+    "p": "Constituer sa pharmacie personnelle en conséquence et n’emporter dans ses bagages que les médicaments strictement nécessaires ; ne jamais consommer de médicaments achetés dans la rue (risque de contrefaçons). Les médicaments doivent être dans leur emballage d’origine avec les étiquettes originales, accompagnés d’une ordonnance portant le nom des médicaments en dénomination commune internationale (DCI). Il est indispensable de vérifier que les médicaments concernés sont autorisés dans le pays visité : pour plus d’informations, consulter la fiche Informations pratiques."
+   },
+   {
+    "h": 4,
+    "text": "Vaccinations"
+   },
+   {
+    "p": "Les vaccins recommandés en France sont également indispensables lors d’un séjour à l’étranger : les maladies qu’ils préviennent circulent partout dans le monde, parfois même plus fréquemment qu’en France. Avant tout départ, le voyageur (adulte et enfant) doit donc d’abord s’assurer d’être à jour du calendrier vaccinal français, en particulier des vaccins contre la diphtérie, le tétanos, la poliomyélite, la coqueluche mais aussi contre la rougeole. Le carnet de vaccination peut être demandé à l’arrivée de certains pays."
+   },
+   {
+    "h": 3,
+    "text": "Risques sanitaires"
+   },
+   {
+    "h": 4,
+    "text": "Maladies transmises par les moustiques"
+   },
+   {
+    "h": 5,
+    "text": "Fièvre du Nil occidental (West Nile Virus)"
+   },
+   {
+    "p": "La fièvre du Nil occidental (West Nile Virus) est une maladie des oiseaux transmise à l’humain par l’intermédiaire de piqûres de moustiques infectés."
+   },
+   {
+    "p": "La maladie est souvent asymptomatique ou bénigne (fièvre, maux de tête, douleurs musculaires, frissons, éruption cutanée) mais dans de rares cas, des complications de type neurologique peuvent survenir (méningite, encéphalite) et entrainer des séquelles voire le décès."
+   },
+   {
+    "p": "Il n’existe pas de vaccin contre cette maladie pour les humains, la prévention repose uniquement sur la protection contre les piqûres de moustiques."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site de l'Institut Pasteur et le site du ministère de la Santé."
+   },
+   {
+    "p": "Plusieurs cas de contamination par ce virus ont été signalés aux États-Unis ces dernières années, et quelques rares cas au Canada."
+   },
+   {
+    "h": 4,
+    "text": "Autres maladies"
+   },
+   {
+    "h": 5,
+    "text": "Maladie de Lyme"
+   },
+   {
+    "p": "La maladie ou borreliose de Lyme est une infection due à une Borrelia, bactérie transmise par piqure de tique. Toutes les tiques ne sont pas porteuses et d’autres espèces de bactéries peuvent aussi être transmises. L’habitat naturel des tiques comprend les herbes hautes des prairies, les régions boisées et humides, mais aussi les jardins. L’infection est souvent asymptomatique mais elle peut parfois provoquer une maladie invalidante comprenant une atteinte cutanée, puis articulaire et neurologique. Le traitement repose sur des antibiotiques adaptés qui sont d’autant plus efficaces qu’ils sont débutés précocement. La prévention repose sur la protection contre les piqûres de tiques et sur l’examen rigoureux de la peau du corps et du cuir chevelu après toute promenade en milieu rural et particulièrement en forêt. Il est recommandé de consulter un médecin en cas d’apparition d’une éruption cutanée au pourtour d’une piqure de tique."
+   },
+   {
+    "p": "Pour plus d’informations, consulter les sites du ministère de la Santé : protection contre les tiques, maladie de Lyme et de l'Institut Pasteur."
+   },
+   {
+    "h": 5,
+    "text": "Rage"
+   },
+   {
+    "p": "La rage est une maladie virale mortelle affectant le système nerveux et présent dans la salive des animaux infectés, tels que chiens, chats, chauves-souris et autres mammifères sauvages. Le virus se transmet par morsure, griffure ou contact de la salive avec une peau lésée ou une muqueuse. L’évolution est rapide avec l’apparition de fièvre, maux de tête, anxiété puis de troubles neurologiques (coma). La rage est presque toujours mortelle une fois les symptômes déclarés. Il est recommandé d’éviter tout contact avec des animaux suspects domestiques ou sauvages. La vaccination préventive contre la rage avant un séjour en zone exposée peut être indiquée en fonction du type de voyage et en particulier chez les jeunes enfants dès qu’ils marchent. Il est conseillé de demander conseil à un médecin ou à un centre de vaccinations internationales."
+   },
+   {
+    "p": "En cas d’exposition à risque, consulter immédiatement un médecin même si la vaccination est bien à jour."
+   },
+   {
+    "p": "Pour plus d’informations, consulter la rubrique risques sanitaires et le site de l'Institut Pasteur."
+   },
+   {
+    "h": 3,
+    "text": "Pendant le voyage"
+   },
+   {
+    "h": 4,
+    "text": "Mesures générales de prévention des piqûres de moustiques"
+   },
+   {
+    "li": "Porter des vêtements longs et couvrants ;"
+   },
+   {
+    "li": "Appliquer des produits répulsifs cutanés sur les zones découvertes du corps ;"
+   },
+   {
+    "li": "Protéger son logement (moustiquaires imprégnées d’insecticide, diffuseurs électriques, serpentins à l’extérieur, climatisation, etc.) ;"
+   },
+   {
+    "li": "Détruire les sites potentiels de reproduction des moustiques (récipients d’eau stagnante comme les soucoupes sous les pots de fleurs, les gouttières, les pneus, etc.)."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère en charge de la Santé et le site de l'Assurance Maladie."
+   },
+   {
+    "h": 4,
+    "text": "Prévention contre les piqûres de tiques"
+   },
+   {
+    "p": "La prévention contre les autres infections transmises par les tiques inclut :"
+   },
+   {
+    "li": "le port de vêtements couvrants et clairs, serrés au cou, aux poignets et aux chevilles ;"
+   },
+   {
+    "li": "l’application de répulsifs cutanés sur les parties découvertes ;"
+   },
+   {
+    "li": "la recherche impérative de la présence de tiques sur le corps, afin de les ôter très rapidement, après toute promenade en milieu rural et particulièrement en forêt dans les régions infestées."
+   },
+   {
+    "p": "Plus d’informations sur le site de l’Assurance maladie."
+   },
+   {
+    "h": 4,
+    "text": "Infections sexuellement transmissibles (IST)"
+   },
+   {
+    "p": "Il est recommandé d’éviter les comportements sexuels à risque et de prendre toutes les précautions d’usage. En cas d’exposition à un risque, il est recommandé de consulter au plus tôt un professionnel de santé."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère en charge de la Santé."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du Centers for Disease Control and Prevention (en anglais)."
+   },
+   {
+    "h": 4,
+    "text": "Prévention des risques généraux"
+   },
+   {
+    "li": "Déplacements et route : privilégier les transports fiables, éviter la conduite de nuit, porter la ceinture/casque, se méfier des deux-roues et des conditions locales de circulation."
+   },
+   {
+    "li": "Baignade et milieu aquatique : se baigner dans des zones surveillées, se renseigner sur les courants, éviter l’alcool avant baignade, sortir de l’eau en cas de fatigue ou de conditions locales défavorables."
+   },
+   {
+    "li": "Climat et environnement : se protéger de la chaleur (hydratation, éviter les heures chaudes), du soleil (vêtements, protection solaire), et du froid ou de l’altitude selon la destination."
+   },
+   {
+    "li": "Exposition à des substances toxiques ou environnementales : se protéger de l’exposition à la pollution et aux produits chimiques environnementaux."
+   }
+  ]
+ },
+ "vectors": {}
+}

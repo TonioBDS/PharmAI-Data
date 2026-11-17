@@ -1,0 +1,576 @@
+{
+ "id": "saba",
+ "iso2": "BQ",
+ "region": "BQ-SA",
+ "name": {
+  "fr": "Saba",
+  "en": "Saba"
+ },
+ "places": [
+  {
+   "name": "The Bottom",
+   "lat": 17.63,
+   "lon": -63.25,
+   "climate": {
+    "temp": [
+     26,
+     25.7,
+     25.8,
+     26.5,
+     27.2,
+     27.9,
+     28.2,
+     28.6,
+     28.6,
+     28.4,
+     27.6,
+     26.8
+    ],
+    "max": [
+     27.8,
+     27.5,
+     28.4,
+     29.2,
+     29.8,
+     29.6,
+     29.7,
+     30.1,
+     30.4,
+     30.4,
+     29.3,
+     28.9
+    ],
+    "min": [
+     23.9,
+     23.8,
+     23.4,
+     23.8,
+     25.1,
+     26.1,
+     26,
+     26.9,
+     26.4,
+     25.9,
+     25,
+     24.2
+    ],
+    "rain": [
+     0.8,
+     0.5,
+     0.6,
+     1,
+     2.2,
+     1.6,
+     1.9,
+     2.3,
+     3.1,
+     3.6,
+     2.7,
+     1.3
+    ],
+    "humidity": [
+     75.8,
+     75.1,
+     75.1,
+     76.1,
+     78.2,
+     78.3,
+     78.4,
+     78.4,
+     78.2,
+     78.1,
+     77.5,
+     76.6
+    ],
+    "uv": [
+     1.7,
+     2,
+     2.4,
+     2.6,
+     2.6,
+     2.5,
+     2.5,
+     2.6,
+     2.3,
+     2,
+     1.7,
+     1.5
+    ]
+   }
+  }
+ ],
+ "flags": {
+  "malaria": false,
+  "mosquitoes": true,
+  "ticks": false,
+  "sandflies": false,
+  "foodWater": true,
+  "freshwater": false,
+  "altitude": false,
+  "rabies": "rare"
+ },
+ "cdc": {
+  "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saba",
+  "clinicianUrl": "https://wwwnc.cdc.gov/travel/destinations/clinician/none/saba",
+  "packingUrl": "https://wwwnc.cdc.gov/travel/destinations/saba/traveler/packing-list",
+  "notices": [
+   {
+    "level": 1,
+    "title": "Global Measles",
+    "url": "https://wwwnc.cdc.gov/travel/notices/level1/measles-globe",
+    "date": "2025-05-28",
+    "summary": "Measles cases are rising in many countries around the world. All international travelers should be fully vaccinated against measles with the measles-mumps-rubella (MMR) vaccine, according to CDC's measles vaccination recommendations for international travel."
+   }
+  ],
+  "vaccines": [
+   {
+    "id": "routine",
+    "fr": "Vaccins du calendrier habituel",
+    "en": "Routine vaccines",
+    "url": "https://wwwnc.cdc.gov/travel/page/routine-vaccines",
+    "updated": null,
+    "text": [
+     {
+      "text": "Make sure you are up-to-date on all routine vaccines before every trip. Some of these vaccines include"
+     },
+     {
+      "bullet": "Chickenpox (Varicella)"
+     },
+     {
+      "bullet": "Diphtheria-Tetanus-Pertussis (DTaP, Tdap, or Td)"
+     },
+     {
+      "bullet": "Flu (influenza)"
+     },
+     {
+      "bullet": "Measles-Mumps-Rubella (MMR)"
+     },
+     {
+      "bullet": "Polio"
+     },
+     {
+      "bullet": "Shingles"
+     }
+    ],
+    "references": [
+     {
+      "title": "Immunization schedules",
+      "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/"
+     },
+     {
+      "title": "Macrolide-resistant Bordetella pertussis",
+      "url": "https://www.cdc.gov/pertussis/hcp/antibiotic-resistance/index.html"
+     }
+    ]
+   },
+   {
+    "id": "covid-19",
+    "fr": "Covid-19",
+    "en": "COVID-19",
+    "url": "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "All eligible travelers should be up to date with their COVID-19 vaccines. Please see Your COVID-19 Vaccination for more information."
+     }
+    ],
+    "references": [
+     {
+      "title": "COVID-19 vaccine",
+      "url": "https://www.cdc.gov/covid/vaccines/"
+     }
+    ]
+   },
+   {
+    "id": "hepatitis-a",
+    "fr": "Hépatite A",
+    "en": "Hepatitis A",
+    "url": "https://www.cdc.gov/hepatitis-a/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Recommended for unvaccinated travelers one year old or older going to Saba."
+     },
+     {
+      "text": "Infants 6 to 11 months old should also be vaccinated against Hepatitis A. The dose does not count toward the routine 2-dose series."
+     },
+     {
+      "text": "Travelers allergic to a vaccine component should receive a single dose of immune globulin, which provides effective protection for up to 2 months depending on dosage given."
+     },
+     {
+      "text": "Unvaccinated travelers who are over 40 years old, are immunocompromised, or have chronic medical conditions planning to depart to a risk area in less than 2 weeks should get the initial dose of vaccine and at the same appointment receive immune globulin."
+     }
+    ],
+    "references": [
+     {
+      "title": "Hepatitis A - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/hepatitis-a.html"
+     },
+     {
+      "title": "Vaccine dosing information - Hep A",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/hepatitis-a.html#heading-idepgiam52"
+     }
+    ]
+   },
+   {
+    "id": "hepatitis-b",
+    "fr": "Hépatite B",
+    "en": "Hepatitis B",
+    "url": "https://www.cdc.gov/hepatitis-b/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Recommended for unvaccinated travelers of all ages traveling to Saba."
+     }
+    ],
+    "references": [
+     {
+      "title": "Sex and Travel - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-for-work-other/sex-and-travel.html"
+     }
+    ]
+   },
+   {
+    "id": "measles",
+    "fr": "Rougeole",
+    "en": "Measles",
+    "url": "https://www.cdc.gov/measles/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Cases of measles are on the rise worldwide. Travelers are at risk of measles if they have not been fully vaccinated at least two weeks prior to departure, or have not had measles in the past, and travel internationally to areas where measles is spreading."
+     },
+     {
+      "text": "All international travelers should be fully vaccinated against measles with the measles-mumps-rubella (MMR) vaccine, including an early dose for infants 6–11 months, according to CDC’s measles vaccination recommendations for international travel."
+     }
+    ],
+    "references": [
+     {
+      "title": "Measles (Rubeola) - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/measles-rubeola.html"
+     }
+    ]
+   },
+   {
+    "id": "mpox",
+    "fr": "Mpox (variole du singe)",
+    "en": "Monkeypox",
+    "url": "https://www.cdc.gov/monkeypox/about/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Monkeypox vaccination is recommended for any adult who anticipates any of the following activities during travel:"
+     },
+     {
+      "bullet": "Sexual or intimate contact with a new partner"
+     },
+     {
+      "bullet": "Sexual or intimate contact at a commercial sex venue, like a sex club or bathhouse"
+     },
+     {
+      "bullet": "Sexual or intimate contact in exchange for money, goods, drugs, or other trade"
+     },
+     {
+      "bullet": "Sexual or intimate contact in association with a large public event, such as a rave, party, or festival"
+     },
+     {
+      "text": "Get your first monkeypox vaccine at least 6 weeks before traveling if you can, or as far as possible before travel if fewer than 6 weeks before you leave. Two doses of vaccine, given 4 weeks apart, are recommended. After completing your first and second vaccine doses it takes about 2 more weeks to get the best protection against monkeypox. Whether or not you've been vaccinated, continue to take steps to reduce your risk of getting monkeypox while you are away."
+     }
+    ],
+    "references": [
+     {
+      "title": "Monkeypox Vaccination | Monkeypox | CDC",
+      "url": "https://www.cdc.gov/monkeypox/vaccines/index.html"
+     }
+    ]
+   },
+   {
+    "id": "rabies",
+    "fr": "Rage",
+    "en": "Rabies",
+    "url": "https://www.cdc.gov/rabies/about/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Dogs infected with rabies are not commonly found in Saba."
+     },
+     {
+      "text": "If rabies exposures occur while in Saba, rabies vaccines are typically available throughout most of the country."
+     },
+     {
+      "text": "Rabies pre-exposure vaccination considerations include whether travelers 1) will be performing occupational or recreational activities that increase risk for exposure to potentially rabid animals and 2) might have difficulty getting prompt access to safe post-exposure prophylaxis."
+     },
+     {
+      "text": "Please consult with a healthcare provider to determine whether you should receive pre-exposure vaccination before travel."
+     },
+     {
+      "text": "For more information, see country rabies status assessments."
+     }
+    ],
+    "references": [
+     {
+      "title": "Rabies - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/rabies.html"
+     }
+    ]
+   },
+   {
+    "id": "typhoid",
+    "fr": "Fièvre typhoïde",
+    "en": "Typhoid",
+    "url": "https://www.cdc.gov/typhoid-fever/about/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Consider getting a typhoid vaccine if you might:"
+     },
+     {
+      "bullet": "Travel to areas with poor sanitation and unsafe water, including rural areas"
+     },
+     {
+      "bullet": "Spend a long time in Saba, such as a month or more"
+     },
+     {
+      "bullet": "Visit friends or relatives"
+     },
+     {
+      "text": "Typhoid vaccine is not 100% effective. Practicing safe food and water habits, including washing hands at key times, can also help prevent typhoid fever."
+     }
+    ],
+    "references": [
+     {
+      "title": "Clinical Guidance for Typhoid Fever and Paratyphoid Fever",
+      "url": "https://www.cdc.gov/typhoid-fever/hcp/clinical-guidance/index.html"
+     },
+     {
+      "title": "Typhoid - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/typhoid-and-paratyphoid-fever.html"
+     },
+     {
+      "title": "Typhoid fever vaccines licensed in the U.S.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/typhoid-and-paratyphoid-fever.html#heading-gnoxw7klzd"
+     }
+    ]
+   },
+   {
+    "id": "yellow-fever",
+    "fr": "Fièvre jaune",
+    "en": "Yellow Fever",
+    "url": "https://www.cdc.gov/yellow-fever/index.html",
+    "updated": "2025-04-23",
+    "text": [
+     {
+      "text": "CDC recommendations: Vaccine is not recommended."
+     },
+     {
+      "text": "Country entry requirements: Vaccine is not required."
+     }
+    ],
+    "references": [
+     {
+      "title": "Yellow Fever - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
+     },
+     {
+      "title": "Yellow Fever Vaccine and Malaria Prevention Information, by Country",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/yellow-fever-vaccine-and-malaria-prevention-information-by-country.html"
+     }
+    ]
+   }
+  ],
+  "malaria": null,
+  "yellowFever": {
+   "recommended": "no",
+   "entry": "no",
+   "updated": "2025-04-23",
+   "text": [
+    {
+     "text": "CDC recommendations: Vaccine is not recommended."
+    },
+    {
+     "text": "Country entry requirements: Vaccine is not required."
+    }
+   ],
+   "references": [
+    {
+     "title": "Yellow Fever - CDC Yellow Book",
+     "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
+    },
+    {
+     "title": "Yellow Fever Vaccine and Malaria Prevention Information, by Country",
+     "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/yellow-fever-vaccine-and-malaria-prevention-information-by-country.html"
+    }
+   ]
+  },
+  "diseases": [
+   {
+    "id": "leptospirosis",
+    "fr": "Leptospirose",
+    "en": "Leptospirosis",
+    "group": "food-water",
+    "url": "https://www.cdc.gov/leptospirosis/about/index.html",
+    "spread": [
+     "Touching urine or other body fluids from an animal infected with leptospirosis",
+     "Swimming or wading in urine-contaminated fresh water, or contact with urine-contaminated mud",
+     "Drinking water or eating food contaminated with animal urine"
+    ],
+    "advice": [
+     "Avoid contaminated water and soil",
+     "Avoid floodwater"
+    ],
+    "references": [
+     {
+      "title": "Leptospirosis",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/leptospirosis.html"
+     }
+    ]
+   },
+   {
+    "id": "dengue",
+    "fr": "Dengue",
+    "en": "Dengue",
+    "group": "insects",
+    "vector": "mosquito",
+    "url": "https://www.cdc.gov/dengue/index.html",
+    "spread": [
+     "Mosquito bite"
+    ],
+    "advice": [
+     "Avoid bug bites"
+    ],
+    "references": [
+     {
+      "title": "Dengue - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/dengue.html"
+     },
+     {
+      "title": "Map: Dengue risk in the Americas and Caribbean",
+      "url": "https://www.cdc.gov/yellow-book/media/images/2025/04/YB26_OO_Dengue_AmericasCaribbean.jpg"
+     }
+    ]
+   },
+   {
+    "id": "zika",
+    "fr": "Zika",
+    "en": "Zika",
+    "group": "insects",
+    "vector": "mosquito",
+    "url": "https://wwwnc.cdc.gov/travel/diseases/zika",
+    "spread": [
+     "Mosquito bite",
+     "An infected pregnant woman can spread it to her unborn baby"
+    ],
+    "advice": [
+     "Avoid bug bites"
+    ],
+    "references": [
+     {
+      "title": "Zika",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/zika.html"
+     }
+    ]
+   },
+   {
+    "id": "hantavirus",
+    "fr": "Hantavirus",
+    "en": "Hantavirus",
+    "group": "airborne",
+    "url": "https://www.cdc.gov/hantavirus/about/index.html",
+    "spread": [
+     "Breathing in air or accidentally eating food contaminated with the urine, droppings, or saliva of infected rodents",
+     "Bite from an infected rodent",
+     "Less commonly, being around someone sick with hantavirus (only occurs with Andes virus)"
+    ],
+    "advice": [
+     "Avoid rodents and areas where they live",
+     "Avoid sick people"
+    ],
+    "references": [
+     {
+      "title": "Post-Travel Evaluation to Rule Out Viral Special Pathogen Infection",
+      "url": "https://www.cdc.gov/yellow-book/hcp/post-travel-evaluation/post-travel-evaluation-to-rule-out-viral-special-pathogen-infection.html"
+     }
+    ]
+   },
+   {
+    "id": "tuberculosis",
+    "fr": "Tuberculose",
+    "en": "Tuberculosis (TB)",
+    "group": "airborne",
+    "url": "https://www.cdc.gov/tb/prevention/index.html",
+    "spread": [
+     "Breathe in TB bacteria that is in the air from an infected and contagious person coughing, speaking, or singing."
+    ],
+    "advice": [
+     "Avoid sick people"
+    ],
+    "references": [
+     {
+      "title": "Tuberculosis (TB)",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/tuberculosis.html"
+     }
+    ]
+   }
+  ],
+  "staySafe": [
+   "If you choose to drive a vehicle in Saba, learn the local traffic laws and have the proper paperwork."
+  ],
+  "packing": [
+   "prescriptions",
+   "td-antibiotic",
+   "suture-syringe-kit",
+   "altitude-medicine",
+   "glasses",
+   "contact-lenses",
+   "needles",
+   "suture-kit",
+   "diabetes-testing",
+   "insulin",
+   "inhalers",
+   "epinephrine",
+   "medical-alert",
+   "antacid",
+   "diarrhea",
+   "antihistamine",
+   "motion-sickness",
+   "cough-drops",
+   "cough",
+   "decongestant",
+   "pain-fever",
+   "laxative",
+   "sleep-aid",
+   "saline-spray",
+   "hand-sanitizer",
+   "water-purification",
+   "insect-repellent",
+   "permethrin",
+   "sunscreen",
+   "sunglasses-hat",
+   "safety-equipment",
+   "earplugs",
+   "condoms",
+   "hydrocortisone",
+   "antifungal",
+   "antibacterial",
+   "antiseptic",
+   "aloe",
+   "bite-treatment",
+   "bandages",
+   "blister",
+   "elastic-bandage",
+   "gloves",
+   "thermometer",
+   "scissors",
+   "cotton-swabs",
+   "tweezers",
+   "eye-drops",
+   "ors",
+   "insurance",
+   "yellow-fever-certificate",
+   "prescription-copies",
+   "contact-card"
+  ]
+ },
+ "diplomatie": null,
+ "vectors": {}
+}

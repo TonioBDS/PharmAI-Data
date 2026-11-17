@@ -1,0 +1,44 @@
+{
+ "retrieved": "2026-11-17",
+ "sources": {
+  "cdc": {
+   "name": "CDC Travelers' Health (Centers for Disease Control and Prevention)",
+   "url": "https://wwwnc.cdc.gov/travel",
+   "licence": "Domaine public (œuvre du gouvernement fédéral des États-Unis)",
+   "attribution": "Source : CDC Travelers' Health, contenu disponible gratuitement sur cdc.gov. Texte repris en anglais, sans modification ; libellés français ajoutés par PharmAI. Sa reprise n'implique aucune approbation du CDC, du HHS ou du gouvernement des États-Unis."
+  },
+  "diplomatie": {
+   "name": "France Diplomatie, Conseils aux voyageurs (ministère de l’Europe et des Affaires étrangères)",
+   "url": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/",
+   "licence": "Licence Ouverte 2.0",
+   "licenceUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
+   "attribution": "Source : France Diplomatie, rubrique Santé des Conseils aux voyageurs, date de mise à jour indiquée pour chaque pays. Texte repris sans modification."
+  },
+  "ecdc": {
+   "name": "ECDC et EFSA, cartes des vecteurs (VectorNet), via l’atlas Environnement et santé de l’Agence européenne pour l’environnement",
+   "url": "https://www.ecdc.europa.eu/en/disease-vectors/surveillance-and-disease-data",
+   "licence": "CC BY 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Source : ECDC (European Centre for Disease Prevention and Control) et EFSA, cartes VectorNet. Données réduites à la liste des régions par statut ; aucune autre modification."
+  },
+  "power": {
+   "name": "NASA POWER (Prediction Of Worldwide Energy Resources), normales climatiques 2001-2025",
+   "url": "https://power.larc.nasa.gov",
+   "licence": "Domaine public",
+   "attribution": "Données obtenues du projet POWER du NASA Langley Research Center (LaRC), financé par le programme NASA Earth Science/Applied Science."
+  },
+  "naturalearth": {
+   "name": "Natural Earth (villes)",
+   "url": "https://www.naturalearthdata.com",
+   "licence": "Domaine public",
+   "attribution": "Made with Natural Earth."
+  },
+  "cldr": {
+   "name": "Unicode CLDR (noms de pays en français)",
+   "url": "https://cldr.unicode.org",
+   "licence": "Unicode License v3",
+   "licenceUrl": "https://www.unicode.org/license.txt",
+   "attribution": "Noms de pays : Unicode CLDR, Copyright © Unicode, Inc."
+  }
+ }
+}

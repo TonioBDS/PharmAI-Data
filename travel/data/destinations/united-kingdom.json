@@ -1,0 +1,787 @@
+{
+ "id": "united-kingdom",
+ "iso2": "GB",
+ "name": {
+  "fr": "Royaume-Uni",
+  "en": "United Kingdom"
+ },
+ "places": [
+  {
+   "name": "London",
+   "region": "Westminster",
+   "lat": 51.5,
+   "lon": -0.12,
+   "climate": {
+    "temp": [
+     4.1,
+     4.3,
+     6.1,
+     9,
+     12.3,
+     15.5,
+     17.6,
+     17.3,
+     14.7,
+     11.3,
+     7.3,
+     4.8
+    ],
+    "max": [
+     13,
+     16.9,
+     19.4,
+     25.2,
+     26.5,
+     29,
+     34,
+     32.8,
+     27.9,
+     27.1,
+     17.7,
+     13.9
+    ],
+    "min": [
+     -8.2,
+     -7.7,
+     -4.7,
+     -2.9,
+     -0.4,
+     3.7,
+     7.4,
+     5.5,
+     2.5,
+     -2.4,
+     -4.8,
+     -5.9
+    ],
+    "rain": [
+     2.1,
+     1.9,
+     1.6,
+     1.4,
+     1.8,
+     1.9,
+     1.9,
+     2.1,
+     1.5,
+     2.4,
+     2.5,
+     2.3
+    ],
+    "humidity": [
+     93.3,
+     90,
+     85.9,
+     81.3,
+     79.3,
+     77.8,
+     75.8,
+     77.6,
+     80.8,
+     87.1,
+     92.2,
+     94.4
+    ],
+    "uv": [
+     0.1,
+     0.2,
+     0.4,
+     0.8,
+     1.2,
+     1.4,
+     1.4,
+     1.1,
+     0.7,
+     0.3,
+     0.1,
+     0
+    ]
+   }
+  },
+  {
+   "name": "Aberdeen",
+   "region": "Aberdeen",
+   "lat": 57.17,
+   "lon": -2.08,
+   "climate": {
+    "temp": [
+     5.9,
+     5.4,
+     5.8,
+     7.2,
+     9.3,
+     11.7,
+     13.8,
+     14.1,
+     13,
+     11,
+     8.7,
+     6.8
+    ],
+    "max": [
+     12.2,
+     11.7,
+     14.7,
+     13.3,
+     19.3,
+     18.2,
+     22.1,
+     20.1,
+     18.4,
+     15.8,
+     14,
+     12.4
+    ],
+    "min": [
+     0.9,
+     -0.7,
+     -1,
+     1.5,
+     3.6,
+     6.4,
+     9.4,
+     9.5,
+     7.1,
+     4,
+     2.3,
+     -0.3
+    ],
+    "rain": [
+     2.8,
+     2.4,
+     2.1,
+     1.7,
+     1.6,
+     2.4,
+     2.4,
+     2.7,
+     2.1,
+     3.5,
+     3.3,
+     2.8
+    ],
+    "humidity": [
+     85.2,
+     85.2,
+     85.1,
+     85.4,
+     84.5,
+     86.1,
+     86.3,
+     86.4,
+     85.4,
+     84.7,
+     84.6,
+     85.1
+    ],
+    "uv": [
+     0,
+     0.1,
+     0.3,
+     0.6,
+     0.9,
+     1.1,
+     1.1,
+     0.8,
+     0.5,
+     0.2,
+     0,
+     0
+    ]
+   }
+  }
+ ],
+ "flags": {
+  "malaria": false,
+  "mosquitoes": false,
+  "ticks": true,
+  "sandflies": false,
+  "foodWater": false,
+  "freshwater": false,
+  "altitude": false,
+  "rabies": "rare"
+ },
+ "cdc": {
+  "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/united-kingdom",
+  "clinicianUrl": "https://wwwnc.cdc.gov/travel/destinations/clinician/none/united-kingdom",
+  "packingUrl": "https://wwwnc.cdc.gov/travel/destinations/united-kingdom/traveler/packing-list",
+  "notices": [
+   {
+    "level": 2,
+    "title": "Global Polio",
+    "url": "https://wwwnc.cdc.gov/travel/notices/level2/global-polio",
+    "date": "2026-09-23",
+    "summary": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines."
+   },
+   {
+    "level": 1,
+    "title": "Global Measles",
+    "url": "https://wwwnc.cdc.gov/travel/notices/level1/measles-globe",
+    "date": "2025-05-28",
+    "summary": "Measles cases are rising in many countries around the world. All international travelers should be fully vaccinated against measles with the measles-mumps-rubella (MMR) vaccine, according to CDC's measles vaccination recommendations for international travel."
+   }
+  ],
+  "vaccines": [
+   {
+    "id": "routine",
+    "fr": "Vaccins du calendrier habituel",
+    "en": "Routine vaccines",
+    "url": "https://wwwnc.cdc.gov/travel/page/routine-vaccines",
+    "updated": null,
+    "text": [
+     {
+      "text": "Make sure you are up-to-date on all routine vaccines before every trip. Some of these vaccines include"
+     },
+     {
+      "bullet": "Chickenpox (Varicella)"
+     },
+     {
+      "bullet": "Diphtheria-Tetanus-Pertussis (DTaP, Tdap, or Td)"
+     },
+     {
+      "bullet": "Flu (influenza)"
+     },
+     {
+      "bullet": "Measles-Mumps-Rubella (MMR)"
+     },
+     {
+      "bullet": "Polio"
+     },
+     {
+      "bullet": "Shingles"
+     }
+    ],
+    "references": [
+     {
+      "title": "Immunization schedules",
+      "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/"
+     },
+     {
+      "title": "Macrolide-resistant Bordetella pertussis",
+      "url": "https://www.cdc.gov/pertussis/hcp/antibiotic-resistance/index.html"
+     }
+    ]
+   },
+   {
+    "id": "covid-19",
+    "fr": "Covid-19",
+    "en": "COVID-19",
+    "url": "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "All eligible travelers should be up to date with their COVID-19 vaccines. Please see Your COVID-19 Vaccination for more information."
+     }
+    ],
+    "references": [
+     {
+      "title": "COVID-19 vaccine",
+      "url": "https://www.cdc.gov/covid/vaccines/"
+     }
+    ]
+   },
+   {
+    "id": "hepatitis-a",
+    "fr": "Hépatite A",
+    "en": "Hepatitis A",
+    "url": "https://www.cdc.gov/hepatitis-a/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Consider hepatitis A vaccination for most travelers. It is recommended for travelers who will be doing higher risk activities, such as visiting smaller cities, villages, or rural areas where a traveler might get infected through food or water. It is recommended for travelers who plan on eating street food."
+     }
+    ],
+    "references": [
+     {
+      "title": "Hepatitis A - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/hepatitis-a.html"
+     },
+     {
+      "title": "Vaccine dosing information - Hep A",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/hepatitis-a.html#heading-idepgiam52"
+     }
+    ]
+   },
+   {
+    "id": "hepatitis-b",
+    "fr": "Hépatite B",
+    "en": "Hepatitis B",
+    "url": "https://www.cdc.gov/hepatitis-b/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Recommended for unvaccinated travelers younger than 60 years old traveling to the United Kingdom. Unvaccinated travelers 60 years and older may get vaccinated before traveling to the United Kingdom."
+     }
+    ],
+    "references": [
+     {
+      "title": "Sex and Travel - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-for-work-other/sex-and-travel.html"
+     }
+    ]
+   },
+   {
+    "id": "measles",
+    "fr": "Rougeole",
+    "en": "Measles",
+    "url": "https://www.cdc.gov/measles/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Cases of measles are on the rise worldwide. Travelers are at risk of measles if they have not been fully vaccinated at least two weeks prior to departure, or have not had measles in the past, and travel internationally to areas where measles is spreading."
+     },
+     {
+      "text": "All international travelers should be fully vaccinated against measles with the measles-mumps-rubella (MMR) vaccine, including an early dose for infants 6–11 months, according to CDC’s measles vaccination recommendations for international travel."
+     }
+    ],
+    "references": [
+     {
+      "title": "Measles (Rubeola) - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/measles-rubeola.html"
+     }
+    ]
+   },
+   {
+    "id": "mpox",
+    "fr": "Mpox (variole du singe)",
+    "en": "Monkeypox",
+    "url": "https://www.cdc.gov/monkeypox/about/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Monkeypox vaccination is recommended for any adult who anticipates any of the following activities during travel:"
+     },
+     {
+      "bullet": "Sexual or intimate contact with a new partner"
+     },
+     {
+      "bullet": "Sexual or intimate contact at a commercial sex venue, like a sex club or bathhouse"
+     },
+     {
+      "bullet": "Sexual or intimate contact in exchange for money, goods, drugs, or other trade"
+     },
+     {
+      "bullet": "Sexual or intimate contact in association with a large public event, such as a rave, party, or festival"
+     },
+     {
+      "text": "Get your first monkeypox vaccine at least 6 weeks before traveling if you can, or as far as possible before travel if fewer than 6 weeks before you leave. Two doses of vaccine, given 4 weeks apart, are recommended. After completing your first and second vaccine doses it takes about 2 more weeks to get the best protection against monkeypox. Whether or not you've been vaccinated, continue to take steps to reduce your risk of getting monkeypox while you are away."
+     }
+    ],
+    "references": [
+     {
+      "title": "Monkeypox Vaccination | Monkeypox | CDC",
+      "url": "https://www.cdc.gov/monkeypox/vaccines/index.html"
+     }
+    ]
+   },
+   {
+    "id": "polio",
+    "fr": "Poliomyélite",
+    "en": "Polio",
+    "url": "https://www.cdc.gov/polio/vaccines/international-travelers.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "In the United Kingdom, poliovirus has been identified in the past year."
+     },
+     {
+      "text": "Travelers to the United Kingdom are at increased risk of exposure to poliovirus."
+     },
+     {
+      "text": "Vaccine recommendations: Adults traveling to the United Kingdom who received a complete polio vaccination series as children may receive a single lifetime booster dose of inactivated polio vaccine; travelers who are unvaccinated or not fully vaccinated should receive a complete polio vaccination series before travel. Children who are not fully vaccinated will be considered for an accelerated vaccination schedule."
+     }
+    ],
+    "references": [
+     {
+      "title": "Polio - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/poliomyelitis.html"
+     },
+     {
+      "title": "Polio Vaccination for International Travelers",
+      "url": "https://www.cdc.gov/polio/vaccines/international-travelers.html"
+     }
+    ]
+   },
+   {
+    "id": "rabies",
+    "fr": "Rage",
+    "en": "Rabies",
+    "url": "https://www.cdc.gov/rabies/about/index.html",
+    "updated": null,
+    "text": [
+     {
+      "text": "Dogs infected with rabies are not commonly found in the United Kingdom."
+     },
+     {
+      "text": "If rabies exposures occur while in the United Kingdom, rabies vaccines are typically available throughout most of the country."
+     },
+     {
+      "text": "Rabies pre-exposure vaccination considerations include whether travelers 1) will be performing occupational or recreational activities that increase risk for exposure to potentially rabid animals and 2) might have difficulty getting prompt access to safe post-exposure prophylaxis."
+     },
+     {
+      "text": "Please consult with a healthcare provider to determine whether you should receive pre-exposure vaccination before travel."
+     },
+     {
+      "text": "For more information, see country rabies status assessments."
+     }
+    ],
+    "references": [
+     {
+      "title": "Rabies - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/rabies.html"
+     }
+    ]
+   },
+   {
+    "id": "tick-borne-encephalitis",
+    "fr": "Encéphalite à tiques",
+    "en": "Tick-borne Encephalitis",
+    "url": "https://www.cdc.gov/tick-borne-encephalitis/",
+    "updated": null,
+    "text": [
+     {
+      "text": "Avoid bug bites"
+     },
+     {
+      "text": "Learn more about tick-borne encephalitis at your destination."
+     }
+    ],
+    "references": [
+     {
+      "title": "Tick-borne Encephalitis - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/tick-borne-encephalitis.html"
+     }
+    ]
+   },
+   {
+    "id": "yellow-fever",
+    "fr": "Fièvre jaune",
+    "en": "Yellow Fever",
+    "url": "https://www.cdc.gov/yellow-fever/index.html",
+    "updated": "2025-04-23",
+    "text": [
+     {
+      "text": "CDC recommendations: Vaccine is not recommended."
+     },
+     {
+      "text": "Country entry requirements: Vaccine is not required."
+     }
+    ],
+    "references": [
+     {
+      "title": "Yellow Fever - CDC Yellow Book",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
+     },
+     {
+      "title": "Yellow Fever Vaccine and Malaria Prevention Information, by Country",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/yellow-fever-vaccine-and-malaria-prevention-information-by-country.html"
+     }
+    ]
+   }
+  ],
+  "malaria": null,
+  "yellowFever": {
+   "recommended": "no",
+   "entry": "no",
+   "updated": "2025-04-23",
+   "text": [
+    {
+     "text": "CDC recommendations: Vaccine is not recommended."
+    },
+    {
+     "text": "Country entry requirements: Vaccine is not required."
+    }
+   ],
+   "references": [
+    {
+     "title": "Yellow Fever - CDC Yellow Book",
+     "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
+    },
+    {
+     "title": "Yellow Fever Vaccine and Malaria Prevention Information, by Country",
+     "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/yellow-fever-vaccine-and-malaria-prevention-information-by-country.html"
+    }
+   ]
+  },
+  "diseases": [
+   {
+    "id": "leptospirosis",
+    "fr": "Leptospirose",
+    "en": "Leptospirosis",
+    "group": "food-water",
+    "url": "https://www.cdc.gov/leptospirosis/about/index.html",
+    "spread": [
+     "Touching urine or other body fluids from an animal infected with leptospirosis",
+     "Swimming or wading in urine-contaminated fresh water, or contact with urine-contaminated mud",
+     "Drinking water or eating food contaminated with animal urine"
+    ],
+    "advice": [
+     "Avoid contaminated water and soil",
+     "Avoid floodwater"
+    ],
+    "references": [
+     {
+      "title": "Leptospirosis",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/leptospirosis.html"
+     }
+    ]
+   },
+   {
+    "id": "hantavirus",
+    "fr": "Hantavirus",
+    "en": "Hantavirus",
+    "group": "airborne",
+    "url": "https://www.cdc.gov/hantavirus/about/index.html",
+    "spread": [
+     "Breathing in air or accidentally eating food contaminated with the urine, droppings, or saliva of infected rodents",
+     "Bite from an infected rodent",
+     "Less commonly, being around someone sick with hantavirus (only occurs with Andes virus)"
+    ],
+    "advice": [
+     "Avoid rodents and areas where they live",
+     "Avoid sick people"
+    ],
+    "references": [
+     {
+      "title": "Post-Travel Evaluation to Rule Out Viral Special Pathogen Infection",
+      "url": "https://www.cdc.gov/yellow-book/hcp/post-travel-evaluation/post-travel-evaluation-to-rule-out-viral-special-pathogen-infection.html"
+     }
+    ]
+   },
+   {
+    "id": "tuberculosis",
+    "fr": "Tuberculose",
+    "en": "Tuberculosis (TB)",
+    "group": "airborne",
+    "url": "https://www.cdc.gov/tb/prevention/index.html",
+    "spread": [
+     "Breathe in TB bacteria that is in the air from an infected and contagious person coughing, speaking, or singing."
+    ],
+    "advice": [
+     "Avoid sick people"
+    ],
+    "references": [
+     {
+      "title": "Tuberculosis (TB)",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/tuberculosis.html"
+     }
+    ]
+   }
+  ],
+  "staySafe": [
+   "Although the United Kingdom is an industrialized country, bug bites here can still spread diseases. Just as you would in the United States, try to avoid bug bites while spending time outside or in wooded areas.",
+   "If you choose to drive a vehicle in the United Kingdom, learn the local traffic laws and have the proper paperwork.",
+   "Traffic flows on the left side of the road in the United Kingdom."
+  ],
+  "packing": [
+   "prescriptions",
+   "td-antibiotic",
+   "suture-syringe-kit",
+   "altitude-medicine",
+   "glasses",
+   "contact-lenses",
+   "needles",
+   "suture-kit",
+   "diabetes-testing",
+   "insulin",
+   "inhalers",
+   "epinephrine",
+   "medical-alert",
+   "antacid",
+   "diarrhea",
+   "antihistamine",
+   "motion-sickness",
+   "cough-drops",
+   "cough",
+   "decongestant",
+   "pain-fever",
+   "laxative",
+   "sleep-aid",
+   "saline-spray",
+   "hand-sanitizer",
+   "water-purification",
+   "insect-repellent",
+   "permethrin",
+   "sunscreen",
+   "sunglasses-hat",
+   "safety-equipment",
+   "earplugs",
+   "condoms",
+   "hydrocortisone",
+   "antifungal",
+   "antibacterial",
+   "antiseptic",
+   "aloe",
+   "bite-treatment",
+   "bandages",
+   "blister",
+   "elastic-bandage",
+   "gloves",
+   "thermometer",
+   "scissors",
+   "cotton-swabs",
+   "tweezers",
+   "eye-drops",
+   "insurance",
+   "prescription-copies",
+   "contact-card"
+  ]
+ },
+ "diplomatie": {
+  "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/royaume-uni",
+  "healthUrl": "https://www.diplomatie.gouv.fr/fr/information-par-pays/royaume-uni/conseils-aux-voyageurs-sante",
+  "updated": "2026-10-28",
+  "topics": [
+   "Encéphalite à tiques",
+   "Chikungunya"
+  ],
+  "blocks": [
+   {
+    "h": 3,
+    "text": "Avant le départ"
+   },
+   {
+    "p": "Un séjour à l’étranger implique pour tout voyageur de prendre certaines précautions en matière de santé. La rubrique ci-dessous mentionne les indications essentielles. Ces indications ne dispensent toutefois pas le voyageur d’une consultation chez son médecin traitant et/ou dans un centre de vaccinations internationales, suffisamment longtemps avant la date de départ pour permettre le rappel des vaccins si nécessaire."
+   },
+   {
+    "p": "Pour plus d'information, consulter la rubrique \"La santé en voyage\"."
+   },
+   {
+    "h": 4,
+    "text": "Frais d’hospitalisation et dépenses de santé"
+   },
+   {
+    "p": "Afin de faire face aux frais d’hospitalisation et aux dépenses de santé, parfois très élevés à l’étranger, il est impératif de disposer d’un contrat d’assistance ou d’une assurance permettant de couvrir tous les frais médicaux (dont la chirurgie et l’hospitalisation) et de rapatriement sanitaire, au risque de ne pas avoir accès aux soins, y compris en cas d’urgence vitale. Ces frais ne pourront en aucun cas être pris en charge par l’ambassade de France sur place."
+   },
+   {
+    "p": "Afin de pouvoir bénéficier d’une prise en charge par la Sécurité sociale des soins médicalement nécessaires pendant le séjour au Royaume-Uni, les Français de passage doivent être munis d’une Carte européenne d’assurance maladie (CEAM), à demander à leur caisse locale au moins 20 jours avant le départ. La CEAM reste valable depuis la sortie du Royaume-Uni de l’Union européenne, son utilisation étant prévue par le nouvel accord de commerce et de coopération. Pour plus d’informations, il est recommandé de consulter le site de l’Assurance Maladie, rubrique \"Protection sociale à l’étranger\". Attention, la Carte européenne d’assurance maladie ne couvre que les soins considérés comme essentiels."
+   },
+   {
+    "p": "Les hôpitaux publics, de même que les soins dispensés par un généraliste qui relèvent du NHS (National Health Service), sont accessibles à tous et gratuits en cas d’urgence médicale (maladie ou accident survenu sur le territoire britannique) pour les touristes français, qu’ils résident en France ou dans un autre pays de l’Union européenne."
+   },
+   {
+    "p": "Les hôpitaux privés ou les cabinets de médecine libérale privés (généralistes ou spécialistes) pratiquent des tarifs très élevés qui ne sont pas pris en charge par le régime général de la Sécurité sociale française."
+   },
+   {
+    "p": "Pour consulter un médecin généraliste à Londres, il est recommandé de consulter la liste de notoriété de praticiens disponible sur le site du consulat ou de contacter son assurance."
+   },
+   {
+    "h": 4,
+    "text": "Recommandations pour la santé"
+   },
+   {
+    "p": "Consulter si besoin son médecin traitant ou un centre de vaccinations internationales (médecine des voyages) pour faire une évaluation de son état de santé et bénéficier de recommandations sanitaires, notamment sur les vaccinations. Consulter éventuellement son dentiste avant le départ."
+   },
+   {
+    "p": "Constituer sa pharmacie personnelle en conséquence et n’emporter dans ses bagages que les médicaments strictement nécessaires ; ne jamais consommer de médicaments achetés dans la rue (risque de contrefaçons). Les médicaments doivent être dans leur emballage d’origine avec les étiquettes originales, accompagnés d’une ordonnance portant le nom des médicaments en dénomination commune internationale (DCI). Il est indispensable de vérifier que les médicaments concernés sont autorisés dans le pays visité : pour plus d’informations, consulter la fiche Informations pratiques."
+   },
+   {
+    "h": 4,
+    "text": "Vaccinations"
+   },
+   {
+    "p": "Les vaccins recommandés en France sont également indispensables lors d’un séjour à l’étranger : les maladies qu’ils préviennent circulent partout dans le monde, parfois même plus fréquemment qu’en France. Avant tout départ, le voyageur (adulte et enfant) doit donc d’abord s’assurer d’être à jour du calendrier vaccinal français, en particulier des vaccins contre la diphtérie, le tétanos, la poliomyélite, la coqueluche mais aussi contre la rougeole. Le carnet de vaccination peut être demandé à l’arrivée de certains pays."
+   },
+   {
+    "p": "Des vaccinations complémentaires peuvent être nécessaires :"
+   },
+   {
+    "li": "Encéphalite à tiques : en fonction des conditions de séjour."
+   },
+   {
+    "p": "Il est donc conseillé de consulter son médecin traitant ou un centre de vaccinations internationales (médecine des voyages) suffisamment de temps avant le voyage."
+   },
+   {
+    "h": 3,
+    "text": "Risques sanitaires"
+   },
+   {
+    "h": 4,
+    "text": "Maladies transmises par les moustiques"
+   },
+   {
+    "h": 5,
+    "text": "Encéphalite à tiques"
+   },
+   {
+    "p": "L’encéphalite à tique (TBE) est une maladie virale transmise par la morsure de tiques infestées, surtout au printemps et en été. La consommation de lait cru ou de produits laitiers contaminés est aussi un mode de transmission bien que plus rare."
+   },
+   {
+    "p": "Les symptômes se présentent généralement en deux phases : d’abord un syndrome grippal associant fièvre, fatigue et courbatures puis des troubles neurologiques graves tels que méningite ou encéphalite (maux de tête, paralysie et confusion)."
+   },
+   {
+    "p": "Il n’existe pas de traitement et la prise en charge est uniquement symptomatique. La prévention repose sur la protection contre les piqures de tiques et la vaccination en cas de séjour en zone rurale ou boisée. Il est recommandé de se renseigner avant son départ auprès de son médecin traitant ou d’un centre de vaccinations internationales."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site Santé Publique France et le site du ministère de la Santé."
+   },
+   {
+    "h": 4,
+    "text": "(Territoires britanniques d’outre-mer :Anguilla, Îles Caïmans, Îles Turques-et-Caïques, Îles Vierges britanniques et Montserrat)"
+   },
+   {
+    "h": 5,
+    "text": "Chikungunya"
+   },
+   {
+    "p": "La chikungunya est une maladie virale transmise par l’intermédiaire de moustiques infectés. Cette maladie se manifeste par l’apparition de symptômes grippaux (fièvre, douleurs musculaires et articulaires). En cas de signes cliniques, il est impératif de consulter immédiatement un médecin ; le traitement est uniquement symptomatique. Les moyens de prévention reposent sur la vaccination et la protection contre les piqûres de moustiques. Il est conseillé avant le départ de se référer à son médecin traitant et/ou à un centre de vaccination internationale."
+   },
+   {
+    "p": "Pour plus d’informations, consulter la rubrique risques sanitaires."
+   },
+   {
+    "p": "Des cas de chikungunya sont recensés dans les territoires britanniques d’outre-mer, en particulier dans les Caraïbes. La présence du chikungunya est endémique dans les Caraïbes."
+   },
+   {
+    "h": 3,
+    "text": "Pendant le voyage"
+   },
+   {
+    "h": 4,
+    "text": "Mesures générales de prévention des piqûres de moustiques"
+   },
+   {
+    "li": "Porter des vêtements longs et couvrants ;"
+   },
+   {
+    "li": "Appliquer des produits répulsifs cutanés sur les zones découvertes du corps ;"
+   },
+   {
+    "li": "Protéger son logement (moustiquaires imprégnées d’insecticide, diffuseurs électriques, serpentins à l’extérieur, climatisation, etc.) ;"
+   },
+   {
+    "li": "Détruire les sites potentiels de reproduction des moustiques (récipients d’eau stagnante comme les soucoupes sous les pots de fleurs, les gouttières, les pneus, etc.)."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère en charge de la Santé et le site de l'Assurance Maladie."
+   },
+   {
+    "h": 4,
+    "text": "Infections sexuellement transmissibles (IST)"
+   },
+   {
+    "p": "Il est recommandé d’éviter les comportements sexuels à risque et de prendre toutes les précautions d’usage. En cas d’exposition à un risque, il est recommandé de consulter au plus tôt un professionnel de santé."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère en charge de la Santé."
+   },
+   {
+    "h": 4,
+    "text": "Prévention des risques généraux"
+   },
+   {
+    "li": "Déplacements et route : privilégier les transports fiables, éviter la conduite de nuit, porter la ceinture/casque, se méfier des deux-roues et des conditions locales de circulation."
+   },
+   {
+    "li": "Baignade et milieu aquatique : se baigner dans des zones surveillées, se renseigner sur les courants, éviter l’alcool avant baignade, sortir de l’eau en cas de fatigue ou de conditions locales défavorables."
+   },
+   {
+    "li": "Climat et environnement : se protéger de la chaleur (hydratation, éviter les heures chaudes), du soleil (vêtements, protection solaire), et du froid ou de l’altitude selon la destination."
+   },
+   {
+    "li": "Exposition à des substances toxiques ou environnementales : se protéger de l’exposition à la pollution et aux produits chimiques environnementaux."
+   }
+  ]
+ },
+ "vectors": {}
+}

@@ -1,0 +1,668 @@
+{
+ "id": "united-states",
+ "iso2": "US",
+ "name": {
+  "fr": "États-Unis",
+  "en": "United States"
+ },
+ "places": [
+  {
+   "name": "Washington,  D.C.",
+   "region": "District of Columbia",
+   "lat": 38.9,
+   "lon": -77.01,
+   "climate": {
+    "temp": [
+     0.1,
+     1.3,
+     5.8,
+     12.2,
+     17.6,
+     22.8,
+     25.8,
+     25.1,
+     21.3,
+     14.4,
+     7.9,
+     2.8
+    ],
+    "max": [
+     20.6,
+     23.4,
+     25.1,
+     33,
+     32.9,
+     36.3,
+     40.2,
+     37.8,
+     36.3,
+     35.6,
+     25.3,
+     22.4
+    ],
+    "min": [
+     -16.5,
+     -18.7,
+     -16.8,
+     -3.8,
+     0.4,
+     7.7,
+     12.6,
+     13.2,
+     6.6,
+     -1.1,
+     -5.7,
+     -11.2
+    ],
+    "rain": [
+     2.2,
+     2.5,
+     2.7,
+     3.1,
+     3.5,
+     3.9,
+     3.8,
+     3.5,
+     3.6,
+     3.4,
+     2.7,
+     3.1
+    ],
+    "humidity": [
+     81.8,
+     80.5,
+     78.5,
+     76.4,
+     78,
+     74.4,
+     69.4,
+     69.7,
+     71.6,
+     76.3,
+     78.8,
+     83.2
+    ],
+    "uv": [
+     0.3,
+     0.5,
+     0.8,
+     1.2,
+     1.6,
+     1.9,
+     1.9,
+     1.6,
+     1.2,
+     0.8,
+     0.4,
+     0.3
+    ]
+   }
+  },
+  {
+   "name": "Los Angeles",
+   "region": "California",
+   "lat": 33.99,
+   "lon": -118.18,
+   "climate": {
+    "temp": [
+     12,
+     12.2,
+     13.8,
+     15.1,
+     17.5,
+     20.4,
+     23.4,
+     23.9,
+     23,
+     19.5,
+     15.5,
+     11.8
+    ],
+    "max": [
+     30.4,
+     29.5,
+     30.5,
+     34.6,
+     35,
+     40.5,
+     42.3,
+     38.8,
+     41.5,
+     37.7,
+     33,
+     27.6
+    ],
+    "min": [
+     -1,
+     -0.5,
+     1.8,
+     2.4,
+     6.3,
+     8.6,
+     12.8,
+     12.5,
+     11.1,
+     6.6,
+     1.4,
+     0.5
+    ],
+    "rain": [
+     2.4,
+     2.7,
+     1.4,
+     0.6,
+     0.3,
+     0,
+     0.1,
+     0,
+     0.1,
+     0.5,
+     0.8,
+     2.1
+    ],
+    "humidity": [
+     59.5,
+     63,
+     64.1,
+     62.7,
+     61.7,
+     57,
+     51.5,
+     48.6,
+     49.6,
+     52.2,
+     52.5,
+     58.4
+    ],
+    "uv": [
+     0.6,
+     0.8,
+     1.3,
+     1.8,
+     2,
+     2.2,
+     2.4,
+     2.2,
+     1.7,
+     1.1,
+     0.7,
+     0.5
+    ]
+   }
+  },
+  {
+   "name": "Chicago",
+   "region": "Illinois",
+   "lat": 41.83,
+   "lon": -87.75,
+   "climate": {
+    "temp": [
+     -2.5,
+     -2.3,
+     2,
+     6.9,
+     11.8,
+     18.1,
+     22.5,
+     22.6,
+     19.2,
+     12.4,
+     6,
+     0.5
+    ],
+    "max": [
+     11.9,
+     13.9,
+     21,
+     22.9,
+     29,
+     30.7,
+     34.7,
+     32.4,
+     30.7,
+     26.2,
+     19.8,
+     16.4
+    ],
+    "min": [
+     -24.8,
+     -19.4,
+     -17.3,
+     -4.4,
+     0.8,
+     3.7,
+     12.2,
+     13,
+     8,
+     0.1,
+     -8.1,
+     -18.5
+    ],
+    "rain": [
+     1.5,
+     1.9,
+     2,
+     3.2,
+     3.8,
+     3.4,
+     3.1,
+     3.4,
+     2.9,
+     3.2,
+     2,
+     1.9
+    ],
+    "humidity": [
+     86.4,
+     84.2,
+     81.6,
+     80.7,
+     82.6,
+     81.3,
+     78.2,
+     76.5,
+     76.3,
+     76.9,
+     79.8,
+     85.3
+    ],
+    "uv": [
+     0.2,
+     0.4,
+     0.7,
+     1.1,
+     1.5,
+     1.8,
+     1.9,
+     1.6,
+     1.2,
+     0.6,
+     0.3,
+     0.2
+    ]
+   }
+  },
+  {
+   "name": "Miami",
+   "region": "Florida",
+   "lat": 25.79,
+   "lon": -80.23,
+   "climate": {
+    "temp": [
+     21.2,
+     22.1,
+     23,
+     24.7,
+     26.3,
+     28,
+     28.7,
+     29,
+     28.3,
+     26.9,
+     24.4,
+     22.8
+    ],
+    "max": [
+     26.9,
+     27.4,
+     29.2,
+     31.4,
+     31.9,
+     31.7,
+     31.9,
+     31.7,
+     31.5,
+     30.8,
+     29.4,
+     27.8
+    ],
+    "min": [
+     5.9,
+     8.8,
+     10.9,
+     15.1,
+     20,
+     24.2,
+     25.1,
+     26,
+     23.2,
+     16.3,
+     13.1,
+     7
+    ],
+    "rain": [
+     1.4,
+     1.7,
+     1.8,
+     2.5,
+     4.4,
+     6.4,
+     5.3,
+     5.9,
+     6.3,
+     4,
+     2.1,
+     1.6
+    ],
+    "humidity": [
+     75.3,
+     75.5,
+     72.7,
+     72.6,
+     74.7,
+     77.8,
+     76.5,
+     76.8,
+     78.2,
+     76.4,
+     74.9,
+     76.9
+    ],
+    "uv": [
+     1,
+     1.4,
+     1.8,
+     2,
+     2.1,
+     2.1,
+     2.1,
+     2.1,
+     1.8,
+     1.5,
+     1.1,
+     0.9
+    ]
+   }
+  }
+ ],
+ "flags": {
+  "malaria": false,
+  "mosquitoes": false,
+  "ticks": false,
+  "sandflies": false,
+  "foodWater": false,
+  "freshwater": false,
+  "altitude": false,
+  "rabies": null
+ },
+ "cdc": {
+  "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/united-states",
+  "clinicianUrl": "https://wwwnc.cdc.gov/travel/destinations/clinician/none/united-states",
+  "packingUrl": "https://wwwnc.cdc.gov/travel/destinations/united-states/traveler/packing-list",
+  "notices": [],
+  "vaccines": [],
+  "malaria": null,
+  "yellowFever": null,
+  "diseases": [],
+  "staySafe": [],
+  "packing": []
+ },
+ "diplomatie": {
+  "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/etats-unis",
+  "healthUrl": "https://www.diplomatie.gouv.fr/fr/information-par-pays/etats-unis/conseils-aux-voyageurs-sante",
+  "updated": "2026-10-23",
+  "topics": [
+   "Dengue",
+   "Fièvre du Nil occidental",
+   "Paludisme",
+   "Zika",
+   "Grippe aviaire ou zoonotique",
+   "Hantavirus",
+   "Peste",
+   "Rage"
+  ],
+  "blocks": [
+   {
+    "h": 3,
+    "text": "Avant le départ"
+   },
+   {
+    "p": "Un séjour à l’étranger implique pour tout voyageur de prendre certaines précautions en matière de santé. La rubrique ci-dessous mentionne les indications essentielles. Ces indications ne dispensent toutefois pas le voyageur d’une consultation chez son médecin traitant et/ou dans un centre de vaccinations internationales, suffisamment longtemps avant la date de départ pour permettre le rappel des vaccins si nécessaire."
+   },
+   {
+    "p": "Pour plus d'information, consulter la rubrique \"La santé en voyage\"."
+   },
+   {
+    "h": 4,
+    "text": "Frais d’hospitalisation et dépenses de santé"
+   },
+   {
+    "p": "Afin de faire face aux frais d’hospitalisation et aux dépenses de santé, parfois très élevés à l’étranger, il est impératif de disposer d’un contrat d’assistance ou d’une assurance permettant de couvrir tous les frais médicaux (dont la chirurgie et l’hospitalisation) et de rapatriement sanitaire, au risque de ne pas avoir accès aux soins, y compris en cas d’urgence vitale. Ces frais ne pourront en aucun cas être pris en charge par l’ambassade de France sur place."
+   },
+   {
+    "p": "L’infrastructure médicale est excellente aux États-Unis, mais d’un coût très élevé. Il n’existe pas de convention de sécurité sociale couvrant l’assurance maladie entre nos deux pays. En situation d’urgence, seule une ambulance assure une priorité lors de l’arrivée au service des urgences de l’hôpital (admission conditionnée à une garantie financière)."
+   },
+   {
+    "h": 4,
+    "text": "Recommandations pour la santé"
+   },
+   {
+    "p": "Consulter si besoin son médecin traitant ou un centre de vaccinations internationales (médecine des voyages) pour faire une évaluation de son état de santé et bénéficier de recommandations sanitaires, notamment sur les vaccinations. Consulter éventuellement son dentiste avant le départ."
+   },
+   {
+    "p": "Constituer sa pharmacie personnelle en conséquence et n’emporter dans ses bagages que les médicaments strictement nécessaires ; ne jamais consommer de médicaments achetés dans la rue (risque de contrefaçons). Les médicaments doivent être dans leur emballage d’origine avec les étiquettes originales, accompagnés d’une ordonnance portant le nom des médicaments en dénomination commune internationale (DCI). Il est indispensable de vérifier que les médicaments concernés sont autorisés dans le pays visité : pour plus d’informations, consulter la fiche Informations pratiques."
+   },
+   {
+    "p": "Une visite médicale est obligatoire pour les étrangers qui sollicitent un visa de long séjour aux États-Unis. Toute personne atteinte d’une maladie contagieuse se voit refuser le visa."
+   },
+   {
+    "p": "Une ordonnance française ne permet pas d’acheter des médicaments aux États-Unis. Il est donc conseillé de se constituer, le cas échéant, un stock suffisant des médicaments nécessaires et de conserver une copie de l’ordonnance correspondante. Le mieux est de prévoir un stock de médicaments plus important que le besoin relatif à la période de séjour."
+   },
+   {
+    "h": 4,
+    "text": "Vaccinations"
+   },
+   {
+    "p": "Les vaccins recommandés en France sont également indispensables lors d’un séjour à l’étranger : les maladies qu’ils préviennent circulent partout dans le monde, parfois même plus fréquemment qu’en France. Avant tout départ, le voyageur (adulte et enfant) doit donc d’abord s’assurer d’être à jour du calendrier vaccinal français, en particulier des vaccins contre la diphtérie, le tétanos, la poliomyélite, la coqueluche mais aussi contre la rougeole. Le carnet de vaccination peut être demandé à l’arrivée de certains pays."
+   },
+   {
+    "p": "Des vaccinations complémentaires peuvent être nécessaires :"
+   },
+   {
+    "li": "Tuberculose : chez les enfants de moins de 15 ans en cas de séjours fréquents ou prolongés ;"
+   },
+   {
+    "li": "Chikungunya : en cas d’épidémie ou de séjour prolongé ;"
+   },
+   {
+    "li": "Dengue : en cas d’épidémie active ou de séjour prolongé en zone endémique."
+   },
+   {
+    "p": "Il est donc conseillé de consulter son médecin traitant ou un centre de vaccinations internationales (médecine des voyages) suffisamment de temps avant le voyage."
+   },
+   {
+    "h": 3,
+    "text": "Risques sanitaires"
+   },
+   {
+    "h": 4,
+    "text": "Maladies transmises par les moustiques"
+   },
+   {
+    "h": 5,
+    "text": "Dengue"
+   },
+   {
+    "p": "La dengue est une maladie virale transmise par piqûres de moustiques. Les symptômes sont de type grippal (fièvre, maux de tête, courbatures, parfois éruption cutanée). En cas de signes cliniques, il est impératif de consulter immédiatement un médecin. Il n’existe pas de traitement curatif. La prise en charge médicale repose uniquement sur le traitement des symptômes. Il faut impérativement éviter la prise d’anti-inflammatoire. La prévention individuelle repose essentiellement sur les moyens de protection contre les piqûres de moustiques. La vaccination des voyageurs peut être indiquée dans certains cas. Il est conseillé de se référer, avant son départ, à son médecin traitant et /ou à un centre de vaccination internationale."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère de la Santé et le site de l’Organisation mondiale de la Santé."
+   },
+   {
+    "p": "Une recrudescence de cas de dengue a été décrite à Porto-Rico ; plusieurs cas ont aussi été signalés à Hawaï et en Floride."
+   },
+   {
+    "h": 5,
+    "text": "Fièvre du Nil occidental (West Nile Virus)"
+   },
+   {
+    "p": "La fièvre du Nil occidental (West Nile Virus) est une maladie des oiseaux transmise à l’humain par l’intermédiaire de piqûres de moustiques infectés."
+   },
+   {
+    "p": "La maladie est souvent asymptomatique ou bénigne (fièvre, maux de tête, douleurs musculaires, frissons, éruption cutanée) mais dans de rares cas, des complications de type neurologique peuvent survenir (méningite, encéphalite) et entrainer des séquelles voire le décès."
+   },
+   {
+    "p": "Il n’existe pas de vaccin contre cette maladie pour les humains, la prévention repose uniquement sur la protection contre les piqûres de moustiques."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site de l'Institut Pasteur et le site du ministère de la Santé."
+   },
+   {
+    "p": "Des cas d’infection par le virus West Nile (VWN) ont été observés aux États-Unis."
+   },
+   {
+    "h": 5,
+    "text": "Paludisme"
+   },
+   {
+    "p": "Le paludisme (ou malaria) est une maladie parasitaire transmise par piqûres de moustiques infectés. Les formes bénignes associent des symptômes de type grippal : fièvre, frissons, fatigue, maux de tête, courbatures, vomissements. Des formes graves potentiellement mortelles peuvent survenir d’emblée ou en l’absence de traitement (confusion, convulsions, difficultés à respirer, jaunisse, saignements anormaux). En cas de survenue de symptômes pendant un séjour à l’étranger ou dans les semaines qui suivent le retour, il est nécessaire de consulter rapidement un médecin."
+   },
+   {
+    "p": "La prévention du paludisme repose sur la protection contre les piqûres de moustiques et la prise d’un traitement préventif. Avant tout séjour en zone d’endémie, il est recommandé de consulter son médecin traitant ou un médecin spécialisé en médecine des voyages."
+   },
+   {
+    "p": "Pour plus d’informations, consulter la rubrique risques sanitaires."
+   },
+   {
+    "p": "Floride : les autorités locales de santé ont émis une alerte pour tout l’État de la Floride concernant la survenue de 4 cas de paludisme dans le comté de Sarasota. Il est vivement recommandé de prendre des précautions contre les moustiques, vecteurs de cette infection, en appliquant des produits répulsifs sur la peau et les vêtements, en portant des vêtements longs et couvrants, particulièrement au coucher du soleil et le soir, en installant des moustiquaires aux portes et fenêtres, et en détruisant les sites de reproduction des moustiques (éliminer les sites d’eaux stagnantes, traiter les piscines)."
+   },
+   {
+    "p": "Pour d’avantage d’information, vous pouvez vous reporter aux consignes du Florida Department of Health."
+   },
+   {
+    "h": 5,
+    "text": "Zika"
+   },
+   {
+    "p": "Il s’agit d’une maladie due à un virus transmis principalement par piqûre de moustiques et dans certains cas par voie sexuelle. Les symptômes sont généralement absents ou modérés (fièvre, maux de tête, douleurs articulaires, éruptions cutanées). La survenue de complications graves telle que des atteintes neurologiques (syndrome de Guillain Barré) et des microcéphalies chez des nouveau-nés de femmes enceintes infectées par le virus est attestée."
+   },
+   {
+    "p": "La prévention repose uniquement sur la protection contre les piqûres de moustiques."
+   },
+   {
+    "p": "Il est conseillé aux femmes enceintes ou ayant un projet de grossesse de consulter au préalable un médecin avant tout déplacement dans une zone infectée. En cas de maintien du voyage, il est impératif de se protéger des piqûres de moustiques et d’appliquer les mesures adaptées contre la transmission sexuelle."
+   },
+   {
+    "p": "Consulter un médecin en cas de fièvre survenant pendant le voyage ou dans les semaines qui suivent le retour en France."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère de la Santé et le site de l’Organisation mondiale de la Santé."
+   },
+   {
+    "h": 4,
+    "text": "Autres maladies"
+   },
+   {
+    "h": 5,
+    "text": "Grippe aviaire ou zoonotique"
+   },
+   {
+    "p": "Le terme regroupe l’ensemble des infections de type grippal causées par différents virus influenza d’origine animale (oiseaux sauvages, volailles, porcs). La survenue de cas chez l’être humain est exceptionnelle. La transmission résulte soit d’un contact direct notamment avec les sécrétions respiratoires et les matières fécales des animaux malades, soit de façon indirecte par l’exposition à des matières contaminées. Les symptômes sont similaires à ceux de la grippe saisonnière (fièvre, toux, courbatures…) mais peuvent se compliquer de difficultés respiratoires, de troubles digestifs, d’atteintes neurologiques, voire de décès."
+   },
+   {
+    "p": "Pour plus d’informations, consulter la rubrique risques sanitaires."
+   },
+   {
+    "h": 5,
+    "text": "Hantavirus"
+   },
+   {
+    "p": "Ces virus sont transmis à l’être humain par des rongeurs sauvages (souris, rats). La contamination résulte essentiellement de l’inhalation de poussières contaminées par leurs urines, déjections ou salive. La transmission interhumaine est exceptionnelle. Les symptômes associent notamment une fièvre et de possibles hémorragies. Des formes graves et mortelles existent."
+   },
+   {
+    "p": "Afin de diminuer le risque d’infection il est recommandé :"
+   },
+   {
+    "li": "d’éviter les contacts avec les rongeurs vivants ou morts, leurs excrétions ou leurs nids ;"
+   },
+   {
+    "li": "de se laver soigneusement les mains après un travail ou une sortie dans la nature ;"
+   },
+   {
+    "li": "de ventiler les espaces fermés et d’éviter de dormir dans des bâtiments potentiellement souillés."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site Santé publique France."
+   },
+   {
+    "p": "Des cas de syndrome pulmonaire à hantavirus (SPH) ont été signalés aux États-Unis, notamment à partir du parc Yosemite. Il est recommandé, notamment aux campeurs et randonneurs, d’éviter l’intrusion des rongeurs dans les tentes ou autres hébergements et de les empêcher d’accéder à l’alimentation."
+   },
+   {
+    "h": 5,
+    "text": "Peste"
+   },
+   {
+    "p": "La peste est une maladie infectieuse grave due à une bactérie qui est transmise à l’homme principalement par la piqûre de puces infectées provenant de rongeurs. Des cas de contamination après manipulation ou consommation de viande de rongeurs (marmottes) ont été décrits. La maladie se manifeste surtout sous deux formes : la peste bubonique, la plus fréquente, caractérisée par une fièvre élevée et des ganglions enflés et douloureux et la peste pulmonaire, forme plus rare mais très contagieuse, affectant les poumons. Sans traitement antibiotique rapide, la maladie est souvent mortelle, notamment la forme pulmonaire. Les mesures de prévention reposent sur l’évitement de contact avec les rongeurs, l’utilisation de répulsifs contre les puces, et la proscription de toute consommation ou manipulation de viande de rongeurs. En cas de fièvre, ou de contact avec une personne infectée, il est recommandé de consulter un médecin immédiatement."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site de l'Institut Pasteur et le site de l'Organisation mondiale de la Santé."
+   },
+   {
+    "p": "Des cas de peste ont été signalés chez des personnes ayant séjourné dans le parc Yosemite, en Californie. Selon les indications du service californien de santé publique, ces cas d’infection sont consécutifs à des contacts avec des rongeurs porteurs de puces. L’évolution épidémiologique, les mesures prises, les conseils et recommandations pour les visiteurs sont décrits en détail sur le site du California Departement of Public Health (site en anglais et en espagnol)."
+   },
+   {
+    "h": 5,
+    "text": "Rage"
+   },
+   {
+    "p": "La rage est une maladie virale mortelle affectant le système nerveux et présent dans la salive des animaux infectés, tels que chiens, chats, chauves-souris et autres mammifères sauvages. Le virus se transmet par morsure, griffure ou contact de la salive avec une peau lésée ou une muqueuse. L’évolution est rapide avec l’apparition de fièvre, maux de tête, anxiété puis de troubles neurologiques (coma). La rage est presque toujours mortelle une fois les symptômes déclarés. Il est recommandé d’éviter tout contact avec des animaux suspects domestiques ou sauvages. La vaccination préventive contre la rage avant un séjour en zone exposée peut être indiquée en fonction du type de voyage et en particulier chez les jeunes enfants dès qu’ils marchent. Il est conseillé de demander conseil à un médecin ou à un centre de vaccinations internationales."
+   },
+   {
+    "p": "En cas d’exposition à risque, consulter immédiatement un médecin même si la vaccination est bien à jour."
+   },
+   {
+    "p": "Pour plus d’informations, consulter la rubrique risques sanitaires et le site de l'Institut Pasteur."
+   },
+   {
+    "h": 3,
+    "text": "Pendant le voyage"
+   },
+   {
+    "h": 4,
+    "text": "Mesures générales de prévention des piqûres de moustiques"
+   },
+   {
+    "li": "Porter des vêtements longs et couvrants ;"
+   },
+   {
+    "li": "Appliquer des produits répulsifs cutanés sur les zones découvertes du corps ;"
+   },
+   {
+    "li": "Protéger son logement (moustiquaires imprégnées d’insecticide, diffuseurs électriques, serpentins à l’extérieur, climatisation, etc.) ;"
+   },
+   {
+    "li": "Détruire les sites potentiels de reproduction des moustiques (récipients d’eau stagnante comme les soucoupes sous les pots de fleurs, les gouttières, les pneus, etc.)."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère en charge de la Santé et le site de l'Assurance Maladie."
+   },
+   {
+    "h": 4,
+    "text": "Infections sexuellement transmissibles (IST)"
+   },
+   {
+    "p": "Il est recommandé d’éviter les comportements sexuels à risque et de prendre toutes les précautions d’usage. En cas d’exposition à un risque, il est recommandé de consulter au plus tôt un professionnel de santé."
+   },
+   {
+    "p": "Pour plus d’informations, consulter le site du ministère en charge de la Santé."
+   },
+   {
+    "h": 4,
+    "text": "Prévention des risques généraux"
+   },
+   {
+    "li": "Déplacements et route : privilégier les transports fiables, éviter la conduite de nuit, porter la ceinture/casque, se méfier des deux-roues et des conditions locales de circulation."
+   },
+   {
+    "li": "Baignade et milieu aquatique : se baigner dans des zones surveillées, se renseigner sur les courants, éviter l’alcool avant baignade, sortir de l’eau en cas de fatigue ou de conditions locales défavorables."
+   },
+   {
+    "li": "Climat et environnement : se protéger de la chaleur (hydratation, éviter les heures chaudes), du soleil (vêtements, protection solaire), et du froid ou de l’altitude selon la destination."
+   },
+   {
+    "li": "Exposition à des substances toxiques ou environnementales : se protéger de l’exposition à la pollution et aux produits chimiques environnementaux."
+   }
+  ]
+ },
+ "vectors": {}
+}
