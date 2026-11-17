@@ -1,0 +1,638 @@
+{
+ "packing": {
+  "categories": {
+   "prescription": {
+    "en": "Prescription medicines",
+    "fr": "Médicaments sur ordonnance"
+   },
+   "medical": {
+    "en": "Medical supplies",
+    "fr": "Matériel médical"
+   },
+   "otc": {
+    "en": "Over-the-counter medicines",
+    "fr": "Médicaments sans ordonnance"
+   },
+   "prevention": {
+    "en": "Supplies to prevent illness or injury",
+    "fr": "Prévention"
+   },
+   "first-aid": {
+    "en": "First-aid kit",
+    "fr": "Trousse de premiers secours"
+   },
+   "documents": {
+    "en": "Documents",
+    "fr": "Documents"
+   }
+  },
+  "items": {
+   "prescriptions": {
+    "en": "Your prescriptions",
+    "fr": "Vos traitements sur ordonnance",
+    "special": "prescriptions",
+    "category": "prescription"
+   },
+   "td-antibiotic": {
+    "en": "Travelers' diarrhea antibiotic",
+    "fr": "Antibiotique contre la diarrhée du voyageur",
+    "noteFr": "Seulement sur prescription : à voir avec votre médecin.",
+    "special": "doctor",
+    "category": "prescription"
+   },
+   "suture-syringe-kit": {
+    "en": "Suture/syringe kit",
+    "fr": "Kit de suture et de seringues",
+    "noteFr": "Destiné au soignant sur place ; demande une lettre de votre médecin.",
+    "special": "doctor",
+    "category": "prescription"
+   },
+   "altitude-medicine": {
+    "en": "Altitude sickness medicine",
+    "fr": "Médicament contre le mal d'altitude",
+    "noteFr": "Seulement sur prescription : à voir avec votre médecin.",
+    "special": "doctor",
+    "category": "prescription"
+   },
+   "malaria-prevention": {
+    "en": "Medicine to prevent malaria",
+    "fr": "Médicament préventif du paludisme",
+    "noteFr": "Seulement sur prescription : à voir avec votre médecin avant le départ.",
+    "special": "doctor",
+    "category": "prescription"
+   },
+   "glasses": {
+    "en": "Glasses",
+    "fr": "Lunettes de rechange",
+    "noteFr": "Au cas où les vôtres seraient abîmées.",
+    "category": "medical"
+   },
+   "contact-lenses": {
+    "en": "Contact lenses",
+    "fr": "Lentilles de rechange",
+    "tags": [
+     "eyes"
+    ],
+    "category": "medical"
+   },
+   "needles": {
+    "en": "Needles or syringes (for diabetes, for example)",
+    "fr": "Aiguilles ou seringues (diabète, par exemple)",
+    "noteFr": "Avec une lettre de votre médecin.",
+    "category": "medical"
+   },
+   "suture-kit": {
+    "en": "Suture kit",
+    "fr": "Kit de suture",
+    "noteFr": "Destiné au soignant sur place ; demande une lettre de votre médecin.",
+    "special": "doctor",
+    "category": "medical"
+   },
+   "diabetes-testing": {
+    "en": "Diabetes testing supplies",
+    "fr": "Matériel de contrôle de la glycémie",
+    "category": "medical"
+   },
+   "insulin": {
+    "en": "Insulin",
+    "fr": "Insuline",
+    "special": "prescriptions",
+    "category": "medical"
+   },
+   "inhalers": {
+    "en": "Inhalers",
+    "fr": "Inhalateurs",
+    "tags": [
+     "breathing"
+    ],
+    "special": "prescriptions",
+    "category": "medical"
+   },
+   "epinephrine": {
+    "en": "Epinephrine auto-injectors (EpiPens)",
+    "fr": "Stylos d'adrénaline auto-injectables",
+    "tags": [
+     "allergy"
+    ],
+    "special": "prescriptions",
+    "category": "medical"
+   },
+   "medical-alert": {
+    "en": "Medical alert bracelet or necklace",
+    "fr": "Bracelet ou collier d'alerte médicale",
+    "category": "medical"
+   },
+   "antacid": {
+    "en": "Antacid",
+    "fr": "Antiacide",
+    "tags": [
+     "digestion"
+    ],
+    "category": "otc"
+   },
+   "diarrhea": {
+    "en": "Diarrhea medicine",
+    "fr": "Médicament contre la diarrhée",
+    "tags": [
+     "diarrhea"
+    ],
+    "category": "otc"
+   },
+   "antihistamine": {
+    "en": "Antihistamine",
+    "fr": "Antihistaminique (allergie)",
+    "tags": [
+     "allergy"
+    ],
+    "category": "otc"
+   },
+   "motion-sickness": {
+    "en": "Motion sickness medicine",
+    "fr": "Médicament contre le mal des transports",
+    "tags": [
+     "nausea"
+    ],
+    "category": "otc"
+   },
+   "cough-drops": {
+    "en": "Cough drops",
+    "fr": "Pastilles pour la gorge",
+    "tags": [
+     "throat"
+    ],
+    "category": "otc"
+   },
+   "cough": {
+    "en": "Cough suppression/expectorant",
+    "fr": "Médicament contre la toux",
+    "tags": [
+     "cough"
+    ],
+    "category": "otc"
+   },
+   "decongestant": {
+    "en": "Decongestant",
+    "fr": "Décongestionnant nasal",
+    "tags": [
+     "cold"
+    ],
+    "category": "otc"
+   },
+   "pain-fever": {
+    "en": "Medicine for pain and fever",
+    "fr": "Médicament contre la douleur et la fièvre",
+    "tags": [
+     "pain",
+     "fever"
+    ],
+    "category": "otc"
+   },
+   "laxative": {
+    "en": "Mild laxative",
+    "fr": "Laxatif doux",
+    "tags": [
+     "constipation"
+    ],
+    "category": "otc"
+   },
+   "sleep-aid": {
+    "en": "Mild sedative or other sleep aid",
+    "fr": "Aide au sommeil",
+    "tags": [
+     "sleep"
+    ],
+    "category": "otc"
+   },
+   "saline-spray": {
+    "en": "Saline nose spray",
+    "fr": "Spray nasal d'eau salée",
+    "tags": [
+     "cold"
+    ],
+    "category": "otc"
+   },
+   "hand-sanitizer": {
+    "en": "Hand sanitizer or wipes",
+    "fr": "Gel hydroalcoolique ou lingettes",
+    "noteFr": "Gel à 60 % d'alcool au moins, ou lingettes antibactériennes.",
+    "category": "prevention"
+   },
+   "water-purification": {
+    "en": "Water purification tablets",
+    "fr": "Pastilles de purification de l'eau",
+    "noteFr": "Utiles en camping ou dans les zones isolées.",
+    "category": "prevention"
+   },
+   "insect-repellent": {
+    "en": "Insect repellent",
+    "fr": "Répulsif anti-insectes (peau)",
+    "tags": [
+     "insects"
+    ],
+    "category": "prevention"
+   },
+   "permethrin": {
+    "en": "Permethrin",
+    "fr": "Répulsif pour vêtements (perméthrine)",
+    "noteFr": "Pour les vêtements et le matériel, jamais sur la peau.",
+    "tags": [
+     "insects"
+    ],
+    "category": "prevention"
+   },
+   "bed-net": {
+    "en": "Bed net",
+    "fr": "Moustiquaire",
+    "noteFr": "Contre les piqûres pendant le sommeil.",
+    "tags": [
+     "insects"
+    ],
+    "category": "prevention"
+   },
+   "sunscreen": {
+    "en": "Sunscreen",
+    "fr": "Crème solaire",
+    "noteFr": "Protection UVA et UVB (indice 15 au moins selon le CDC).",
+    "tags": [
+     "sun"
+    ],
+    "category": "prevention"
+   },
+   "sunglasses-hat": {
+    "en": "Sunglasses and hat",
+    "fr": "Lunettes de soleil et chapeau",
+    "noteFr": "Un chapeau à larges bords de préférence.",
+    "tags": [
+     "sun"
+    ],
+    "category": "prevention"
+   },
+   "safety-equipment": {
+    "en": "Personal safety equipment",
+    "fr": "Équipement de sécurité",
+    "noteFr": "Siège auto pour enfant, casque de vélo…",
+    "category": "prevention"
+   },
+   "earplugs": {
+    "en": "Earplugs",
+    "fr": "Bouchons d'oreilles",
+    "category": "prevention"
+   },
+   "condoms": {
+    "en": "Latex condoms",
+    "fr": "Préservatifs",
+    "category": "prevention"
+   },
+   "hydrocortisone": {
+    "en": "1% hydrocortisone cream",
+    "fr": "Crème à l'hydrocortisone",
+    "tags": [
+     "skin"
+    ],
+    "category": "first-aid"
+   },
+   "antifungal": {
+    "en": "Antifungal ointments",
+    "fr": "Crème antifongique",
+    "tags": [
+     "skin"
+    ],
+    "category": "first-aid"
+   },
+   "antibacterial": {
+    "en": "Antibacterial ointments",
+    "fr": "Pommade antibactérienne",
+    "tags": [
+     "wound"
+    ],
+    "category": "first-aid"
+   },
+   "antiseptic": {
+    "en": "Antiseptic wound cleanser",
+    "fr": "Antiseptique pour les plaies",
+    "tags": [
+     "wound"
+    ],
+    "category": "first-aid"
+   },
+   "aloe": {
+    "en": "Aloe gel",
+    "fr": "Gel apaisant après-soleil",
+    "noteFr": "Pour les coups de soleil.",
+    "tags": [
+     "burn",
+     "sun"
+    ],
+    "category": "first-aid"
+   },
+   "bite-treatment": {
+    "en": "Insect bite treatment",
+    "fr": "Soin des piqûres d'insectes",
+    "noteFr": "Gel ou crème contre les démangeaisons.",
+    "tags": [
+     "insects"
+    ],
+    "category": "first-aid"
+   },
+   "bandages": {
+    "en": "Bandages",
+    "fr": "Pansements",
+    "noteFr": "Plusieurs tailles, compresses et sparadrap.",
+    "tags": [
+     "wound"
+    ],
+    "category": "first-aid"
+   },
+   "blister": {
+    "en": "Moleskin or molefoam for blisters",
+    "fr": "Pansements pour ampoules",
+    "tags": [
+     "wound"
+    ],
+    "category": "first-aid"
+   },
+   "elastic-bandage": {
+    "en": "Elastic/compression bandage wrap",
+    "fr": "Bande élastique de contention",
+    "noteFr": "Pour les entorses et foulures.",
+    "tags": [
+     "bruise",
+     "muscle"
+    ],
+    "category": "first-aid"
+   },
+   "gloves": {
+    "en": "Disposable gloves",
+    "fr": "Gants jetables",
+    "category": "first-aid"
+   },
+   "thermometer": {
+    "en": "Digital thermometer",
+    "fr": "Thermomètre",
+    "tags": [
+     "fever"
+    ],
+    "category": "first-aid"
+   },
+   "scissors": {
+    "en": "Scissors and safety pins",
+    "fr": "Ciseaux et épingles de sûreté",
+    "category": "first-aid"
+   },
+   "cotton-swabs": {
+    "en": "Cotton swabs (Q-Tips)",
+    "fr": "Cotons-tiges",
+    "category": "first-aid"
+   },
+   "tweezers": {
+    "en": "Tweezers",
+    "fr": "Pince à épiler (échardes, tiques)",
+    "category": "first-aid"
+   },
+   "eye-drops": {
+    "en": "Eye drops",
+    "fr": "Collyre ou sérum physiologique",
+    "tags": [
+     "eyes"
+    ],
+    "category": "first-aid"
+   },
+   "ors": {
+    "en": "Oral rehydration salts",
+    "fr": "Solution de réhydratation orale",
+    "tags": [
+     "diarrhea"
+    ],
+    "category": "first-aid"
+   },
+   "insurance": {
+    "en": "Health insurance documents",
+    "fr": "Assurance santé et assistance",
+    "noteFr": "Carte et contrat (assurance habituelle, assistance voyage), formulaires de remboursement. Pour l'Europe : carte européenne d'assurance maladie.",
+    "category": "documents"
+   },
+   "yellow-fever-certificate": {
+    "en": "Proof of yellow fever vaccination",
+    "fr": "Certificat de vaccination contre la fièvre jaune",
+    "noteFr": "Carnet international de vaccination, si le voyage l'exige.",
+    "category": "documents"
+   },
+   "prescription-copies": {
+    "en": "Copies of all prescriptions",
+    "fr": "Copie des ordonnances",
+    "noteFr": "Avec les noms de substances (DCI), pour les médicaments, lunettes ou lentilles et le matériel médical.",
+    "category": "documents"
+   },
+   "contact-card": {
+    "en": "Contact card",
+    "fr": "Fiche de contacts",
+    "noteFr": "Proches, médecin traitant, hébergement, hôpitaux et urgences sur place, ambassade ou consulat de France.",
+    "category": "documents"
+   }
+  }
+ },
+ "diseases": {
+  "routine": {
+   "en": "Routine vaccines",
+   "fr": "Vaccins du calendrier habituel"
+  },
+  "covid-19": {
+   "en": "COVID-19",
+   "fr": "Covid-19"
+  },
+  "hepatitis-a": {
+   "en": "Hepatitis A",
+   "fr": "Hépatite A"
+  },
+  "hepatitis-b": {
+   "en": "Hepatitis B",
+   "fr": "Hépatite B"
+  },
+  "measles": {
+   "en": "Measles",
+   "fr": "Rougeole"
+  },
+  "mpox": {
+   "en": "Monkeypox",
+   "fr": "Mpox (variole du singe)"
+  },
+  "rabies": {
+   "en": "Rabies",
+   "fr": "Rage"
+  },
+  "yellow-fever": {
+   "en": "Yellow Fever",
+   "fr": "Fièvre jaune"
+  },
+  "typhoid": {
+   "en": "Typhoid",
+   "fr": "Fièvre typhoïde"
+  },
+  "malaria": {
+   "en": "Malaria",
+   "fr": "Paludisme"
+  },
+  "chikungunya": {
+   "en": "Chikungunya",
+   "fr": "Chikungunya",
+   "vector": "mosquito"
+  },
+  "cholera": {
+   "en": "Cholera",
+   "fr": "Choléra"
+  },
+  "tick-borne-encephalitis": {
+   "en": "Tick-borne Encephalitis",
+   "fr": "Encéphalite à tiques",
+   "vector": "tick"
+  },
+  "polio": {
+   "en": "Polio",
+   "fr": "Poliomyélite"
+  },
+  "japanese-encephalitis": {
+   "en": "Japanese Encephalitis",
+   "fr": "Encéphalite japonaise",
+   "vector": "mosquito"
+  },
+  "meningococcal": {
+   "en": "Meningococcal disease",
+   "fr": "Méningite à méningocoque"
+  },
+  "leptospirosis": {
+   "en": "Leptospirosis",
+   "fr": "Leptospirose"
+  },
+  "hantavirus": {
+   "en": "Hantavirus",
+   "fr": "Hantavirus"
+  },
+  "tuberculosis": {
+   "en": "Tuberculosis (TB)",
+   "fr": "Tuberculose"
+  },
+  "dengue": {
+   "en": "Dengue",
+   "fr": "Dengue",
+   "vector": "mosquito"
+  },
+  "zika": {
+   "en": "Zika",
+   "fr": "Zika",
+   "vector": "mosquito"
+  },
+  "leishmaniasis": {
+   "en": "Leishmaniasis",
+   "fr": "Leishmaniose",
+   "vector": "sandfly"
+  },
+  "melioidosis": {
+   "en": "Melioidosis",
+   "fr": "Mélioïdose"
+  },
+  "schistosomiasis": {
+   "en": "Schistosomiasis",
+   "fr": "Bilharziose"
+  },
+  "african-tick-bite-fever": {
+   "en": "African Tick-Bite Fever",
+   "fr": "Fièvre à tiques africaine",
+   "vector": "tick"
+  },
+  "crimean-congo-hemorrhagic-fever": {
+   "en": "Crimean-Congo Hemorrhagic fever",
+   "fr": "Fièvre hémorragique de Crimée-Congo",
+   "vector": "tick"
+  },
+  "screwworm-myiasis": {
+   "en": "New World Screwworm Myiasis",
+   "fr": "Myiase à lucilie bouchère",
+   "vector": "fly"
+  },
+  "chagas": {
+   "en": "Chagas disease (American Trypanosomiasis)",
+   "fr": "Maladie de Chagas",
+   "vector": "bug"
+  },
+  "rift-valley-fever": {
+   "en": "Rift Valley Fever",
+   "fr": "Fièvre de la vallée du Rift"
+  },
+  "sleeping-sickness": {
+   "en": "African Sleeping Sickness (African Trypanosomiasis)",
+   "fr": "Maladie du sommeil",
+   "vector": "fly"
+  },
+  "mers": {
+   "en": "Middle East Respiratory Syndrome (MERS)",
+   "fr": "MERS (coronavirus du Moyen-Orient)"
+  },
+  "lassa-fever": {
+   "en": "Lassa Fever",
+   "fr": "Fièvre de Lassa"
+  },
+  "ebola": {
+   "en": "Ebola",
+   "fr": "Maladie à virus Ebola"
+  },
+  "marburg": {
+   "en": "Marburg Virus Disease",
+   "fr": "Maladie à virus de Marburg"
+  },
+  "ciguatera": {
+   "en": "Ciguatera Fish Poisoning",
+   "fr": "Ciguatera (intoxication par les poissons)"
+  },
+  "ross-river": {
+   "en": "Ross River virus disease",
+   "fr": "Fièvre de Ross River",
+   "vector": "mosquito"
+  },
+  "resistant-ringworm": {
+   "en": "Antimicrobial-resistant (AR) Ringworm",
+   "fr": "Teigne résistante aux traitements"
+  },
+  "plague": {
+   "en": "Plague (Bubonic, Pneumonic, Septicemic)",
+   "fr": "Peste",
+   "vector": "flea"
+  },
+  "salmonella-newport": {
+   "en": "MDR Salmonella Newport",
+   "fr": "Salmonelle multirésistante (Newport)"
+  }
+ },
+ "groups": {
+  "food-water": {
+   "en": "Avoid contaminated food and water",
+   "fr": "Eau et aliments"
+  },
+  "insects": {
+   "en": "Avoid bugs",
+   "fr": "Insectes et tiques"
+  },
+  "animals": {
+   "en": "Avoid animals",
+   "fr": "Animaux"
+  },
+  "airborne": {
+   "en": "Airborne & droplet",
+   "fr": "Transmission par l'air"
+  },
+  "skin-contact": {
+   "en": "Avoid skin contact",
+   "fr": "Contact avec la peau"
+  }
+ },
+ "vectors": {
+  "aedes-albopictus": {
+   "fr": "Moustique tigre (Aedes albopictus)"
+  },
+  "aedes-aegypti": {
+   "fr": "Moustique Aedes aegypti"
+  },
+  "ixodes-ricinus": {
+   "fr": "Tique Ixodes ricinus"
+  }
+ }
+}
